@@ -304,9 +304,173 @@ table.kpi-table td.target { font-family: 'JetBrains Mono', monospace; color: var
   border-radius: var(--radius);
   padding: 18px;
   border-top: 3px solid var(--teal-500);
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  font: inherit;
+  color: inherit;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+}
+.region-card:hover,
+.region-card.active {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow);
+  border-top-color: var(--navy-900);
 }
 .region-card h4 { margin: 0 0 8px; font-size: 0.95rem; color: var(--navy-900); font-family: 'Lora', serif; }
-.region-card p { font-size: 0.82rem; margin: 0; }
+.region-card p { font-size: 0.82rem; margin: 0; color: var(--ink-dim); }
+.region-card-meta {
+  margin-top: 10px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.72rem;
+  color: var(--teal-500);
+  font-weight: 600;
+}
+
+/* ---------- SQL explorer ---------- */
+.sql-tabs { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0 16px; }
+.sql-tab {
+  border: 1px solid var(--paper-dim);
+  background: var(--white);
+  color: var(--ink-dim);
+  border-radius: 8px;
+  padding: 8px 14px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: inherit;
+}
+.sql-tab:hover { border-color: var(--teal-500); color: var(--navy-900); }
+.sql-tab.active {
+  background: var(--navy-900);
+  border-color: var(--navy-900);
+  color: var(--white);
+}
+.sql-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 12px;
+}
+.sql-group-card {
+  background: var(--paper);
+  border: 1px solid var(--paper-dim);
+  border-top: 3px solid var(--teal-500);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+  text-align: left;
+  cursor: pointer;
+  font: inherit;
+  color: inherit;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+}
+.sql-group-card:hover,
+.sql-group-card.active {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow);
+  border-top-color: var(--navy-900);
+  background: var(--white);
+}
+.sql-group-card h4 { margin: 0 0 6px; font-size: 0.92rem; font-family: 'Lora', serif; color: var(--navy-900); }
+.sql-group-card p { margin: 0; font-size: 0.78rem; color: var(--ink-dim); line-height: 1.35; }
+.sql-card-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 12px;
+  margin-top: 10px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.7rem;
+  color: var(--slate-700);
+}
+.sql-code {
+  background: var(--navy-950);
+  color: #D6E4E0;
+  border-radius: var(--radius);
+  padding: 14px 16px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.78rem;
+  overflow-x: auto;
+  line-height: 1.55;
+  white-space: pre-wrap;
+  margin: 0;
+}
+.sql-custom-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin: 12px 0;
+}
+.sql-custom-toolbar label {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--ink-dim);
+}
+.sql-custom-toolbar select {
+  min-width: 180px;
+  padding: 8px 10px;
+  border: 1px solid var(--paper-dim);
+  border-radius: 8px;
+  font: inherit;
+  background: var(--white);
+  color: var(--navy-900);
+}
+.sql-btn {
+  border: 1px solid var(--paper-dim);
+  background: var(--white);
+  color: var(--navy-900);
+  border-radius: 8px;
+  padding: 8px 14px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: inherit;
+}
+.sql-btn:hover { border-color: var(--teal-500); }
+.sql-btn-primary {
+  background: var(--teal-500);
+  border-color: var(--teal-500);
+  color: var(--navy-950);
+}
+.sql-btn-primary:hover { background: var(--teal-400); border-color: var(--teal-400); }
+.sql-status {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.72rem;
+  color: var(--ink-dim);
+}
+.sql-status.ready { color: var(--teal-500); }
+.sql-status.error { color: var(--red-500); }
+.sql-editor {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid var(--paper-dim);
+  border-radius: var(--radius);
+  background: var(--navy-950);
+  color: #D6E4E0;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.82rem;
+  line-height: 1.55;
+  padding: 14px 16px;
+  resize: vertical;
+  min-height: 180px;
+}
+.sql-editor:focus {
+  outline: 2px solid rgba(18, 165, 148, 0.35);
+  border-color: var(--teal-500);
+}
+.sql-error {
+  margin-top: 10px;
+  padding: 10px 12px;
+  border-radius: 8px;
+  background: rgba(214, 69, 80, 0.08);
+  border: 1px solid rgba(214, 69, 80, 0.25);
+  color: var(--red-500);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.78rem;
+  white-space: pre-wrap;
+}
 
 /* ---------- Code block ---------- */
 .code-block {
@@ -414,4 +578,5 @@ table.kpi-table td.target { font-family: 'JetBrains Mono', monospace; color: var
   .region-grid { grid-template-columns: repeat(2, 1fr); }
   .kpi-row { grid-template-columns: repeat(2, 1fr); }
   .chart-row { grid-template-columns: 1fr; }
+  .sql-card-grid { grid-template-columns: 1fr 1fr; }
 }

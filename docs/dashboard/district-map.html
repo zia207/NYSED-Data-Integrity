@@ -15,17 +15,57 @@
 <a href="validation.html" class="">Validation & Duplicates</a>
 <a href="risk-assessment.html" class="">Risk Assessment</a>
 <a href="district-map.html" class="active">District Map</a>
+<a href="regional-explorer.html" class="">Regional Explorer</a>
 <a href="alerts.html" class="">Alerts</a>
 <a href="methodology.html" class="">Methodology</a></div></div></nav>
 <header class="dash-header"><div class="dash-header-inner">
-  <div class="eyebrow">Notebook 05</div><h1>District Map</h1><p>Interactive statewide map of synthetic districts colored by OSEP-style risk determination tier.</p>
+  <div class="eyebrow">Notebook 05</div><h1>District Map</h1><p>Interactive statewide map of synthetic districts colored by OSEP-style risk determination tier. Click a district to view its data summary.</p>
 </div></header>
 <main class="dash-body">
-<div class="chart-panel">
-  <h3>District risk map — 2025-26</h3>
-  <div class="chart-note">Marker size ≈ enrollment; color = risk tier. Positions are jittered within each county for synthetic districts (not real geocoding).</div>
-  <iframe src="_folium_map.html" style="width:100%; height:640px; border:0; border-radius:8px;"></iframe>
+<div class="chart-row" style="grid-template-columns: 2.4fr 0.85fr; align-items: stretch;">
+  <div class="chart-panel" style="margin-bottom:0;">
+    <h3>District risk map — 2025-26</h3>
+    <div class="chart-note">Marker size ≈ enrollment; color = risk tier. Click a district to load its summary. Positions are jittered within each county for synthetic districts (not real geocoding).</div>
+    <iframe id="district-map-frame" src="_folium_map.html"
+            style="width:100%; height:820px; border:0; border-radius:8px;"></iframe>
+  </div>
+  <div class="chart-panel" style="margin-bottom:0;">
+    <h3>District data summary</h3>
+    <div class="chart-note" id="summary-hint">Click a district on the map to view its data summary.</div>
+    <table class="kpi-table" id="district-summary" style="display:none;">
+      <tbody>
+        <tr><th>District</th><td id="s-name"></td></tr>
+        <tr><th>Region</th><td id="s-region"></td></tr>
+        <tr><th>County</th><td id="s-county"></td></tr>
+        <tr><th>Risk tier</th><td id="s-tier"></td></tr>
+        <tr><th>Risk index</th><td id="s-index" class="target"></td></tr>
+        <tr><th>Completeness</th><td id="s-completeness" class="target"></td></tr>
+        <tr><th>On-time rate</th><td id="s-ontime" class="target"></td></tr>
+        <tr><th>Enrollment</th><td id="s-enrollment" class="target"></td></tr>
+      </tbody>
+    </table>
+  </div>
 </div>
+<script>
+window.addEventListener("message", function (event) {
+  if (!event.data || event.data.type !== "district-select" || !event.data.district) return;
+  var d = event.data.district;
+  document.getElementById("summary-hint").style.display = "none";
+  var table = document.getElementById("district-summary");
+  table.style.display = "";
+  document.getElementById("s-name").textContent = d.district_name;
+  document.getElementById("s-region").textContent = d.region;
+  document.getElementById("s-county").textContent = d.county;
+  var tier = document.getElementById("s-tier");
+  tier.textContent = d.risk_tier;
+  tier.style.color = d.color || "";
+  tier.style.fontWeight = "600";
+  document.getElementById("s-index").textContent = Number(d.risk_index).toFixed(1);
+  document.getElementById("s-completeness").textContent = d.completeness;
+  document.getElementById("s-ontime").textContent = d.on_time_rate;
+  document.getElementById("s-enrollment").textContent = Number(d.enrollment).toLocaleString();
+});
+</script>
 </main>
 <footer class="site-footer">Synthetic demonstration data · NYSED Data Integrity &amp; Risk Monitoring Platform ·
   <a href="https://github.com/zia207/NYSED-Data-Integrity" target="_blank">Source code</a></footer>

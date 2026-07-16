@@ -15,6 +15,7 @@
 <a href="validation.html" class="">Validation & Duplicates</a>
 <a href="risk-assessment.html" class="">Risk Assessment</a>
 <a href="district-map.html" class="">District Map</a>
+<a href="regional-explorer.html" class="">Regional Explorer</a>
 <a href="alerts.html" class="">Alerts</a>
 <a href="methodology.html" class="active">Methodology</a></div></div></nav>
 <header class="dash-header"><div class="dash-header-inner">
@@ -46,6 +47,10 @@
       <ul><li>Empirical Bayes (method-of-moments) shrinkage of small-district rates toward the regional mean</li><li>Funnel plots to visualize the precision/denominator relationship</li><li>Directly analogous to small-area disease-mapping techniques in spatial epidemiology</li></ul>
     </div><div class="method-block">
       <div class="step-num">07</div>
+      <h3>SQL Group Summaries</h3>
+      <ul><li>Load districts + risk scores into an in-memory SQLite database at site-build time</li><li>GROUP BY region, county, size tier, risk tier, and urbanicity for operational rollups</li><li>Clickable Regional Explorer filters district detail from the same SQL result sets</li><li>In-browser custom SQL (sql.js) against districts / risk / district_metrics tables</li></ul>
+    </div><div class="method-block">
+      <div class="step-num">08</div>
       <h3>Composite Risk Index</h3>
       <ul><li>Standardize (z-score) each quality metric, with sign-flipping so higher always means worse</li><li>Weighted linear combination into a single 0-100 risk index</li><li>Quantile-based tiering into four OSEP-style risk determination categories</li></ul>
     </div></main>
