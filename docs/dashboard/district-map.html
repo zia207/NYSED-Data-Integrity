@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>District Map · NYSED Data Integrity Platform</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Lora:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css">
+
+</head><body>
+<nav class="site-nav"><div class="nav-inner">
+      <div class="brand"><span class="dot"></span> NYSED Data Integrity Platform</div>
+      <div class="links"><a href="../index.html" class="">Home</a>
+<a href="executive-summary.html" class="">Executive Summary</a>
+<a href="data-quality.html" class="">Data Quality</a>
+<a href="validation.html" class="">Validation & Duplicates</a>
+<a href="risk-assessment.html" class="">Risk Assessment</a>
+<a href="district-map.html" class="active">District Map</a>
+<a href="alerts.html" class="">Alerts</a>
+<a href="methodology.html" class="">Methodology</a></div></div></nav>
+<header class="dash-header"><div class="dash-header-inner">
+  <div class="eyebrow">Notebook 05</div><h1>District Map</h1><p>Interactive statewide map of synthetic districts colored by OSEP-style risk determination tier.</p>
+</div></header>
+<main class="dash-body">
+<div class="chart-panel">
+  <h3>District risk map — 2025-26</h3>
+  <div class="chart-note">Marker size ≈ enrollment; color = risk tier. Positions are jittered within each county for synthetic districts (not real geocoding).</div>
+  <iframe src="_folium_map.html" style="width:100%; height:640px; border:0; border-radius:8px;"></iframe>
+</div>
+</main>
+<footer class="site-footer">Synthetic demonstration data · NYSED Data Integrity &amp; Risk Monitoring Platform ·
+  <a href="https://github.com/zia207/NYSED-Data-Integrity" target="_blank">Source code</a></footer>
+</body></html>

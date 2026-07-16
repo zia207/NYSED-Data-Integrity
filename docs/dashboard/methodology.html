@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Methodology · NYSED Data Integrity Platform</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Lora:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css">
+
+</head><body>
+<nav class="site-nav"><div class="nav-inner">
+      <div class="brand"><span class="dot"></span> NYSED Data Integrity Platform</div>
+      <div class="links"><a href="../index.html" class="">Home</a>
+<a href="executive-summary.html" class="">Executive Summary</a>
+<a href="data-quality.html" class="">Data Quality</a>
+<a href="validation.html" class="">Validation & Duplicates</a>
+<a href="risk-assessment.html" class="">Risk Assessment</a>
+<a href="district-map.html" class="">District Map</a>
+<a href="alerts.html" class="">Alerts</a>
+<a href="methodology.html" class="active">Methodology</a></div></div></nav>
+<header class="dash-header"><div class="dash-header-inner">
+  <div class="eyebrow">Reference</div><h1>Methodology</h1><p>The statistical techniques underlying data quality assessment, validation, and risk scoring across this platform.</p>
+</div></header>
+<main class="dash-body"><p style="max-width:760px;">This platform combines seven families of statistical technique across the four analysis notebooks. Each is demonstrated on the synthetic dataset with real, runnable code.</p><div class="method-block">
+      <div class="step-num">01</div>
+      <h3>Data Quality Dimensions</h3>
+      <ul><li>Completeness — missingness rate per field/collection, with pattern analysis (MCAR vs. MAR vs. MNAR)</li><li>Validity — domain, range, and format checks against code lists and business rules</li><li>Consistency — cross-field logic and referential integrity checks</li><li>Accuracy — agreement rate against an audited sample, summarized with Cohen's kappa</li><li>Uniqueness — duplicate detection via probabilistic record linkage / fuzzy matching</li><li>Timeliness — on-time submission rate and lag-time distribution</li></ul>
+    </div><div class="method-block">
+      <div class="step-num">02</div>
+      <h3>Statistical Process Control</h3>
+      <ul><li>Shewhart p-charts for error / rejection / late-submission rates, with 3σ control limits</li><li>CUSUM and EWMA charts to catch slow drift before it crosses a hard threshold</li><li>STL-style decomposition to separate seasonal reporting cycles from genuine anomalies</li></ul>
+    </div><div class="method-block">
+      <div class="step-num">03</div>
+      <h3>Anomaly & Outlier Detection</h3>
+      <ul><li>Z-score and modified Z-score (MAD-based) for univariate outliers</li><li>IQR fences as a robust, distribution-free alternative</li><li>Isolation Forest for multivariate anomalies across several quality metrics at once</li><li>Benford's Law leading-digit test as a fabrication / manipulation screen (with caveats for stratified data)</li></ul>
+    </div><div class="method-block">
+      <div class="step-num">04</div>
+      <h3>Record Linkage / Duplicate Detection</h3>
+      <ul><li>Blocking (e.g., by district) to make pairwise comparison tractable</li><li>Jaro-Winkler string similarity on name fields</li><li>Fellegi-Sunter-style weighted composite match score</li><li>Threshold selection via precision / recall / F1 sweep</li></ul>
+    </div><div class="method-block">
+      <div class="step-num">05</div>
+      <h3>Predictive Risk Modeling</h3>
+      <ul><li>Logistic regression for an interpretable, coefficient-level risk model</li><li>Random forest / gradient boosting for higher-accuracy classification with feature importance</li><li>ROC / AUC evaluation on a held-out test set</li><li>Care taken to avoid circularity: predictors must be independent of the label's own construction</li></ul>
+    </div><div class="method-block">
+      <div class="step-num">06</div>
+      <h3>Small-Area Estimation</h3>
+      <ul><li>Empirical Bayes (method-of-moments) shrinkage of small-district rates toward the regional mean</li><li>Funnel plots to visualize the precision/denominator relationship</li><li>Directly analogous to small-area disease-mapping techniques in spatial epidemiology</li></ul>
+    </div><div class="method-block">
+      <div class="step-num">07</div>
+      <h3>Composite Risk Index</h3>
+      <ul><li>Standardize (z-score) each quality metric, with sign-flipping so higher always means worse</li><li>Weighted linear combination into a single 0-100 risk index</li><li>Quantile-based tiering into four OSEP-style risk determination categories</li></ul>
+    </div></main>
+<footer class="site-footer">Synthetic demonstration data · NYSED Data Integrity &amp; Risk Monitoring Platform ·
+  <a href="https://github.com/zia207/NYSED-Data-Integrity" target="_blank">Source code</a></footer>
+</body></html>

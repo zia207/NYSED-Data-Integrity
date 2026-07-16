@@ -1,0 +1,721 @@
+district_id,region,school_year,indicator_id,indicator_name,direction,target,actual_rate,denominator_n,met_target
+D100001,NYC Metro,2024-25,Ind-01,Graduation Rate (SWD),higher,0.8,0.8086,42,True
+D100001,NYC Metro,2024-25,Ind-02,Dropout Rate (SWD),lower,0.06,0.0478,122,True
+D100001,NYC Metro,2024-25,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,87,True
+D100001,NYC Metro,2024-25,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,151,True
+D100001,NYC Metro,2024-25,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9588,49,True
+D100001,NYC Metro,2024-25,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9576,124,True
+D100001,NYC Metro,2025-26,Ind-01,Graduation Rate (SWD),higher,0.8,0.8068,76,True
+D100001,NYC Metro,2025-26,Ind-02,Dropout Rate (SWD),lower,0.06,0.0509,62,True
+D100001,NYC Metro,2025-26,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.1376,99,False
+D100001,NYC Metro,2025-26,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0285,93,False
+D100001,NYC Metro,2025-26,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9588,81,True
+D100001,NYC Metro,2025-26,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9673,64,True
+D100002,NYC Metro,2024-25,Ind-01,Graduation Rate (SWD),higher,0.8,0.6729,23,False
+D100002,NYC Metro,2024-25,Ind-02,Dropout Rate (SWD),lower,0.06,0.2177,8,False
+D100002,NYC Metro,2024-25,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.126,25,False
+D100002,NYC Metro,2024-25,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0439,38,False
+D100002,NYC Metro,2024-25,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.7145,16,False
+D100002,NYC Metro,2024-25,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.7457,33,False
+D100002,NYC Metro,2025-26,Ind-01,Graduation Rate (SWD),higher,0.8,0.7197,23,False
+D100002,NYC Metro,2025-26,Ind-02,Dropout Rate (SWD),lower,0.06,0.0442,26,True
+D100002,NYC Metro,2025-26,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0437,13,False
+D100002,NYC Metro,2025-26,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,23,True
+D100002,NYC Metro,2025-26,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.766,15,False
+D100002,NYC Metro,2025-26,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.8444,25,False
+D100003,NYC Metro,2024-25,Ind-01,Graduation Rate (SWD),higher,0.8,0.8406,37,True
+D100003,NYC Metro,2024-25,Ind-02,Dropout Rate (SWD),lower,0.06,0.0426,8,True
+D100003,NYC Metro,2024-25,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,29,True
+D100003,NYC Metro,2024-25,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,10,True
+D100003,NYC Metro,2024-25,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9645,21,True
+D100003,NYC Metro,2024-25,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9522,14,True
+D100003,NYC Metro,2025-26,Ind-01,Graduation Rate (SWD),higher,0.8,0.8005,11,True
+D100003,NYC Metro,2025-26,Ind-02,Dropout Rate (SWD),lower,0.06,0.0412,26,True
+D100003,NYC Metro,2025-26,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,17,True
+D100003,NYC Metro,2025-26,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,17,True
+D100003,NYC Metro,2025-26,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9884,34,True
+D100003,NYC Metro,2025-26,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9961,30,True
+D100004,NYC Metro,2024-25,Ind-01,Graduation Rate (SWD),higher,0.8,0.8124,58,True
+D100004,NYC Metro,2024-25,Ind-02,Dropout Rate (SWD),lower,0.06,0.0564,72,True
+D100004,NYC Metro,2024-25,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,65,True
+D100004,NYC Metro,2024-25,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,193,True
+D100004,NYC Metro,2024-25,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9908,78,True
+D100004,NYC Metro,2024-25,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.974,84,True
+D100004,NYC Metro,2025-26,Ind-01,Graduation Rate (SWD),higher,0.8,0.8487,192,True
+D100004,NYC Metro,2025-26,Ind-02,Dropout Rate (SWD),lower,0.06,0.0547,194,True
+D100004,NYC Metro,2025-26,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,149,True
+D100004,NYC Metro,2025-26,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,90,True
+D100004,NYC Metro,2025-26,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9554,186,True
+D100004,NYC Metro,2025-26,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9578,63,True
+D100005,NYC Metro,2024-25,Ind-01,Graduation Rate (SWD),higher,0.8,0.8473,73,True
+D100005,NYC Metro,2024-25,Ind-02,Dropout Rate (SWD),lower,0.06,0.0576,55,True
+D100005,NYC Metro,2024-25,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,67,True
+D100005,NYC Metro,2024-25,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,142,True
+D100005,NYC Metro,2024-25,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9946,86,True
+D100005,NYC Metro,2024-25,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9929,50,True
+D100005,NYC Metro,2025-26,Ind-01,Graduation Rate (SWD),higher,0.8,0.8305,58,True
+D100005,NYC Metro,2025-26,Ind-02,Dropout Rate (SWD),lower,0.06,0.0436,114,True
+D100005,NYC Metro,2025-26,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,144,True
+D100005,NYC Metro,2025-26,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,133,True
+D100005,NYC Metro,2025-26,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9571,48,True
+D100005,NYC Metro,2025-26,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9964,160,True
+D100006,NYC Metro,2024-25,Ind-01,Graduation Rate (SWD),higher,0.8,0.8084,95,True
+D100006,NYC Metro,2024-25,Ind-02,Dropout Rate (SWD),lower,0.06,0.048,172,True
+D100006,NYC Metro,2024-25,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,72,True
+D100006,NYC Metro,2024-25,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,42,True
+D100006,NYC Metro,2024-25,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9522,118,True
+D100006,NYC Metro,2024-25,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.965,63,True
+D100006,NYC Metro,2025-26,Ind-01,Graduation Rate (SWD),higher,0.8,0.829,88,True
+D100006,NYC Metro,2025-26,Ind-02,Dropout Rate (SWD),lower,0.06,0.0447,88,True
+D100006,NYC Metro,2025-26,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,189,True
+D100006,NYC Metro,2025-26,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,89,True
+D100006,NYC Metro,2025-26,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.8783,54,False
+D100006,NYC Metro,2025-26,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9832,103,True
+D100007,NYC Metro,2024-25,Ind-01,Graduation Rate (SWD),higher,0.8,0.8399,94,True
+D100007,NYC Metro,2024-25,Ind-02,Dropout Rate (SWD),lower,0.06,0.0426,92,True
+D100007,NYC Metro,2024-25,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,76,True
+D100007,NYC Metro,2024-25,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,140,True
+D100007,NYC Metro,2024-25,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9897,44,True
+D100007,NYC Metro,2024-25,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9913,45,True
+D100007,NYC Metro,2025-26,Ind-01,Graduation Rate (SWD),higher,0.8,0.8348,160,True
+D100007,NYC Metro,2025-26,Ind-02,Dropout Rate (SWD),lower,0.06,0.0513,110,True
+D100007,NYC Metro,2025-26,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,168,True
+D100007,NYC Metro,2025-26,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,78,True
+D100007,NYC Metro,2025-26,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9887,155,True
+D100007,NYC Metro,2025-26,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9699,104,True
+D100008,NYC Metro,2024-25,Ind-01,Graduation Rate (SWD),higher,0.8,0.8381,28,True
+D100008,NYC Metro,2024-25,Ind-02,Dropout Rate (SWD),lower,0.06,0.0575,7,True
+D100008,NYC Metro,2024-25,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,15,True
+D100008,NYC Metro,2024-25,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,19,True
+D100008,NYC Metro,2024-25,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9799,31,True
+D100008,NYC Metro,2024-25,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.7695,5,False
+D100008,NYC Metro,2025-26,Ind-01,Graduation Rate (SWD),higher,0.8,0.8262,16,True
+D100008,NYC Metro,2025-26,Ind-02,Dropout Rate (SWD),lower,0.06,0.0511,35,True
+D100008,NYC Metro,2025-26,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,11,True
+D100008,NYC Metro,2025-26,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,13,True
+D100008,NYC Metro,2025-26,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9602,7,True
+D100008,NYC Metro,2025-26,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.993,31,True
+D100009,NYC Metro,2024-25,Ind-01,Graduation Rate (SWD),higher,0.8,0.8196,17,True
+D100009,NYC Metro,2024-25,Ind-02,Dropout Rate (SWD),lower,0.06,0.0403,39,True
+D100009,NYC Metro,2024-25,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,24,True
+D100009,NYC Metro,2024-25,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,30,True
+D100009,NYC Metro,2024-25,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9841,36,True
+D100009,NYC Metro,2024-25,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9894,28,True
+D100009,NYC Metro,2025-26,Ind-01,Graduation Rate (SWD),higher,0.8,0.8199,6,True
+D100009,NYC Metro,2025-26,Ind-02,Dropout Rate (SWD),lower,0.06,0.0429,9,True
+D100009,NYC Metro,2025-26,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,29,True
+D100009,NYC Metro,2025-26,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,25,True
+D100009,NYC Metro,2025-26,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9869,39,True
+D100009,NYC Metro,2025-26,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9789,34,True
+D100010,NYC Metro,2024-25,Ind-01,Graduation Rate (SWD),higher,0.8,0.823,32,True
+D100010,NYC Metro,2024-25,Ind-02,Dropout Rate (SWD),lower,0.06,0.0592,35,True
+D100010,NYC Metro,2024-25,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,14,True
+D100010,NYC Metro,2024-25,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,26,True
+D100010,NYC Metro,2024-25,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9564,32,True
+D100010,NYC Metro,2024-25,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9623,24,True
+D100010,NYC Metro,2025-26,Ind-01,Graduation Rate (SWD),higher,0.8,0.8478,26,True
+D100010,NYC Metro,2025-26,Ind-02,Dropout Rate (SWD),lower,0.06,0.0598,33,True
+D100010,NYC Metro,2025-26,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,16,True
+D100010,NYC Metro,2025-26,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,12,True
+D100010,NYC Metro,2025-26,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9782,5,True
+D100010,NYC Metro,2025-26,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9627,34,True
+D100011,NYC Metro,2024-25,Ind-01,Graduation Rate (SWD),higher,0.8,0.8478,148,True
+D100011,NYC Metro,2024-25,Ind-02,Dropout Rate (SWD),lower,0.06,0.052,150,True
+D100011,NYC Metro,2024-25,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0411,64,False
+D100011,NYC Metro,2024-25,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.1741,188,False
+D100011,NYC Metro,2024-25,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9653,70,True
+D100011,NYC Metro,2024-25,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9522,66,True
+D100011,NYC Metro,2025-26,Ind-01,Graduation Rate (SWD),higher,0.8,0.8066,136,True
+D100011,NYC Metro,2025-26,Ind-02,Dropout Rate (SWD),lower,0.06,0.1483,102,False
+D100011,NYC Metro,2025-26,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,142,True
+D100011,NYC Metro,2025-26,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,72,True
+D100011,NYC Metro,2025-26,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9997,185,True
+D100011,NYC Metro,2025-26,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9904,104,True
+D100012,NYC Metro,2024-25,Ind-01,Graduation Rate (SWD),higher,0.8,0.8011,13,True
+D100012,NYC Metro,2024-25,Ind-02,Dropout Rate (SWD),lower,0.06,0.0579,24,True
+D100012,NYC Metro,2024-25,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,30,True
+D100012,NYC Metro,2024-25,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0718,12,False
+D100012,NYC Metro,2024-25,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9984,32,True
+D100012,NYC Metro,2024-25,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.956,35,True
+D100012,NYC Metro,2025-26,Ind-01,Graduation Rate (SWD),higher,0.8,0.8286,24,True
+D100012,NYC Metro,2025-26,Ind-02,Dropout Rate (SWD),lower,0.06,0.0401,21,True
+D100012,NYC Metro,2025-26,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,8,True
+D100012,NYC Metro,2025-26,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,8,True
+D100012,NYC Metro,2025-26,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9663,36,True
+D100012,NYC Metro,2025-26,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9995,10,True
+D100013,Western NY,2024-25,Ind-01,Graduation Rate (SWD),higher,0.8,0.8446,25,True
+D100013,Western NY,2024-25,Ind-02,Dropout Rate (SWD),lower,0.06,0.0435,6,True
+D100013,Western NY,2024-25,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,23,True
+D100013,Western NY,2024-25,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0464,28,False
+D100013,Western NY,2024-25,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9871,18,True
+D100013,Western NY,2024-25,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.7605,8,False
+D100013,Western NY,2025-26,Ind-01,Graduation Rate (SWD),higher,0.8,0.8234,37,True
+D100013,Western NY,2025-26,Ind-02,Dropout Rate (SWD),lower,0.06,0.0481,10,True
+D100013,Western NY,2025-26,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,8,True
+D100013,Western NY,2025-26,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,30,True
+D100013,Western NY,2025-26,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.8276,33,False
+D100013,Western NY,2025-26,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.8288,10,False
+D100014,Western NY,2024-25,Ind-01,Graduation Rate (SWD),higher,0.8,0.8172,10,True
+D100014,Western NY,2024-25,Ind-02,Dropout Rate (SWD),lower,0.06,0.0557,21,True
+D100014,Western NY,2024-25,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,9,True
+D100014,Western NY,2024-25,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,25,True
+D100014,Western NY,2024-25,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.8378,25,False
+D100014,Western NY,2024-25,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9856,5,True
+D100014,Western NY,2025-26,Ind-01,Graduation Rate (SWD),higher,0.8,0.6528,20,False
+D100014,Western NY,2025-26,Ind-02,Dropout Rate (SWD),lower,0.06,0.0565,7,True
+D100014,Western NY,2025-26,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,24,True
+D100014,Western NY,2025-26,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,39,True
+D100014,Western NY,2025-26,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9913,17,True
+D100014,Western NY,2025-26,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.8844,35,False
+D100015,Western NY,2024-25,Ind-01,Graduation Rate (SWD),higher,0.8,0.8062,511,True
+D100015,Western NY,2024-25,Ind-02,Dropout Rate (SWD),lower,0.06,0.0544,327,True
+D100015,Western NY,2024-25,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,738,True
+D100015,Western NY,2024-25,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,482,True
+D100015,Western NY,2024-25,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9853,852,True
+D100015,Western NY,2024-25,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9897,632,True
+D100015,Western NY,2025-26,Ind-01,Graduation Rate (SWD),higher,0.8,0.84,451,True
+D100015,Western NY,2025-26,Ind-02,Dropout Rate (SWD),lower,0.06,0.0558,430,True
+D100015,Western NY,2025-26,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,250,True
+D100015,Western NY,2025-26,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,830,True
+D100015,Western NY,2025-26,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9504,154,True
+D100015,Western NY,2025-26,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9714,402,True
+D100016,Western NY,2024-25,Ind-01,Graduation Rate (SWD),higher,0.8,0.6623,195,False
+D100016,Western NY,2024-25,Ind-02,Dropout Rate (SWD),lower,0.06,0.2251,86,False
+D100016,Western NY,2024-25,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0699,186,False
+D100016,Western NY,2024-25,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.1772,130,False
+D100016,Western NY,2024-25,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9708,156,True
+D100016,Western NY,2024-25,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.8452,59,False
+D100016,Western NY,2025-26,Ind-01,Graduation Rate (SWD),higher,0.8,0.6206,56,False
+D100016,Western NY,2025-26,Ind-02,Dropout Rate (SWD),lower,0.06,0.2482,46,False
+D100016,Western NY,2025-26,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.1055,32,False
+D100016,Western NY,2025-26,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.1702,39,False
+D100016,Western NY,2025-26,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.8626,129,False
+D100016,Western NY,2025-26,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.7143,157,False
+D100017,Western NY,2024-25,Ind-01,Graduation Rate (SWD),higher,0.8,0.8232,99,True
+D100017,Western NY,2024-25,Ind-02,Dropout Rate (SWD),lower,0.06,0.0552,43,True
+D100017,Western NY,2024-25,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,162,True
+D100017,Western NY,2024-25,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,72,True
+D100017,Western NY,2024-25,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9627,139,True
+D100017,Western NY,2024-25,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9989,89,True
+D100017,Western NY,2025-26,Ind-01,Graduation Rate (SWD),higher,0.8,0.8412,49,True
+D100017,Western NY,2025-26,Ind-02,Dropout Rate (SWD),lower,0.06,0.0494,80,True
+D100017,Western NY,2025-26,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,54,True
+D100017,Western NY,2025-26,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,115,True
+D100017,Western NY,2025-26,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9802,40,True
+D100017,Western NY,2025-26,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9605,83,True
+D100018,Western NY,2024-25,Ind-01,Graduation Rate (SWD),higher,0.8,0.8406,31,True
+D100018,Western NY,2024-25,Ind-02,Dropout Rate (SWD),lower,0.06,0.0573,28,True
+D100018,Western NY,2024-25,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0726,34,False
+D100018,Western NY,2024-25,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,9,True
+D100018,Western NY,2024-25,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9585,35,True
+D100018,Western NY,2024-25,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9852,39,True
+D100018,Western NY,2025-26,Ind-01,Graduation Rate (SWD),higher,0.8,0.8285,34,True
+D100018,Western NY,2025-26,Ind-02,Dropout Rate (SWD),lower,0.06,0.0599,32,True
+D100018,Western NY,2025-26,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,12,True
+D100018,Western NY,2025-26,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,11,True
+D100018,Western NY,2025-26,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9579,8,True
+D100018,Western NY,2025-26,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9872,18,True
+D100019,Western NY,2024-25,Ind-01,Graduation Rate (SWD),higher,0.8,0.8328,39,True
+D100019,Western NY,2024-25,Ind-02,Dropout Rate (SWD),lower,0.06,0.0421,28,True
+D100019,Western NY,2024-25,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0698,30,False
+D100019,Western NY,2024-25,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.1999,39,False
+D100019,Western NY,2024-25,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.8969,23,False
+D100019,Western NY,2024-25,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.7584,31,False
+D100019,Western NY,2025-26,Ind-01,Graduation Rate (SWD),higher,0.8,0.6178,17,False
+D100019,Western NY,2025-26,Ind-02,Dropout Rate (SWD),lower,0.06,0.0492,36,True
+D100019,Western NY,2025-26,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.1027,15,False
+D100019,Western NY,2025-26,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0713,37,False
+D100019,Western NY,2025-26,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9697,39,True
+D100019,Western NY,2025-26,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.8406,13,False
+D100020,Western NY,2024-25,Ind-01,Graduation Rate (SWD),higher,0.8,0.8356,8,True
+D100020,Western NY,2024-25,Ind-02,Dropout Rate (SWD),lower,0.06,0.0406,20,True
+D100020,Western NY,2024-25,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,27,True
+D100020,Western NY,2024-25,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,16,True
+D100020,Western NY,2024-25,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9547,17,True
+D100020,Western NY,2024-25,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9956,14,True
+D100020,Western NY,2025-26,Ind-01,Graduation Rate (SWD),higher,0.8,0.808,37,True
+D100020,Western NY,2025-26,Ind-02,Dropout Rate (SWD),lower,0.06,0.0519,31,True
+D100020,Western NY,2025-26,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.1842,39,False
+D100020,Western NY,2025-26,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,11,True
+D100020,Western NY,2025-26,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.7767,14,False
+D100020,Western NY,2025-26,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9636,23,True
+D100021,Western NY,2024-25,Ind-01,Graduation Rate (SWD),higher,0.8,0.8377,25,True
+D100021,Western NY,2024-25,Ind-02,Dropout Rate (SWD),lower,0.06,0.0558,30,True
+D100021,Western NY,2024-25,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,19,True
+D100021,Western NY,2024-25,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,8,True
+D100021,Western NY,2024-25,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9671,9,True
+D100021,Western NY,2024-25,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9976,26,True
+D100021,Western NY,2025-26,Ind-01,Graduation Rate (SWD),higher,0.8,0.828,37,True
+D100021,Western NY,2025-26,Ind-02,Dropout Rate (SWD),lower,0.06,0.0572,18,True
+D100021,Western NY,2025-26,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,9,True
+D100021,Western NY,2025-26,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,33,True
+D100021,Western NY,2025-26,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9655,23,True
+D100021,Western NY,2025-26,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9533,25,True
+D100022,Western NY,2024-25,Ind-01,Graduation Rate (SWD),higher,0.8,0.8078,5,True
+D100022,Western NY,2024-25,Ind-02,Dropout Rate (SWD),lower,0.06,0.2121,23,False
+D100022,Western NY,2024-25,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,21,True
+D100022,Western NY,2024-25,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,25,True
+D100022,Western NY,2024-25,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9773,38,True
+D100022,Western NY,2024-25,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.8412,9,False
+D100022,Western NY,2025-26,Ind-01,Graduation Rate (SWD),higher,0.8,0.8327,16,True
+D100022,Western NY,2025-26,Ind-02,Dropout Rate (SWD),lower,0.06,0.0591,34,True
+D100022,Western NY,2025-26,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.1159,25,False
+D100022,Western NY,2025-26,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,11,True
+D100022,Western NY,2025-26,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9711,14,True
+D100022,Western NY,2025-26,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9552,30,True
+D100023,Western NY,2024-25,Ind-01,Graduation Rate (SWD),higher,0.8,0.8203,161,True
+D100023,Western NY,2024-25,Ind-02,Dropout Rate (SWD),lower,0.06,0.0528,140,True
+D100023,Western NY,2024-25,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,171,True
+D100023,Western NY,2024-25,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,152,True
+D100023,Western NY,2024-25,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9679,84,True
+D100023,Western NY,2024-25,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9551,148,True
+D100023,Western NY,2025-26,Ind-01,Graduation Rate (SWD),higher,0.8,0.8141,97,True
+D100023,Western NY,2025-26,Ind-02,Dropout Rate (SWD),lower,0.06,0.0584,108,True
+D100023,Western NY,2025-26,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,55,True
+D100023,Western NY,2025-26,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,161,True
+D100023,Western NY,2025-26,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9777,69,True
+D100023,Western NY,2025-26,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9846,191,True
+D100024,Western NY,2024-25,Ind-01,Graduation Rate (SWD),higher,0.8,0.828,181,True
+D100024,Western NY,2024-25,Ind-02,Dropout Rate (SWD),lower,0.06,0.0597,407,True
+D100024,Western NY,2024-25,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,738,True
+D100024,Western NY,2024-25,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,602,True
+D100024,Western NY,2024-25,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9938,845,True
+D100024,Western NY,2024-25,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9801,451,True
+D100024,Western NY,2025-26,Ind-01,Graduation Rate (SWD),higher,0.8,0.8331,794,True
+D100024,Western NY,2025-26,Ind-02,Dropout Rate (SWD),lower,0.06,0.0555,242,True
+D100024,Western NY,2025-26,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,612,True
+D100024,Western NY,2025-26,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,681,True
+D100024,Western NY,2025-26,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9858,852,True
+D100024,Western NY,2025-26,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9782,256,True
+D100025,Central NY,2024-25,Ind-01,Graduation Rate (SWD),higher,0.8,0.8434,125,True
+D100025,Central NY,2024-25,Ind-02,Dropout Rate (SWD),lower,0.06,0.06,83,True
+D100025,Central NY,2024-25,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,86,True
+D100025,Central NY,2024-25,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,157,True
+D100025,Central NY,2024-25,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.7351,80,False
+D100025,Central NY,2024-25,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.7278,39,False
+D100025,Central NY,2025-26,Ind-01,Graduation Rate (SWD),higher,0.8,0.8375,143,True
+D100025,Central NY,2025-26,Ind-02,Dropout Rate (SWD),lower,0.06,0.0588,75,True
+D100025,Central NY,2025-26,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,43,True
+D100025,Central NY,2025-26,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,118,True
+D100025,Central NY,2025-26,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9835,111,True
+D100025,Central NY,2025-26,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9676,108,True
+D100026,Central NY,2024-25,Ind-01,Graduation Rate (SWD),higher,0.8,0.8346,99,True
+D100026,Central NY,2024-25,Ind-02,Dropout Rate (SWD),lower,0.06,0.0539,55,True
+D100026,Central NY,2024-25,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0474,46,False
+D100026,Central NY,2024-25,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,189,True
+D100026,Central NY,2024-25,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.7208,110,False
+D100026,Central NY,2024-25,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9688,181,True
+D100026,Central NY,2025-26,Ind-01,Graduation Rate (SWD),higher,0.8,0.8466,40,True
+D100026,Central NY,2025-26,Ind-02,Dropout Rate (SWD),lower,0.06,0.1937,49,False
+D100026,Central NY,2025-26,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,143,True
+D100026,Central NY,2025-26,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,114,True
+D100026,Central NY,2025-26,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9746,84,True
+D100026,Central NY,2025-26,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.7015,82,False
+D100027,Central NY,2024-25,Ind-01,Graduation Rate (SWD),higher,0.8,0.8028,701,True
+D100027,Central NY,2024-25,Ind-02,Dropout Rate (SWD),lower,0.06,0.0557,601,True
+D100027,Central NY,2024-25,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,338,True
+D100027,Central NY,2024-25,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,160,True
+D100027,Central NY,2024-25,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9653,158,True
+D100027,Central NY,2024-25,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.972,500,True
+D100027,Central NY,2025-26,Ind-01,Graduation Rate (SWD),higher,0.8,0.8152,385,True
+D100027,Central NY,2025-26,Ind-02,Dropout Rate (SWD),lower,0.06,0.0427,875,True
+D100027,Central NY,2025-26,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,600,True
+D100027,Central NY,2025-26,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,869,True
+D100027,Central NY,2025-26,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9897,271,True
+D100027,Central NY,2025-26,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9732,170,True
+D100028,Central NY,2024-25,Ind-01,Graduation Rate (SWD),higher,0.8,0.8327,12,True
+D100028,Central NY,2024-25,Ind-02,Dropout Rate (SWD),lower,0.06,0.0568,8,True
+D100028,Central NY,2024-25,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,12,True
+D100028,Central NY,2024-25,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,34,True
+D100028,Central NY,2024-25,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9707,5,True
+D100028,Central NY,2024-25,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9594,34,True
+D100028,Central NY,2025-26,Ind-01,Graduation Rate (SWD),higher,0.8,0.823,8,True
+D100028,Central NY,2025-26,Ind-02,Dropout Rate (SWD),lower,0.06,0.0578,37,True
+D100028,Central NY,2025-26,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,22,True
+D100028,Central NY,2025-26,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,8,True
+D100028,Central NY,2025-26,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9791,21,True
+D100028,Central NY,2025-26,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9848,15,True
+D100029,Central NY,2024-25,Ind-01,Graduation Rate (SWD),higher,0.8,0.8368,22,True
+D100029,Central NY,2024-25,Ind-02,Dropout Rate (SWD),lower,0.06,0.0509,13,True
+D100029,Central NY,2024-25,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,22,True
+D100029,Central NY,2024-25,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,37,True
+D100029,Central NY,2024-25,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9537,38,True
+D100029,Central NY,2024-25,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9735,20,True
+D100029,Central NY,2025-26,Ind-01,Graduation Rate (SWD),higher,0.8,0.842,15,True
+D100029,Central NY,2025-26,Ind-02,Dropout Rate (SWD),lower,0.06,0.0508,25,True
+D100029,Central NY,2025-26,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,15,True
+D100029,Central NY,2025-26,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,22,True
+D100029,Central NY,2025-26,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9638,30,True
+D100029,Central NY,2025-26,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9516,24,True
+D100030,Central NY,2024-25,Ind-01,Graduation Rate (SWD),higher,0.8,0.8342,651,True
+D100030,Central NY,2024-25,Ind-02,Dropout Rate (SWD),lower,0.06,0.0474,462,True
+D100030,Central NY,2024-25,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,303,True
+D100030,Central NY,2024-25,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,359,True
+D100030,Central NY,2024-25,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9903,811,True
+D100030,Central NY,2024-25,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9746,573,True
+D100030,Central NY,2025-26,Ind-01,Graduation Rate (SWD),higher,0.8,0.8429,450,True
+D100030,Central NY,2025-26,Ind-02,Dropout Rate (SWD),lower,0.06,0.0588,551,True
+D100030,Central NY,2025-26,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,527,True
+D100030,Central NY,2025-26,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,534,True
+D100030,Central NY,2025-26,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9715,473,True
+D100030,Central NY,2025-26,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9772,696,True
+D100031,Central NY,2024-25,Ind-01,Graduation Rate (SWD),higher,0.8,0.8093,30,True
+D100031,Central NY,2024-25,Ind-02,Dropout Rate (SWD),lower,0.06,0.057,34,True
+D100031,Central NY,2024-25,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,28,True
+D100031,Central NY,2024-25,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,27,True
+D100031,Central NY,2024-25,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9976,10,True
+D100031,Central NY,2024-25,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9882,25,True
+D100031,Central NY,2025-26,Ind-01,Graduation Rate (SWD),higher,0.8,0.8352,25,True
+D100031,Central NY,2025-26,Ind-02,Dropout Rate (SWD),lower,0.06,0.0499,29,True
+D100031,Central NY,2025-26,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,32,True
+D100031,Central NY,2025-26,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,17,True
+D100031,Central NY,2025-26,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.989,11,True
+D100031,Central NY,2025-26,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9502,34,True
+D100032,Central NY,2024-25,Ind-01,Graduation Rate (SWD),higher,0.8,0.8194,724,True
+D100032,Central NY,2024-25,Ind-02,Dropout Rate (SWD),lower,0.06,0.0564,781,True
+D100032,Central NY,2024-25,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,215,True
+D100032,Central NY,2024-25,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,371,True
+D100032,Central NY,2024-25,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9805,552,True
+D100032,Central NY,2024-25,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9641,881,True
+D100032,Central NY,2025-26,Ind-01,Graduation Rate (SWD),higher,0.8,0.8427,314,True
+D100032,Central NY,2025-26,Ind-02,Dropout Rate (SWD),lower,0.06,0.0494,769,True
+D100032,Central NY,2025-26,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,851,True
+D100032,Central NY,2025-26,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,577,True
+D100032,Central NY,2025-26,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9926,209,True
+D100032,Central NY,2025-26,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9699,899,True
+D100033,Central NY,2024-25,Ind-01,Graduation Rate (SWD),higher,0.8,0.7254,125,False
+D100033,Central NY,2024-25,Ind-02,Dropout Rate (SWD),lower,0.06,0.0435,47,True
+D100033,Central NY,2024-25,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0243,114,False
+D100033,Central NY,2024-25,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.1406,150,False
+D100033,Central NY,2024-25,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.7795,181,False
+D100033,Central NY,2024-25,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.8312,104,False
+D100033,Central NY,2025-26,Ind-01,Graduation Rate (SWD),higher,0.8,0.7067,134,False
+D100033,Central NY,2025-26,Ind-02,Dropout Rate (SWD),lower,0.06,0.2253,153,False
+D100033,Central NY,2025-26,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0286,191,False
+D100033,Central NY,2025-26,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0787,138,False
+D100033,Central NY,2025-26,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.7862,67,False
+D100033,Central NY,2025-26,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9772,157,True
+D100034,Central NY,2024-25,Ind-01,Graduation Rate (SWD),higher,0.8,0.8469,89,True
+D100034,Central NY,2024-25,Ind-02,Dropout Rate (SWD),lower,0.06,0.0441,168,True
+D100034,Central NY,2024-25,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,48,True
+D100034,Central NY,2024-25,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,38,True
+D100034,Central NY,2024-25,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9601,123,True
+D100034,Central NY,2024-25,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9617,112,True
+D100034,Central NY,2025-26,Ind-01,Graduation Rate (SWD),higher,0.8,0.8115,98,True
+D100034,Central NY,2025-26,Ind-02,Dropout Rate (SWD),lower,0.06,0.0482,79,True
+D100034,Central NY,2025-26,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,164,True
+D100034,Central NY,2025-26,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.1702,137,False
+D100034,Central NY,2025-26,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.8621,102,False
+D100034,Central NY,2025-26,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9636,104,True
+D100035,Central NY,2024-25,Ind-01,Graduation Rate (SWD),higher,0.8,0.6491,107,False
+D100035,Central NY,2024-25,Ind-02,Dropout Rate (SWD),lower,0.06,0.224,55,False
+D100035,Central NY,2024-25,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.1505,66,False
+D100035,Central NY,2024-25,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.1618,132,False
+D100035,Central NY,2024-25,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.8639,153,False
+D100035,Central NY,2024-25,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.8678,65,False
+D100035,Central NY,2025-26,Ind-01,Graduation Rate (SWD),higher,0.8,0.7371,64,False
+D100035,Central NY,2025-26,Ind-02,Dropout Rate (SWD),lower,0.06,0.2011,196,False
+D100035,Central NY,2025-26,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0604,166,False
+D100035,Central NY,2025-26,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0466,178,False
+D100035,Central NY,2025-26,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9921,80,True
+D100035,Central NY,2025-26,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.7018,71,False
+D100036,Central NY,2024-25,Ind-01,Graduation Rate (SWD),higher,0.8,0.8368,440,True
+D100036,Central NY,2024-25,Ind-02,Dropout Rate (SWD),lower,0.06,0.0425,240,True
+D100036,Central NY,2024-25,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,346,True
+D100036,Central NY,2024-25,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,368,True
+D100036,Central NY,2024-25,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.8892,646,False
+D100036,Central NY,2024-25,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9808,512,True
+D100036,Central NY,2025-26,Ind-01,Graduation Rate (SWD),higher,0.8,0.8434,847,True
+D100036,Central NY,2025-26,Ind-02,Dropout Rate (SWD),lower,0.06,0.0469,347,True
+D100036,Central NY,2025-26,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,336,True
+D100036,Central NY,2025-26,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,841,True
+D100036,Central NY,2025-26,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9739,810,True
+D100036,Central NY,2025-26,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9508,206,True
+D100037,Capital Region,2024-25,Ind-01,Graduation Rate (SWD),higher,0.8,0.8059,5,True
+D100037,Capital Region,2024-25,Ind-02,Dropout Rate (SWD),lower,0.06,0.0498,17,True
+D100037,Capital Region,2024-25,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,16,True
+D100037,Capital Region,2024-25,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,6,True
+D100037,Capital Region,2024-25,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9543,16,True
+D100037,Capital Region,2024-25,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9633,21,True
+D100037,Capital Region,2025-26,Ind-01,Graduation Rate (SWD),higher,0.8,0.8195,14,True
+D100037,Capital Region,2025-26,Ind-02,Dropout Rate (SWD),lower,0.06,0.0515,38,True
+D100037,Capital Region,2025-26,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,34,True
+D100037,Capital Region,2025-26,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,27,True
+D100037,Capital Region,2025-26,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9533,30,True
+D100037,Capital Region,2025-26,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9887,25,True
+D100038,Capital Region,2024-25,Ind-01,Graduation Rate (SWD),higher,0.8,0.8051,181,True
+D100038,Capital Region,2024-25,Ind-02,Dropout Rate (SWD),lower,0.06,0.0452,40,True
+D100038,Capital Region,2024-25,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,183,True
+D100038,Capital Region,2024-25,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,182,True
+D100038,Capital Region,2024-25,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9778,43,True
+D100038,Capital Region,2024-25,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9618,56,True
+D100038,Capital Region,2025-26,Ind-01,Graduation Rate (SWD),higher,0.8,0.8373,131,True
+D100038,Capital Region,2025-26,Ind-02,Dropout Rate (SWD),lower,0.06,0.0416,156,True
+D100038,Capital Region,2025-26,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,188,True
+D100038,Capital Region,2025-26,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,34,True
+D100038,Capital Region,2025-26,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9795,157,True
+D100038,Capital Region,2025-26,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9522,135,True
+D100039,Capital Region,2024-25,Ind-01,Graduation Rate (SWD),higher,0.8,0.8385,102,True
+D100039,Capital Region,2024-25,Ind-02,Dropout Rate (SWD),lower,0.06,0.045,120,True
+D100039,Capital Region,2024-25,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,196,True
+D100039,Capital Region,2024-25,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,99,True
+D100039,Capital Region,2024-25,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9777,165,True
+D100039,Capital Region,2024-25,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9519,116,True
+D100039,Capital Region,2025-26,Ind-01,Graduation Rate (SWD),higher,0.8,0.8219,162,True
+D100039,Capital Region,2025-26,Ind-02,Dropout Rate (SWD),lower,0.06,0.0584,187,True
+D100039,Capital Region,2025-26,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,134,True
+D100039,Capital Region,2025-26,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,65,True
+D100039,Capital Region,2025-26,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9803,146,True
+D100039,Capital Region,2025-26,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9697,114,True
+D100040,Capital Region,2024-25,Ind-01,Graduation Rate (SWD),higher,0.8,0.8483,22,True
+D100040,Capital Region,2024-25,Ind-02,Dropout Rate (SWD),lower,0.06,0.0468,38,True
+D100040,Capital Region,2024-25,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,13,True
+D100040,Capital Region,2024-25,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,17,True
+D100040,Capital Region,2024-25,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9607,32,True
+D100040,Capital Region,2024-25,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9873,27,True
+D100040,Capital Region,2025-26,Ind-01,Graduation Rate (SWD),higher,0.8,0.8398,11,True
+D100040,Capital Region,2025-26,Ind-02,Dropout Rate (SWD),lower,0.06,0.0471,31,True
+D100040,Capital Region,2025-26,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,8,True
+D100040,Capital Region,2025-26,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.1983,11,False
+D100040,Capital Region,2025-26,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.969,28,True
+D100040,Capital Region,2025-26,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9532,32,True
+D100041,Capital Region,2024-25,Ind-01,Graduation Rate (SWD),higher,0.8,0.8082,44,True
+D100041,Capital Region,2024-25,Ind-02,Dropout Rate (SWD),lower,0.06,0.0451,70,True
+D100041,Capital Region,2024-25,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,70,True
+D100041,Capital Region,2024-25,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,151,True
+D100041,Capital Region,2024-25,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9743,104,True
+D100041,Capital Region,2024-25,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9707,141,True
+D100041,Capital Region,2025-26,Ind-01,Graduation Rate (SWD),higher,0.8,0.8172,100,True
+D100041,Capital Region,2025-26,Ind-02,Dropout Rate (SWD),lower,0.06,0.0417,35,True
+D100041,Capital Region,2025-26,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,122,True
+D100041,Capital Region,2025-26,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,142,True
+D100041,Capital Region,2025-26,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.8568,139,False
+D100041,Capital Region,2025-26,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9584,130,True
+D100042,Capital Region,2024-25,Ind-01,Graduation Rate (SWD),higher,0.8,0.8047,27,True
+D100042,Capital Region,2024-25,Ind-02,Dropout Rate (SWD),lower,0.06,0.0406,6,True
+D100042,Capital Region,2024-25,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,12,True
+D100042,Capital Region,2024-25,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,14,True
+D100042,Capital Region,2024-25,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.987,16,True
+D100042,Capital Region,2024-25,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.983,33,True
+D100042,Capital Region,2025-26,Ind-01,Graduation Rate (SWD),higher,0.8,0.8332,15,True
+D100042,Capital Region,2025-26,Ind-02,Dropout Rate (SWD),lower,0.06,0.0477,21,True
+D100042,Capital Region,2025-26,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,19,True
+D100042,Capital Region,2025-26,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,28,True
+D100042,Capital Region,2025-26,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.971,7,True
+D100042,Capital Region,2025-26,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9832,9,True
+D100043,Capital Region,2024-25,Ind-01,Graduation Rate (SWD),higher,0.8,0.8472,18,True
+D100043,Capital Region,2024-25,Ind-02,Dropout Rate (SWD),lower,0.06,0.0513,16,True
+D100043,Capital Region,2024-25,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,6,True
+D100043,Capital Region,2024-25,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,28,True
+D100043,Capital Region,2024-25,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9675,18,True
+D100043,Capital Region,2024-25,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9984,33,True
+D100043,Capital Region,2025-26,Ind-01,Graduation Rate (SWD),higher,0.8,0.8285,24,True
+D100043,Capital Region,2025-26,Ind-02,Dropout Rate (SWD),lower,0.06,0.0408,36,True
+D100043,Capital Region,2025-26,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,29,True
+D100043,Capital Region,2025-26,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,10,True
+D100043,Capital Region,2025-26,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9876,32,True
+D100043,Capital Region,2025-26,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9855,28,True
+D100044,Capital Region,2024-25,Ind-01,Graduation Rate (SWD),higher,0.8,0.8303,28,True
+D100044,Capital Region,2024-25,Ind-02,Dropout Rate (SWD),lower,0.06,0.0427,12,True
+D100044,Capital Region,2024-25,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,21,True
+D100044,Capital Region,2024-25,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,14,True
+D100044,Capital Region,2024-25,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9867,32,True
+D100044,Capital Region,2024-25,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9774,29,True
+D100044,Capital Region,2025-26,Ind-01,Graduation Rate (SWD),higher,0.8,0.8459,11,True
+D100044,Capital Region,2025-26,Ind-02,Dropout Rate (SWD),lower,0.06,0.0578,10,True
+D100044,Capital Region,2025-26,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.1119,26,False
+D100044,Capital Region,2025-26,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,5,True
+D100044,Capital Region,2025-26,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9995,34,True
+D100044,Capital Region,2025-26,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9742,20,True
+D100045,Capital Region,2024-25,Ind-01,Graduation Rate (SWD),higher,0.8,0.8267,185,True
+D100045,Capital Region,2024-25,Ind-02,Dropout Rate (SWD),lower,0.06,0.0469,328,True
+D100045,Capital Region,2024-25,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,861,True
+D100045,Capital Region,2024-25,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,327,True
+D100045,Capital Region,2024-25,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9995,610,True
+D100045,Capital Region,2024-25,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9619,297,True
+D100045,Capital Region,2025-26,Ind-01,Graduation Rate (SWD),higher,0.8,0.8124,716,True
+D100045,Capital Region,2025-26,Ind-02,Dropout Rate (SWD),lower,0.06,0.0559,548,True
+D100045,Capital Region,2025-26,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,637,True
+D100045,Capital Region,2025-26,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,613,True
+D100045,Capital Region,2025-26,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9746,417,True
+D100045,Capital Region,2025-26,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9557,390,True
+D100046,Capital Region,2024-25,Ind-01,Graduation Rate (SWD),higher,0.8,0.816,23,True
+D100046,Capital Region,2024-25,Ind-02,Dropout Rate (SWD),lower,0.06,0.2447,33,False
+D100046,Capital Region,2024-25,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,28,True
+D100046,Capital Region,2024-25,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,12,True
+D100046,Capital Region,2024-25,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9787,26,True
+D100046,Capital Region,2024-25,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9957,33,True
+D100046,Capital Region,2025-26,Ind-01,Graduation Rate (SWD),higher,0.8,0.808,27,True
+D100046,Capital Region,2025-26,Ind-02,Dropout Rate (SWD),lower,0.06,0.0588,25,True
+D100046,Capital Region,2025-26,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,30,True
+D100046,Capital Region,2025-26,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,10,True
+D100046,Capital Region,2025-26,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9764,37,True
+D100046,Capital Region,2025-26,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9675,15,True
+D100047,Capital Region,2024-25,Ind-01,Graduation Rate (SWD),higher,0.8,0.8171,128,True
+D100047,Capital Region,2024-25,Ind-02,Dropout Rate (SWD),lower,0.06,0.0472,77,True
+D100047,Capital Region,2024-25,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,167,True
+D100047,Capital Region,2024-25,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,104,True
+D100047,Capital Region,2024-25,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9644,48,True
+D100047,Capital Region,2024-25,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9867,34,True
+D100047,Capital Region,2025-26,Ind-01,Graduation Rate (SWD),higher,0.8,0.8272,139,True
+D100047,Capital Region,2025-26,Ind-02,Dropout Rate (SWD),lower,0.06,0.0444,145,True
+D100047,Capital Region,2025-26,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,95,True
+D100047,Capital Region,2025-26,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,167,True
+D100047,Capital Region,2025-26,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9753,69,True
+D100047,Capital Region,2025-26,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9682,138,True
+D100048,Capital Region,2024-25,Ind-01,Graduation Rate (SWD),higher,0.8,0.8003,40,True
+D100048,Capital Region,2024-25,Ind-02,Dropout Rate (SWD),lower,0.06,0.0506,173,True
+D100048,Capital Region,2024-25,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,39,True
+D100048,Capital Region,2024-25,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,185,True
+D100048,Capital Region,2024-25,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9646,128,True
+D100048,Capital Region,2024-25,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9612,176,True
+D100048,Capital Region,2025-26,Ind-01,Graduation Rate (SWD),higher,0.8,0.8458,31,True
+D100048,Capital Region,2025-26,Ind-02,Dropout Rate (SWD),lower,0.06,0.0543,169,True
+D100048,Capital Region,2025-26,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,129,True
+D100048,Capital Region,2025-26,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,57,True
+D100048,Capital Region,2025-26,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.7149,120,False
+D100048,Capital Region,2025-26,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9743,165,True
+D100049,North Country,2024-25,Ind-01,Graduation Rate (SWD),higher,0.8,0.8256,7,True
+D100049,North Country,2024-25,Ind-02,Dropout Rate (SWD),lower,0.06,0.0572,19,True
+D100049,North Country,2024-25,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,26,True
+D100049,North Country,2024-25,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,26,True
+D100049,North Country,2024-25,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9555,26,True
+D100049,North Country,2024-25,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.991,7,True
+D100049,North Country,2025-26,Ind-01,Graduation Rate (SWD),higher,0.8,0.8311,8,True
+D100049,North Country,2025-26,Ind-02,Dropout Rate (SWD),lower,0.06,0.0437,7,True
+D100049,North Country,2025-26,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,31,True
+D100049,North Country,2025-26,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,5,True
+D100049,North Country,2025-26,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9779,22,True
+D100049,North Country,2025-26,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9527,7,True
+D100050,North Country,2024-25,Ind-01,Graduation Rate (SWD),higher,0.8,0.8205,115,True
+D100050,North Country,2024-25,Ind-02,Dropout Rate (SWD),lower,0.06,0.0585,87,True
+D100050,North Country,2024-25,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,149,True
+D100050,North Country,2024-25,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,42,True
+D100050,North Country,2024-25,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9741,85,True
+D100050,North Country,2024-25,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9962,108,True
+D100050,North Country,2025-26,Ind-01,Graduation Rate (SWD),higher,0.8,0.8093,90,True
+D100050,North Country,2025-26,Ind-02,Dropout Rate (SWD),lower,0.06,0.0493,169,True
+D100050,North Country,2025-26,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,159,True
+D100050,North Country,2025-26,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,180,True
+D100050,North Country,2025-26,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9906,132,True
+D100050,North Country,2025-26,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9878,151,True
+D100051,North Country,2024-25,Ind-01,Graduation Rate (SWD),higher,0.8,0.8021,9,True
+D100051,North Country,2024-25,Ind-02,Dropout Rate (SWD),lower,0.06,0.0599,34,True
+D100051,North Country,2024-25,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,35,True
+D100051,North Country,2024-25,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,16,True
+D100051,North Country,2024-25,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.833,18,False
+D100051,North Country,2024-25,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9745,33,True
+D100051,North Country,2025-26,Ind-01,Graduation Rate (SWD),higher,0.8,0.8139,24,True
+D100051,North Country,2025-26,Ind-02,Dropout Rate (SWD),lower,0.06,0.0579,25,True
+D100051,North Country,2025-26,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,10,True
+D100051,North Country,2025-26,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,22,True
+D100051,North Country,2025-26,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9512,7,True
+D100051,North Country,2025-26,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9993,12,True
+D100052,North Country,2024-25,Ind-01,Graduation Rate (SWD),higher,0.8,0.8233,176,True
+D100052,North Country,2024-25,Ind-02,Dropout Rate (SWD),lower,0.06,0.0454,144,True
+D100052,North Country,2024-25,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,59,True
+D100052,North Country,2024-25,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,113,True
+D100052,North Country,2024-25,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9632,87,True
+D100052,North Country,2024-25,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9931,74,True
+D100052,North Country,2025-26,Ind-01,Graduation Rate (SWD),higher,0.8,0.8492,36,True
+D100052,North Country,2025-26,Ind-02,Dropout Rate (SWD),lower,0.06,0.0546,59,True
+D100052,North Country,2025-26,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,143,True
+D100052,North Country,2025-26,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,112,True
+D100052,North Country,2025-26,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9949,108,True
+D100052,North Country,2025-26,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9707,144,True
+D100053,North Country,2024-25,Ind-01,Graduation Rate (SWD),higher,0.8,0.8334,14,True
+D100053,North Country,2024-25,Ind-02,Dropout Rate (SWD),lower,0.06,0.048,31,True
+D100053,North Country,2024-25,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0693,23,False
+D100053,North Country,2024-25,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0625,31,False
+D100053,North Country,2024-25,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.7347,20,False
+D100053,North Country,2024-25,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.7729,10,False
+D100053,North Country,2025-26,Ind-01,Graduation Rate (SWD),higher,0.8,0.8043,5,True
+D100053,North Country,2025-26,Ind-02,Dropout Rate (SWD),lower,0.06,0.0468,28,True
+D100053,North Country,2025-26,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0814,29,False
+D100053,North Country,2025-26,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,38,True
+D100053,North Country,2025-26,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.8904,34,False
+D100053,North Country,2025-26,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9562,28,True
+D100054,North Country,2024-25,Ind-01,Graduation Rate (SWD),higher,0.8,0.6796,18,False
+D100054,North Country,2024-25,Ind-02,Dropout Rate (SWD),lower,0.06,0.1652,34,False
+D100054,North Country,2024-25,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.1579,20,False
+D100054,North Country,2024-25,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0895,6,False
+D100054,North Country,2024-25,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.8028,35,False
+D100054,North Country,2024-25,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.733,7,False
+D100054,North Country,2025-26,Ind-01,Graduation Rate (SWD),higher,0.8,0.663,32,False
+D100054,North Country,2025-26,Ind-02,Dropout Rate (SWD),lower,0.06,0.2592,10,False
+D100054,North Country,2025-26,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0561,35,False
+D100054,North Country,2025-26,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.1074,39,False
+D100054,North Country,2025-26,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9193,29,False
+D100054,North Country,2025-26,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.7877,17,False
+D100055,North Country,2024-25,Ind-01,Graduation Rate (SWD),higher,0.8,0.8106,8,True
+D100055,North Country,2024-25,Ind-02,Dropout Rate (SWD),lower,0.06,0.0458,35,True
+D100055,North Country,2024-25,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,38,True
+D100055,North Country,2024-25,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,19,True
+D100055,North Country,2024-25,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9697,23,True
+D100055,North Country,2024-25,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9888,11,True
+D100055,North Country,2025-26,Ind-01,Graduation Rate (SWD),higher,0.8,0.8376,23,True
+D100055,North Country,2025-26,Ind-02,Dropout Rate (SWD),lower,0.06,0.0498,37,True
+D100055,North Country,2025-26,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,37,True
+D100055,North Country,2025-26,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,11,True
+D100055,North Country,2025-26,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9644,39,True
+D100055,North Country,2025-26,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9553,27,True
+D100056,North Country,2024-25,Ind-01,Graduation Rate (SWD),higher,0.8,0.844,191,True
+D100056,North Country,2024-25,Ind-02,Dropout Rate (SWD),lower,0.06,0.0401,106,True
+D100056,North Country,2024-25,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,76,True
+D100056,North Country,2024-25,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,127,True
+D100056,North Country,2024-25,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9799,91,True
+D100056,North Country,2024-25,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9627,141,True
+D100056,North Country,2025-26,Ind-01,Graduation Rate (SWD),higher,0.8,0.8109,101,True
+D100056,North Country,2025-26,Ind-02,Dropout Rate (SWD),lower,0.06,0.0451,147,True
+D100056,North Country,2025-26,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,81,True
+D100056,North Country,2025-26,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,193,True
+D100056,North Country,2025-26,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9629,34,True
+D100056,North Country,2025-26,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.982,36,True
+D100057,North Country,2024-25,Ind-01,Graduation Rate (SWD),higher,0.8,0.802,106,True
+D100057,North Country,2024-25,Ind-02,Dropout Rate (SWD),lower,0.06,0.0473,65,True
+D100057,North Country,2024-25,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,52,True
+D100057,North Country,2024-25,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,141,True
+D100057,North Country,2024-25,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9889,165,True
+D100057,North Country,2024-25,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9704,143,True
+D100057,North Country,2025-26,Ind-01,Graduation Rate (SWD),higher,0.8,0.823,98,True
+D100057,North Country,2025-26,Ind-02,Dropout Rate (SWD),lower,0.06,0.0487,38,True
+D100057,North Country,2025-26,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,55,True
+D100057,North Country,2025-26,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,192,True
+D100057,North Country,2025-26,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.961,31,True
+D100057,North Country,2025-26,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9551,82,True
+D100058,North Country,2024-25,Ind-01,Graduation Rate (SWD),higher,0.8,0.8048,22,True
+D100058,North Country,2024-25,Ind-02,Dropout Rate (SWD),lower,0.06,0.0493,23,True
+D100058,North Country,2024-25,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,16,True
+D100058,North Country,2024-25,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,11,True
+D100058,North Country,2024-25,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9601,25,True
+D100058,North Country,2024-25,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9755,27,True
+D100058,North Country,2025-26,Ind-01,Graduation Rate (SWD),higher,0.8,0.8338,35,True
+D100058,North Country,2025-26,Ind-02,Dropout Rate (SWD),lower,0.06,0.0474,30,True
+D100058,North Country,2025-26,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,20,True
+D100058,North Country,2025-26,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,30,True
+D100058,North Country,2025-26,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9652,26,True
+D100058,North Country,2025-26,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9917,39,True
+D100059,North Country,2024-25,Ind-01,Graduation Rate (SWD),higher,0.8,0.5609,97,False
+D100059,North Country,2024-25,Ind-02,Dropout Rate (SWD),lower,0.06,0.1367,156,False
+D100059,North Country,2024-25,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0328,165,False
+D100059,North Country,2024-25,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.1182,186,False
+D100059,North Country,2024-25,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.7215,198,False
+D100059,North Country,2024-25,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.8617,189,False
+D100059,North Country,2025-26,Ind-01,Graduation Rate (SWD),higher,0.8,0.8331,145,True
+D100059,North Country,2025-26,Ind-02,Dropout Rate (SWD),lower,0.06,0.2458,78,False
+D100059,North Country,2025-26,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,74,True
+D100059,North Country,2025-26,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.1707,85,False
+D100059,North Country,2025-26,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.803,127,False
+D100059,North Country,2025-26,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9825,182,True
+D100060,North Country,2024-25,Ind-01,Graduation Rate (SWD),higher,0.8,0.8097,63,True
+D100060,North Country,2024-25,Ind-02,Dropout Rate (SWD),lower,0.06,0.0543,178,True
+D100060,North Country,2024-25,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,157,True
+D100060,North Country,2024-25,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,189,True
+D100060,North Country,2024-25,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9889,76,True
+D100060,North Country,2024-25,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.982,108,True
+D100060,North Country,2025-26,Ind-01,Graduation Rate (SWD),higher,0.8,0.8271,38,True
+D100060,North Country,2025-26,Ind-02,Dropout Rate (SWD),lower,0.06,0.047,139,True
+D100060,North Country,2025-26,Ind-04,Suspension/Expulsion — Significant Discrepancy,lower,0.0,0.0,193,True
+D100060,North Country,2025-26,Ind-09,Disproportionate Representation by Race/Ethnicity,lower,0.0,0.0,73,True
+D100060,North Country,2025-26,Ind-11,Timely Initial Evaluation (60-day rule),higher,0.95,0.9771,111,True
+D100060,North Country,2025-26,Ind-13,Secondary Transition IEP Compliance,higher,0.95,0.9938,53,True

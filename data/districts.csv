@@ -1,0 +1,61 @@
+district_id,district_name,region,county,size_tier,urbanicity,enrollment_total,swd_count,swd_pct,quality_latent
+D100001,Eastville UFSD,NYC Metro,Nassau,Suburban,Suburban,5832,1158,19.9,0.6956
+D100002,Foxglen CSD,NYC Metro,New York,Small/Rural,Small Town,396,69,17.5,0.2613
+D100003,Southton CSD,NYC Metro,Kings,Small/Rural,Small Town,695,120,17.2,0.8271
+D100004,Maplefield CSD,NYC Metro,Queens,Suburban,Suburban,7277,1061,14.6,0.838
+D100005,Highlandhaven CSD,NYC Metro,Kings,Suburban,Suburban,2375,507,21.3,0.8976
+D100006,Foxside CSD,NYC Metro,Bronx,Suburban,Suburban,5483,839,15.3,0.9174
+D100007,Eastton UFSD,NYC Metro,Westchester,Suburban,Suburban,6579,1272,19.3,0.8989
+D100008,Oakmont CSD,NYC Metro,Queens,Small/Rural,Rural,236,48,20.4,0.7047
+D100009,Westfield CSD,NYC Metro,Westchester,Small/Rural,Rural,231,32,13.9,0.9671
+D100010,Southport CSD,NYC Metro,Westchester,Small/Rural,Rural,427,85,20.0,0.7163
+D100011,Hillhaven CSD,NYC Metro,Richmond,Suburban,Suburban,6209,1134,18.3,0.8615
+D100012,Southville CSD,NYC Metro,New York,Small/Rural,Rural,462,93,20.2,0.7722
+D100013,Westwood UFSD,Western NY,Erie,Small/Rural,Rural,517,75,14.4,0.7294
+D100014,Valleyton UFSD,Western NY,Chautauqua,Small/Rural,Small Town,506,124,24.5,0.7433
+D100015,Valleyview City SD,Western NY,Niagara,Large City,Urban,19578,2557,13.1,0.9035
+D100016,Goldenside CSD,Western NY,Chautauqua,Suburban,Suburban,1815,280,15.4,0.1207
+D100017,Northville UFSD,Western NY,Niagara,Suburban,Suburban,1675,230,13.7,0.9354
+D100018,Westglen CSD,Western NY,Erie,Small/Rural,Rural,441,73,16.5,0.8215
+D100019,Southgate UFSD,Western NY,Erie,Small/Rural,Rural,1173,173,14.8,0.4181
+D100020,Harbormont UFSD,Western NY,Chautauqua,Small/Rural,Rural,691,111,16.0,0.7274
+D100021,Unionbrook UFSD,Western NY,Niagara,Small/Rural,Rural,307,65,21.3,0.8669
+D100022,Ridgeport CSD,Western NY,Chautauqua,Small/Rural,Small Town,512,127,24.9,0.6703
+D100023,Mapleside CSD,Western NY,Monroe,Suburban,Suburban,7493,1465,19.5,0.9054
+D100024,Cedarville City SD,Western NY,Erie,Large City,Urban,13725,1797,13.1,0.9583
+D100025,Goldengate CSD,Central NY,Onondaga,Suburban,Suburban,4134,642,15.5,0.808
+D100026,Hillburg CSD,Central NY,Onondaga,Suburban,Suburban,3399,603,17.7,0.6431
+D100027,Unionburg City SD,Central NY,Broome,Large City,Urban,19636,3830,19.5,0.8508
+D100028,Rivergate CSD,Central NY,Onondaga,Small/Rural,Rural,893,157,17.6,0.8596
+D100029,Stoneton CSD,Central NY,Chemung,Small/Rural,Small Town,759,120,15.8,0.8647
+D100030,Pineglen City SD,Central NY,Oneida,Large City,Urban,44836,6868,15.3,0.849
+D100031,Riverbrook UFSD,Central NY,Broome,Small/Rural,Rural,322,69,21.3,0.802
+D100032,Eastmont City SD,Central NY,Broome,Large City,Urban,18625,3413,18.3,0.8562
+D100033,Westmont UFSD,Central NY,Chemung,Suburban,Suburban,4501,679,15.1,0.3394
+D100034,Highlandwood CSD,Central NY,Oneida,Suburban,Suburban,7620,1357,17.8,0.6697
+D100035,Silverglen UFSD,Central NY,Chemung,Suburban,Suburban,2142,345,16.1,0.0577
+D100036,Harborfield City SD,Central NY,Chemung,Large City,Urban,18958,4020,21.2,0.9375
+D100037,Cedarport UFSD,Capital Region,Rensselaer,Small/Rural,Rural,496,75,15.2,0.8725
+D100038,Foxhaven CSD,Capital Region,Albany,Suburban,Suburban,4300,893,20.8,0.8924
+D100039,Libertybrook CSD,Capital Region,Rensselaer,Suburban,Suburban,7567,925,12.2,0.9787
+D100040,Highlandmont CSD,Capital Region,Rensselaer,Small/Rural,Small Town,734,133,18.1,0.8623
+D100041,Northside UFSD,Capital Region,Saratoga,Suburban,Suburban,7793,1252,16.1,0.7357
+D100042,Elmcrest CSD,Capital Region,Albany,Small/Rural,Small Town,226,29,12.6,0.9597
+D100043,Southside UFSD,Capital Region,Saratoga,Small/Rural,Small Town,789,168,21.3,0.8842
+D100044,Birchmont CSD,Capital Region,Schenectady,Small/Rural,Small Town,230,40,17.2,0.7629
+D100045,Ridgehaven City SD,Capital Region,Saratoga,Large City,Urban,19038,3242,17.0,0.8926
+D100046,Libertyport CSD,Capital Region,Saratoga,Small/Rural,Small Town,239,48,20.2,0.8598
+D100047,Stonehaven UFSD,Capital Region,Saratoga,Suburban,Suburban,2174,362,16.6,0.8838
+D100048,Libertyburg UFSD,Capital Region,Albany,Suburban,Suburban,6289,1115,17.7,0.9433
+D100049,Northside CSD,North Country,Clinton,Small/Rural,Rural,1297,221,17.1,0.8557
+D100050,Springwood UFSD,North Country,Jefferson,Suburban,Suburban,2543,627,24.7,0.9808
+D100051,Mapledale UFSD,North Country,Franklin,Small/Rural,Small Town,826,185,22.4,0.808
+D100052,Libertymont CSD,North Country,Clinton,Suburban,Suburban,5696,1086,19.1,0.8297
+D100053,Meadowhaven CSD,North Country,Franklin,Small/Rural,Rural,1336,187,14.0,0.435
+D100054,Hillton CSD,North Country,Clinton,Small/Rural,Small Town,613,124,20.2,0.2421
+D100055,Northmont CSD,North Country,St. Lawrence,Small/Rural,Small Town,409,69,16.8,0.782
+D100056,Springfield CSD,North Country,Clinton,Suburban,Suburban,4991,794,15.9,0.9417
+D100057,Pinewood CSD,North Country,Clinton,Suburban,Suburban,6502,1266,19.5,0.8454
+D100058,Riverport UFSD,North Country,Franklin,Small/Rural,Small Town,708,146,20.6,0.8672
+D100059,Silverview UFSD,North Country,St. Lawrence,Suburban,Suburban,4343,785,18.1,0.4317
+D100060,Meadowfield UFSD,North Country,Clinton,Suburban,Suburban,7838,1564,20.0,0.896

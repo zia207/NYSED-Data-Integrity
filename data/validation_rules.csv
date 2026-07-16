@@ -1,0 +1,13 @@
+rule_id,category,severity,description
+R001,Completeness,Error,Required field missing
+R002,Range,Error,Grade level outside valid range (PK-12)
+R003,Domain,Error,Invalid disability classification code
+R004,Consistency,Error,Exit date precedes entry date
+R005,Consistency,Warning,SWD flag set but no IEP date on file
+R006,Referential,Error,District ID not found in master file
+R007,Referential,Warning,Student ID not found in enrollment extract
+R008,Uniqueness,Warning,Duplicate student record within district
+R009,Range,Error,Date of birth implies age outside 3-21
+R010,Format,Error,Invalid BEDS code format
+R011,Consistency,Warning,Graduation status without matching exit record
+R012,Timeliness,Warning,Record submitted after collection window closed

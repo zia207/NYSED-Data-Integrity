@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="NYSED Data Integrity &amp; Risk Monitoring Platform — synthetic statistical demonstration of data quality, validation, and risk assessment for state education data collections.">
+<title>NYSED Data Integrity &amp; Risk Monitoring Platform</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Lora:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head><body>
+<nav class="site-nav"><div class="nav-inner">
+  <div class="brand"><span class="dot"></span> NYSED Data Integrity Platform</div>
+  <div class="links">
+    <a href="#features">Features</a>
+    <a href="dashboard/executive-summary.html">Dashboard</a>
+    <a href="#kpis">KPIs</a>
+    <a href="#quick-start">Quick Start</a>
+    <a href="https://github.com/zia207/NYSED-Data-Integrity" target="_blank">GitHub</a>
+  </div>
+</div></nav>
+
+<section class="hero">
+  <div class="hero-inner">
+    <div>
+      <div class="eyebrow">New York State · Data Governance &amp; Compliance Analytics</div>
+      <h1>Data Integrity &amp; Risk Monitoring Platform</h1>
+      <p class="lede">A statistical framework for evaluating <b>completeness, validity, consistency,
+        accuracy, and timeliness</b> across state education data collections — with control charts,
+        anomaly detection, duplicate/record-linkage matching, and a predictive district risk model,
+        built entirely in Python notebooks on simulated data.</p>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="dashboard/executive-summary.html">Open Dashboard</a>
+        <a class="btn btn-ghost" href="https://github.com/zia207/NYSED-Data-Integrity" target="_blank">View on GitHub</a>
+        <a class="btn btn-ghost" href="#quick-start">Run locally</a>
+      </div>
+      <div class="disclaimer">⚠️ <b>Demonstration purpose only.</b> All district names, enrollment
+        figures, submission records, and risk determinations are entirely simulated and do not
+        represent any real school district, student, or New York State agency data.</div>
+    </div>
+    <div class="gauge-wrap">
+      <svg width="200" height="200" viewBox="0 0 200 200">
+      <circle cx="100.0" cy="100.0" r="78" fill="none" stroke-width="14" class="gauge-arc-bg"/>
+      <circle cx="100.0" cy="100.0" r="78" fill="none" stroke-width="14" class="gauge-arc-fg"
+        stroke-dasharray="490.1" stroke-dashoffset="80.4"
+        transform="rotate(-90 100.0 100.0)"/>
+      <text x="100.0" y="98.0" text-anchor="middle" class="gauge-score">84</text>
+      <text x="100.0" y="122.0" text-anchor="middle" class="gauge-sub">/ 100</text>
+    </svg>
+      <div class="gauge-label">Statewide Data Trust Score</div>
+    </div>
+  </div>
+</section>
+
+<div class="stat-strip"><div class="stat-grid">
+  <div class="stat-cell"><div class="num">60</div><div class="lbl">Districts</div></div>
+  <div class="stat-cell"><div class="num">5</div><div class="lbl">Regions</div></div>
+  <div class="stat-cell"><div class="num">8</div><div class="lbl">Collections tracked</div></div>
+  <div class="stat-cell"><div class="num">7</div><div class="lbl">Dashboard pages</div></div>
+  <div class="stat-cell"><div class="num">93%</div><div class="lbl">Mean completeness</div></div>
+</div></div>
+
+<section class="section" id="features">
+  <div class="section-head">
+    <div class="eyebrow">Dashboard</div>
+    <h2>Seven focused views</h2>
+    <p>Built on five Jupyter notebooks — synthetic data generation, data quality assessment,
+       validation &amp; duplicate detection, risk assessment, and executive/dashboard assembly.</p>
+  </div>
+  <div class="card-grid"><a class="card" href="dashboard/executive-summary.html"><div class="icon">📊</div><h3>Executive Summary</h3><p>Statewide KPI scorecard with risk-tier breakdown and regional comparison.</p>
+        <span class="tag">Open →</span></a><a class="card" href="dashboard/data-quality.html"><div class="icon">🔍</div><h3>Data Quality</h3><p>Completeness, validity, consistency, accuracy, and a timeliness control chart.</p>
+        <span class="tag">Open →</span></a><a class="card" href="dashboard/validation.html"><div class="icon">🧩</div><h3>Validation & Duplicates</h3><p>Rule engine results plus Jaro-Winkler / Fellegi-Sunter duplicate detection.</p>
+        <span class="tag">Open →</span></a><a class="card" href="dashboard/risk-assessment.html"><div class="icon">⚠️</div><h3>Risk Assessment</h3><p>CUSUM/EWMA drift, outlier detection, Benford's Law, predictive risk model, Bayes shrinkage.</p>
+        <span class="tag">Open →</span></a><a class="card" href="dashboard/district-map.html"><div class="icon">🗺️</div><h3>District Map</h3><p>Interactive Folium map of districts colored by OSEP-style risk tier.</p>
+        <span class="tag">Open →</span></a><a class="card" href="dashboard/alerts.html"><div class="icon">🔔</div><h3>Alerts</h3><p>Threshold-based critical and warning alerts for the current reporting period.</p>
+        <span class="tag">Open →</span></a><a class="card" href="dashboard/methodology.html"><div class="icon">📚</div><h3>Methodology</h3><p>Reference summary of every statistical technique used across the platform.</p>
+        <span class="tag">Open →</span></a></div>
+</section>
+
+<section class="section" id="kpis">
+  <div class="section-head">
+    <div class="eyebrow">KPI dimensions</div>
+    <h2>Balanced metrics across quality, operations, compliance &amp; risk</h2>
+  </div>
+  <table class="kpi-table"><thead><tr><th>KPI</th><th>Category</th><th>Target</th></tr></thead>
+  <tbody><tr><td>Data Completeness Rate</td><td><span class='pill pill-quality'>Quality</span></td><td class='target'>≥ 98%</td></tr><tr><td>Validity Error Rate</td><td><span class='pill pill-quality'>Quality</span></td><td class='target'>≤ 2%</td></tr><tr><td>On-Time Submission Rate</td><td><span class='pill pill-ops'>Operational</span></td><td class='target'>≥ 95%</td></tr><tr><td>Duplicate Record Rate</td><td><span class='pill pill-quality'>Quality</span></td><td class='target'>≤ 0.5%</td></tr><tr><td>IDEA Indicator Compliance</td><td><span class='pill pill-compliance'>Compliance</span></td><td class='target'>≥ 90%</td></tr><tr><td>Cohen's κ (Accuracy Audit)</td><td><span class='pill pill-quality'>Quality</span></td><td class='target'>≥ 0.80</td></tr><tr><td>Composite Risk Index</td><td><span class='pill pill-risk'>Risk</span></td><td class='target'>≤ 40 / 100</td></tr><tr><td>Isolation Forest Anomaly Rate</td><td><span class='pill pill-risk'>Risk</span></td><td class='target'>≤ 8%</td></tr></tbody></table>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <div class="eyebrow">Coverage</div>
+    <h2>Regions &amp; counties</h2>
+  </div>
+  <div class="region-grid"><div class="region-card"><h4>NYC Metro</h4><p>Kings, Queens, Bronx, New York, Richmond, Nassau, Westchester</p></div><div class="region-card"><h4>Western NY</h4><p>Erie, Monroe, Niagara, Chautauqua</p></div><div class="region-card"><h4>Central NY</h4><p>Onondaga, Oneida, Broome, Chemung</p></div><div class="region-card"><h4>Capital Region</h4><p>Albany, Rensselaer, Schenectady, Saratoga</p></div><div class="region-card"><h4>North Country</h4><p>Clinton, Jefferson, St. Lawrence, Franklin</p></div></div>
+</section>
+
+<section class="section" id="quick-start">
+  <div class="section-head">
+    <div class="eyebrow">Quick start</div>
+    <h2>Run the notebooks locally</h2>
+    <p>Clone the repository, install dependencies, and run the notebooks in order (01 → 05).
+       Each notebook writes its outputs to <code>data/</code> and <code>docs/dashboard/</code>.</p>
+  </div>
+  <div class="code-block"><span class="cmt"># clone &amp; install</span><br>
+git clone https://github.com/zia207/NYSED-Data-Integrity.git<br>
+cd NYSED-Data-Integrity<br>
+pip install -r requirements.txt<br><br>
+<span class="cmt"># run notebooks in order</span><br>
+jupyter nbconvert --to notebook --execute --inplace notebooks/01_data_generation.ipynb<br>
+jupyter nbconvert --to notebook --execute --inplace notebooks/02_data_quality_assessment.ipynb<br>
+jupyter nbconvert --to notebook --execute --inplace notebooks/03_validation_engine.ipynb<br>
+jupyter nbconvert --to notebook --execute --inplace notebooks/04_risk_assessment.ipynb<br>
+jupyter nbconvert --to notebook --execute --inplace notebooks/05_executive_dashboard.ipynb<br><br>
+<span class="cmt"># then open docs/index.html, or serve the docs/ folder via GitHub Pages</span></div>
+</section>
+
+<footer class="site-footer">
+  © 2026 Zia Ahmed, Uppata Analytics · Synthetic demonstration data · Statistical methodology
+  spans SPC, anomaly detection, record linkage, predictive modeling &amp; small-area estimation ·
+  <a href="https://github.com/zia207/NYSED-Data-Integrity" target="_blank">Source code</a>
+</footer>
+</body></html>

@@ -1,0 +1,1441 @@
+district_id,region,school_year,rule_id,violation_count,category,severity,description
+D100001,NYC Metro,2024-25,R001,16,Completeness,Error,Required field missing
+D100001,NYC Metro,2024-25,R002,5,Range,Error,Grade level outside valid range (PK-12)
+D100001,NYC Metro,2024-25,R003,9,Domain,Error,Invalid disability classification code
+D100001,NYC Metro,2024-25,R004,0,Consistency,Error,Exit date precedes entry date
+D100001,NYC Metro,2024-25,R005,7,Consistency,Warning,SWD flag set but no IEP date on file
+D100001,NYC Metro,2024-25,R006,0,Referential,Error,District ID not found in master file
+D100001,NYC Metro,2024-25,R007,4,Referential,Warning,Student ID not found in enrollment extract
+D100001,NYC Metro,2024-25,R008,7,Uniqueness,Warning,Duplicate student record within district
+D100001,NYC Metro,2024-25,R009,1,Range,Error,Date of birth implies age outside 3-21
+D100001,NYC Metro,2024-25,R010,2,Format,Error,Invalid BEDS code format
+D100001,NYC Metro,2024-25,R011,6,Consistency,Warning,Graduation status without matching exit record
+D100001,NYC Metro,2024-25,R012,8,Timeliness,Warning,Record submitted after collection window closed
+D100001,NYC Metro,2025-26,R001,17,Completeness,Error,Required field missing
+D100001,NYC Metro,2025-26,R002,1,Range,Error,Grade level outside valid range (PK-12)
+D100001,NYC Metro,2025-26,R003,5,Domain,Error,Invalid disability classification code
+D100001,NYC Metro,2025-26,R004,2,Consistency,Error,Exit date precedes entry date
+D100001,NYC Metro,2025-26,R005,6,Consistency,Warning,SWD flag set but no IEP date on file
+D100001,NYC Metro,2025-26,R006,0,Referential,Error,District ID not found in master file
+D100001,NYC Metro,2025-26,R007,4,Referential,Warning,Student ID not found in enrollment extract
+D100001,NYC Metro,2025-26,R008,5,Uniqueness,Warning,Duplicate student record within district
+D100001,NYC Metro,2025-26,R009,2,Range,Error,Date of birth implies age outside 3-21
+D100001,NYC Metro,2025-26,R010,2,Format,Error,Invalid BEDS code format
+D100001,NYC Metro,2025-26,R011,3,Consistency,Warning,Graduation status without matching exit record
+D100001,NYC Metro,2025-26,R012,10,Timeliness,Warning,Record submitted after collection window closed
+D100002,NYC Metro,2024-25,R001,61,Completeness,Error,Required field missing
+D100002,NYC Metro,2024-25,R002,6,Range,Error,Grade level outside valid range (PK-12)
+D100002,NYC Metro,2024-25,R003,8,Domain,Error,Invalid disability classification code
+D100002,NYC Metro,2024-25,R004,2,Consistency,Error,Exit date precedes entry date
+D100002,NYC Metro,2024-25,R005,9,Consistency,Warning,SWD flag set but no IEP date on file
+D100002,NYC Metro,2024-25,R006,3,Referential,Error,District ID not found in master file
+D100002,NYC Metro,2024-25,R007,4,Referential,Warning,Student ID not found in enrollment extract
+D100002,NYC Metro,2024-25,R008,12,Uniqueness,Warning,Duplicate student record within district
+D100002,NYC Metro,2024-25,R009,7,Range,Error,Date of birth implies age outside 3-21
+D100002,NYC Metro,2024-25,R010,5,Format,Error,Invalid BEDS code format
+D100002,NYC Metro,2024-25,R011,16,Consistency,Warning,Graduation status without matching exit record
+D100002,NYC Metro,2024-25,R012,12,Timeliness,Warning,Record submitted after collection window closed
+D100002,NYC Metro,2025-26,R001,29,Completeness,Error,Required field missing
+D100002,NYC Metro,2025-26,R002,5,Range,Error,Grade level outside valid range (PK-12)
+D100002,NYC Metro,2025-26,R003,10,Domain,Error,Invalid disability classification code
+D100002,NYC Metro,2025-26,R004,1,Consistency,Error,Exit date precedes entry date
+D100002,NYC Metro,2025-26,R005,29,Consistency,Warning,SWD flag set but no IEP date on file
+D100002,NYC Metro,2025-26,R006,5,Referential,Error,District ID not found in master file
+D100002,NYC Metro,2025-26,R007,4,Referential,Warning,Student ID not found in enrollment extract
+D100002,NYC Metro,2025-26,R008,16,Uniqueness,Warning,Duplicate student record within district
+D100002,NYC Metro,2025-26,R009,2,Range,Error,Date of birth implies age outside 3-21
+D100002,NYC Metro,2025-26,R010,5,Format,Error,Invalid BEDS code format
+D100002,NYC Metro,2025-26,R011,8,Consistency,Warning,Graduation status without matching exit record
+D100002,NYC Metro,2025-26,R012,23,Timeliness,Warning,Record submitted after collection window closed
+D100003,NYC Metro,2024-25,R001,14,Completeness,Error,Required field missing
+D100003,NYC Metro,2024-25,R002,1,Range,Error,Grade level outside valid range (PK-12)
+D100003,NYC Metro,2024-25,R003,5,Domain,Error,Invalid disability classification code
+D100003,NYC Metro,2024-25,R004,4,Consistency,Error,Exit date precedes entry date
+D100003,NYC Metro,2024-25,R005,4,Consistency,Warning,SWD flag set but no IEP date on file
+D100003,NYC Metro,2024-25,R006,0,Referential,Error,District ID not found in master file
+D100003,NYC Metro,2024-25,R007,2,Referential,Warning,Student ID not found in enrollment extract
+D100003,NYC Metro,2024-25,R008,4,Uniqueness,Warning,Duplicate student record within district
+D100003,NYC Metro,2024-25,R009,0,Range,Error,Date of birth implies age outside 3-21
+D100003,NYC Metro,2024-25,R010,1,Format,Error,Invalid BEDS code format
+D100003,NYC Metro,2024-25,R011,1,Consistency,Warning,Graduation status without matching exit record
+D100003,NYC Metro,2024-25,R012,6,Timeliness,Warning,Record submitted after collection window closed
+D100003,NYC Metro,2025-26,R001,15,Completeness,Error,Required field missing
+D100003,NYC Metro,2025-26,R002,0,Range,Error,Grade level outside valid range (PK-12)
+D100003,NYC Metro,2025-26,R003,4,Domain,Error,Invalid disability classification code
+D100003,NYC Metro,2025-26,R004,2,Consistency,Error,Exit date precedes entry date
+D100003,NYC Metro,2025-26,R005,7,Consistency,Warning,SWD flag set but no IEP date on file
+D100003,NYC Metro,2025-26,R006,3,Referential,Error,District ID not found in master file
+D100003,NYC Metro,2025-26,R007,2,Referential,Warning,Student ID not found in enrollment extract
+D100003,NYC Metro,2025-26,R008,7,Uniqueness,Warning,Duplicate student record within district
+D100003,NYC Metro,2025-26,R009,4,Range,Error,Date of birth implies age outside 3-21
+D100003,NYC Metro,2025-26,R010,1,Format,Error,Invalid BEDS code format
+D100003,NYC Metro,2025-26,R011,3,Consistency,Warning,Graduation status without matching exit record
+D100003,NYC Metro,2025-26,R012,4,Timeliness,Warning,Record submitted after collection window closed
+D100004,NYC Metro,2024-25,R001,7,Completeness,Error,Required field missing
+D100004,NYC Metro,2024-25,R002,0,Range,Error,Grade level outside valid range (PK-12)
+D100004,NYC Metro,2024-25,R003,1,Domain,Error,Invalid disability classification code
+D100004,NYC Metro,2024-25,R004,0,Consistency,Error,Exit date precedes entry date
+D100004,NYC Metro,2024-25,R005,3,Consistency,Warning,SWD flag set but no IEP date on file
+D100004,NYC Metro,2024-25,R006,0,Referential,Error,District ID not found in master file
+D100004,NYC Metro,2024-25,R007,4,Referential,Warning,Student ID not found in enrollment extract
+D100004,NYC Metro,2024-25,R008,2,Uniqueness,Warning,Duplicate student record within district
+D100004,NYC Metro,2024-25,R009,1,Range,Error,Date of birth implies age outside 3-21
+D100004,NYC Metro,2024-25,R010,2,Format,Error,Invalid BEDS code format
+D100004,NYC Metro,2024-25,R011,3,Consistency,Warning,Graduation status without matching exit record
+D100004,NYC Metro,2024-25,R012,4,Timeliness,Warning,Record submitted after collection window closed
+D100004,NYC Metro,2025-26,R001,7,Completeness,Error,Required field missing
+D100004,NYC Metro,2025-26,R002,0,Range,Error,Grade level outside valid range (PK-12)
+D100004,NYC Metro,2025-26,R003,2,Domain,Error,Invalid disability classification code
+D100004,NYC Metro,2025-26,R004,2,Consistency,Error,Exit date precedes entry date
+D100004,NYC Metro,2025-26,R005,2,Consistency,Warning,SWD flag set but no IEP date on file
+D100004,NYC Metro,2025-26,R006,0,Referential,Error,District ID not found in master file
+D100004,NYC Metro,2025-26,R007,2,Referential,Warning,Student ID not found in enrollment extract
+D100004,NYC Metro,2025-26,R008,6,Uniqueness,Warning,Duplicate student record within district
+D100004,NYC Metro,2025-26,R009,2,Range,Error,Date of birth implies age outside 3-21
+D100004,NYC Metro,2025-26,R010,2,Format,Error,Invalid BEDS code format
+D100004,NYC Metro,2025-26,R011,1,Consistency,Warning,Graduation status without matching exit record
+D100004,NYC Metro,2025-26,R012,8,Timeliness,Warning,Record submitted after collection window closed
+D100005,NYC Metro,2024-25,R001,6,Completeness,Error,Required field missing
+D100005,NYC Metro,2024-25,R002,0,Range,Error,Grade level outside valid range (PK-12)
+D100005,NYC Metro,2024-25,R003,1,Domain,Error,Invalid disability classification code
+D100005,NYC Metro,2024-25,R004,0,Consistency,Error,Exit date precedes entry date
+D100005,NYC Metro,2024-25,R005,4,Consistency,Warning,SWD flag set but no IEP date on file
+D100005,NYC Metro,2024-25,R006,1,Referential,Error,District ID not found in master file
+D100005,NYC Metro,2024-25,R007,1,Referential,Warning,Student ID not found in enrollment extract
+D100005,NYC Metro,2024-25,R008,2,Uniqueness,Warning,Duplicate student record within district
+D100005,NYC Metro,2024-25,R009,0,Range,Error,Date of birth implies age outside 3-21
+D100005,NYC Metro,2024-25,R010,0,Format,Error,Invalid BEDS code format
+D100005,NYC Metro,2024-25,R011,1,Consistency,Warning,Graduation status without matching exit record
+D100005,NYC Metro,2024-25,R012,5,Timeliness,Warning,Record submitted after collection window closed
+D100005,NYC Metro,2025-26,R001,9,Completeness,Error,Required field missing
+D100005,NYC Metro,2025-26,R002,0,Range,Error,Grade level outside valid range (PK-12)
+D100005,NYC Metro,2025-26,R003,1,Domain,Error,Invalid disability classification code
+D100005,NYC Metro,2025-26,R004,2,Consistency,Error,Exit date precedes entry date
+D100005,NYC Metro,2025-26,R005,2,Consistency,Warning,SWD flag set but no IEP date on file
+D100005,NYC Metro,2025-26,R006,0,Referential,Error,District ID not found in master file
+D100005,NYC Metro,2025-26,R007,1,Referential,Warning,Student ID not found in enrollment extract
+D100005,NYC Metro,2025-26,R008,1,Uniqueness,Warning,Duplicate student record within district
+D100005,NYC Metro,2025-26,R009,1,Range,Error,Date of birth implies age outside 3-21
+D100005,NYC Metro,2025-26,R010,0,Format,Error,Invalid BEDS code format
+D100005,NYC Metro,2025-26,R011,2,Consistency,Warning,Graduation status without matching exit record
+D100005,NYC Metro,2025-26,R012,2,Timeliness,Warning,Record submitted after collection window closed
+D100006,NYC Metro,2024-25,R001,5,Completeness,Error,Required field missing
+D100006,NYC Metro,2024-25,R002,0,Range,Error,Grade level outside valid range (PK-12)
+D100006,NYC Metro,2024-25,R003,0,Domain,Error,Invalid disability classification code
+D100006,NYC Metro,2024-25,R004,0,Consistency,Error,Exit date precedes entry date
+D100006,NYC Metro,2024-25,R005,1,Consistency,Warning,SWD flag set but no IEP date on file
+D100006,NYC Metro,2024-25,R006,0,Referential,Error,District ID not found in master file
+D100006,NYC Metro,2024-25,R007,4,Referential,Warning,Student ID not found in enrollment extract
+D100006,NYC Metro,2024-25,R008,2,Uniqueness,Warning,Duplicate student record within district
+D100006,NYC Metro,2024-25,R009,0,Range,Error,Date of birth implies age outside 3-21
+D100006,NYC Metro,2024-25,R010,0,Format,Error,Invalid BEDS code format
+D100006,NYC Metro,2024-25,R011,1,Consistency,Warning,Graduation status without matching exit record
+D100006,NYC Metro,2024-25,R012,1,Timeliness,Warning,Record submitted after collection window closed
+D100006,NYC Metro,2025-26,R001,5,Completeness,Error,Required field missing
+D100006,NYC Metro,2025-26,R002,0,Range,Error,Grade level outside valid range (PK-12)
+D100006,NYC Metro,2025-26,R003,0,Domain,Error,Invalid disability classification code
+D100006,NYC Metro,2025-26,R004,0,Consistency,Error,Exit date precedes entry date
+D100006,NYC Metro,2025-26,R005,3,Consistency,Warning,SWD flag set but no IEP date on file
+D100006,NYC Metro,2025-26,R006,0,Referential,Error,District ID not found in master file
+D100006,NYC Metro,2025-26,R007,1,Referential,Warning,Student ID not found in enrollment extract
+D100006,NYC Metro,2025-26,R008,2,Uniqueness,Warning,Duplicate student record within district
+D100006,NYC Metro,2025-26,R009,0,Range,Error,Date of birth implies age outside 3-21
+D100006,NYC Metro,2025-26,R010,0,Format,Error,Invalid BEDS code format
+D100006,NYC Metro,2025-26,R011,1,Consistency,Warning,Graduation status without matching exit record
+D100006,NYC Metro,2025-26,R012,6,Timeliness,Warning,Record submitted after collection window closed
+D100007,NYC Metro,2024-25,R001,6,Completeness,Error,Required field missing
+D100007,NYC Metro,2024-25,R002,0,Range,Error,Grade level outside valid range (PK-12)
+D100007,NYC Metro,2024-25,R003,1,Domain,Error,Invalid disability classification code
+D100007,NYC Metro,2024-25,R004,1,Consistency,Error,Exit date precedes entry date
+D100007,NYC Metro,2024-25,R005,2,Consistency,Warning,SWD flag set but no IEP date on file
+D100007,NYC Metro,2024-25,R006,0,Referential,Error,District ID not found in master file
+D100007,NYC Metro,2024-25,R007,0,Referential,Warning,Student ID not found in enrollment extract
+D100007,NYC Metro,2024-25,R008,1,Uniqueness,Warning,Duplicate student record within district
+D100007,NYC Metro,2024-25,R009,0,Range,Error,Date of birth implies age outside 3-21
+D100007,NYC Metro,2024-25,R010,1,Format,Error,Invalid BEDS code format
+D100007,NYC Metro,2024-25,R011,1,Consistency,Warning,Graduation status without matching exit record
+D100007,NYC Metro,2024-25,R012,3,Timeliness,Warning,Record submitted after collection window closed
+D100007,NYC Metro,2025-26,R001,9,Completeness,Error,Required field missing
+D100007,NYC Metro,2025-26,R002,0,Range,Error,Grade level outside valid range (PK-12)
+D100007,NYC Metro,2025-26,R003,2,Domain,Error,Invalid disability classification code
+D100007,NYC Metro,2025-26,R004,1,Consistency,Error,Exit date precedes entry date
+D100007,NYC Metro,2025-26,R005,1,Consistency,Warning,SWD flag set but no IEP date on file
+D100007,NYC Metro,2025-26,R006,0,Referential,Error,District ID not found in master file
+D100007,NYC Metro,2025-26,R007,1,Referential,Warning,Student ID not found in enrollment extract
+D100007,NYC Metro,2025-26,R008,3,Uniqueness,Warning,Duplicate student record within district
+D100007,NYC Metro,2025-26,R009,0,Range,Error,Date of birth implies age outside 3-21
+D100007,NYC Metro,2025-26,R010,0,Format,Error,Invalid BEDS code format
+D100007,NYC Metro,2025-26,R011,0,Consistency,Warning,Graduation status without matching exit record
+D100007,NYC Metro,2025-26,R012,2,Timeliness,Warning,Record submitted after collection window closed
+D100008,NYC Metro,2024-25,R001,10,Completeness,Error,Required field missing
+D100008,NYC Metro,2024-25,R002,5,Range,Error,Grade level outside valid range (PK-12)
+D100008,NYC Metro,2024-25,R003,6,Domain,Error,Invalid disability classification code
+D100008,NYC Metro,2024-25,R004,2,Consistency,Error,Exit date precedes entry date
+D100008,NYC Metro,2024-25,R005,7,Consistency,Warning,SWD flag set but no IEP date on file
+D100008,NYC Metro,2024-25,R006,0,Referential,Error,District ID not found in master file
+D100008,NYC Metro,2024-25,R007,1,Referential,Warning,Student ID not found in enrollment extract
+D100008,NYC Metro,2024-25,R008,9,Uniqueness,Warning,Duplicate student record within district
+D100008,NYC Metro,2024-25,R009,2,Range,Error,Date of birth implies age outside 3-21
+D100008,NYC Metro,2024-25,R010,2,Format,Error,Invalid BEDS code format
+D100008,NYC Metro,2024-25,R011,2,Consistency,Warning,Graduation status without matching exit record
+D100008,NYC Metro,2024-25,R012,7,Timeliness,Warning,Record submitted after collection window closed
+D100008,NYC Metro,2025-26,R001,10,Completeness,Error,Required field missing
+D100008,NYC Metro,2025-26,R002,2,Range,Error,Grade level outside valid range (PK-12)
+D100008,NYC Metro,2025-26,R003,3,Domain,Error,Invalid disability classification code
+D100008,NYC Metro,2025-26,R004,2,Consistency,Error,Exit date precedes entry date
+D100008,NYC Metro,2025-26,R005,5,Consistency,Warning,SWD flag set but no IEP date on file
+D100008,NYC Metro,2025-26,R006,2,Referential,Error,District ID not found in master file
+D100008,NYC Metro,2025-26,R007,4,Referential,Warning,Student ID not found in enrollment extract
+D100008,NYC Metro,2025-26,R008,4,Uniqueness,Warning,Duplicate student record within district
+D100008,NYC Metro,2025-26,R009,1,Range,Error,Date of birth implies age outside 3-21
+D100008,NYC Metro,2025-26,R010,1,Format,Error,Invalid BEDS code format
+D100008,NYC Metro,2025-26,R011,6,Consistency,Warning,Graduation status without matching exit record
+D100008,NYC Metro,2025-26,R012,16,Timeliness,Warning,Record submitted after collection window closed
+D100009,NYC Metro,2024-25,R001,2,Completeness,Error,Required field missing
+D100009,NYC Metro,2024-25,R002,1,Range,Error,Grade level outside valid range (PK-12)
+D100009,NYC Metro,2024-25,R003,0,Domain,Error,Invalid disability classification code
+D100009,NYC Metro,2024-25,R004,0,Consistency,Error,Exit date precedes entry date
+D100009,NYC Metro,2024-25,R005,0,Consistency,Warning,SWD flag set but no IEP date on file
+D100009,NYC Metro,2024-25,R006,0,Referential,Error,District ID not found in master file
+D100009,NYC Metro,2024-25,R007,0,Referential,Warning,Student ID not found in enrollment extract
+D100009,NYC Metro,2024-25,R008,0,Uniqueness,Warning,Duplicate student record within district
+D100009,NYC Metro,2024-25,R009,0,Range,Error,Date of birth implies age outside 3-21
+D100009,NYC Metro,2024-25,R010,0,Format,Error,Invalid BEDS code format
+D100009,NYC Metro,2024-25,R011,0,Consistency,Warning,Graduation status without matching exit record
+D100009,NYC Metro,2024-25,R012,2,Timeliness,Warning,Record submitted after collection window closed
+D100009,NYC Metro,2025-26,R001,1,Completeness,Error,Required field missing
+D100009,NYC Metro,2025-26,R002,1,Range,Error,Grade level outside valid range (PK-12)
+D100009,NYC Metro,2025-26,R003,0,Domain,Error,Invalid disability classification code
+D100009,NYC Metro,2025-26,R004,0,Consistency,Error,Exit date precedes entry date
+D100009,NYC Metro,2025-26,R005,0,Consistency,Warning,SWD flag set but no IEP date on file
+D100009,NYC Metro,2025-26,R006,0,Referential,Error,District ID not found in master file
+D100009,NYC Metro,2025-26,R007,0,Referential,Warning,Student ID not found in enrollment extract
+D100009,NYC Metro,2025-26,R008,0,Uniqueness,Warning,Duplicate student record within district
+D100009,NYC Metro,2025-26,R009,0,Range,Error,Date of birth implies age outside 3-21
+D100009,NYC Metro,2025-26,R010,0,Format,Error,Invalid BEDS code format
+D100009,NYC Metro,2025-26,R011,0,Consistency,Warning,Graduation status without matching exit record
+D100009,NYC Metro,2025-26,R012,0,Timeliness,Warning,Record submitted after collection window closed
+D100010,NYC Metro,2024-25,R001,7,Completeness,Error,Required field missing
+D100010,NYC Metro,2024-25,R002,4,Range,Error,Grade level outside valid range (PK-12)
+D100010,NYC Metro,2024-25,R003,6,Domain,Error,Invalid disability classification code
+D100010,NYC Metro,2024-25,R004,2,Consistency,Error,Exit date precedes entry date
+D100010,NYC Metro,2024-25,R005,12,Consistency,Warning,SWD flag set but no IEP date on file
+D100010,NYC Metro,2024-25,R006,0,Referential,Error,District ID not found in master file
+D100010,NYC Metro,2024-25,R007,6,Referential,Warning,Student ID not found in enrollment extract
+D100010,NYC Metro,2024-25,R008,6,Uniqueness,Warning,Duplicate student record within district
+D100010,NYC Metro,2024-25,R009,1,Range,Error,Date of birth implies age outside 3-21
+D100010,NYC Metro,2024-25,R010,2,Format,Error,Invalid BEDS code format
+D100010,NYC Metro,2024-25,R011,4,Consistency,Warning,Graduation status without matching exit record
+D100010,NYC Metro,2024-25,R012,9,Timeliness,Warning,Record submitted after collection window closed
+D100010,NYC Metro,2025-26,R001,24,Completeness,Error,Required field missing
+D100010,NYC Metro,2025-26,R002,2,Range,Error,Grade level outside valid range (PK-12)
+D100010,NYC Metro,2025-26,R003,6,Domain,Error,Invalid disability classification code
+D100010,NYC Metro,2025-26,R004,4,Consistency,Error,Exit date precedes entry date
+D100010,NYC Metro,2025-26,R005,9,Consistency,Warning,SWD flag set but no IEP date on file
+D100010,NYC Metro,2025-26,R006,0,Referential,Error,District ID not found in master file
+D100010,NYC Metro,2025-26,R007,2,Referential,Warning,Student ID not found in enrollment extract
+D100010,NYC Metro,2025-26,R008,7,Uniqueness,Warning,Duplicate student record within district
+D100010,NYC Metro,2025-26,R009,1,Range,Error,Date of birth implies age outside 3-21
+D100010,NYC Metro,2025-26,R010,3,Format,Error,Invalid BEDS code format
+D100010,NYC Metro,2025-26,R011,2,Consistency,Warning,Graduation status without matching exit record
+D100010,NYC Metro,2025-26,R012,4,Timeliness,Warning,Record submitted after collection window closed
+D100011,NYC Metro,2024-25,R001,9,Completeness,Error,Required field missing
+D100011,NYC Metro,2024-25,R002,3,Range,Error,Grade level outside valid range (PK-12)
+D100011,NYC Metro,2024-25,R003,2,Domain,Error,Invalid disability classification code
+D100011,NYC Metro,2024-25,R004,1,Consistency,Error,Exit date precedes entry date
+D100011,NYC Metro,2024-25,R005,3,Consistency,Warning,SWD flag set but no IEP date on file
+D100011,NYC Metro,2024-25,R006,0,Referential,Error,District ID not found in master file
+D100011,NYC Metro,2024-25,R007,0,Referential,Warning,Student ID not found in enrollment extract
+D100011,NYC Metro,2024-25,R008,3,Uniqueness,Warning,Duplicate student record within district
+D100011,NYC Metro,2024-25,R009,4,Range,Error,Date of birth implies age outside 3-21
+D100011,NYC Metro,2024-25,R010,1,Format,Error,Invalid BEDS code format
+D100011,NYC Metro,2024-25,R011,4,Consistency,Warning,Graduation status without matching exit record
+D100011,NYC Metro,2024-25,R012,5,Timeliness,Warning,Record submitted after collection window closed
+D100011,NYC Metro,2025-26,R001,6,Completeness,Error,Required field missing
+D100011,NYC Metro,2025-26,R002,1,Range,Error,Grade level outside valid range (PK-12)
+D100011,NYC Metro,2025-26,R003,2,Domain,Error,Invalid disability classification code
+D100011,NYC Metro,2025-26,R004,0,Consistency,Error,Exit date precedes entry date
+D100011,NYC Metro,2025-26,R005,4,Consistency,Warning,SWD flag set but no IEP date on file
+D100011,NYC Metro,2025-26,R006,0,Referential,Error,District ID not found in master file
+D100011,NYC Metro,2025-26,R007,3,Referential,Warning,Student ID not found in enrollment extract
+D100011,NYC Metro,2025-26,R008,2,Uniqueness,Warning,Duplicate student record within district
+D100011,NYC Metro,2025-26,R009,0,Range,Error,Date of birth implies age outside 3-21
+D100011,NYC Metro,2025-26,R010,2,Format,Error,Invalid BEDS code format
+D100011,NYC Metro,2025-26,R011,2,Consistency,Warning,Graduation status without matching exit record
+D100011,NYC Metro,2025-26,R012,2,Timeliness,Warning,Record submitted after collection window closed
+D100012,NYC Metro,2024-25,R001,11,Completeness,Error,Required field missing
+D100012,NYC Metro,2024-25,R002,1,Range,Error,Grade level outside valid range (PK-12)
+D100012,NYC Metro,2024-25,R003,4,Domain,Error,Invalid disability classification code
+D100012,NYC Metro,2024-25,R004,0,Consistency,Error,Exit date precedes entry date
+D100012,NYC Metro,2024-25,R005,8,Consistency,Warning,SWD flag set but no IEP date on file
+D100012,NYC Metro,2024-25,R006,0,Referential,Error,District ID not found in master file
+D100012,NYC Metro,2024-25,R007,10,Referential,Warning,Student ID not found in enrollment extract
+D100012,NYC Metro,2024-25,R008,3,Uniqueness,Warning,Duplicate student record within district
+D100012,NYC Metro,2024-25,R009,2,Range,Error,Date of birth implies age outside 3-21
+D100012,NYC Metro,2024-25,R010,1,Format,Error,Invalid BEDS code format
+D100012,NYC Metro,2024-25,R011,0,Consistency,Warning,Graduation status without matching exit record
+D100012,NYC Metro,2024-25,R012,11,Timeliness,Warning,Record submitted after collection window closed
+D100012,NYC Metro,2025-26,R001,17,Completeness,Error,Required field missing
+D100012,NYC Metro,2025-26,R002,2,Range,Error,Grade level outside valid range (PK-12)
+D100012,NYC Metro,2025-26,R003,1,Domain,Error,Invalid disability classification code
+D100012,NYC Metro,2025-26,R004,1,Consistency,Error,Exit date precedes entry date
+D100012,NYC Metro,2025-26,R005,5,Consistency,Warning,SWD flag set but no IEP date on file
+D100012,NYC Metro,2025-26,R006,1,Referential,Error,District ID not found in master file
+D100012,NYC Metro,2025-26,R007,6,Referential,Warning,Student ID not found in enrollment extract
+D100012,NYC Metro,2025-26,R008,4,Uniqueness,Warning,Duplicate student record within district
+D100012,NYC Metro,2025-26,R009,1,Range,Error,Date of birth implies age outside 3-21
+D100012,NYC Metro,2025-26,R010,1,Format,Error,Invalid BEDS code format
+D100012,NYC Metro,2025-26,R011,4,Consistency,Warning,Graduation status without matching exit record
+D100012,NYC Metro,2025-26,R012,7,Timeliness,Warning,Record submitted after collection window closed
+D100013,Western NY,2024-25,R001,15,Completeness,Error,Required field missing
+D100013,Western NY,2024-25,R002,2,Range,Error,Grade level outside valid range (PK-12)
+D100013,Western NY,2024-25,R003,3,Domain,Error,Invalid disability classification code
+D100013,Western NY,2024-25,R004,1,Consistency,Error,Exit date precedes entry date
+D100013,Western NY,2024-25,R005,8,Consistency,Warning,SWD flag set but no IEP date on file
+D100013,Western NY,2024-25,R006,0,Referential,Error,District ID not found in master file
+D100013,Western NY,2024-25,R007,3,Referential,Warning,Student ID not found in enrollment extract
+D100013,Western NY,2024-25,R008,6,Uniqueness,Warning,Duplicate student record within district
+D100013,Western NY,2024-25,R009,1,Range,Error,Date of birth implies age outside 3-21
+D100013,Western NY,2024-25,R010,1,Format,Error,Invalid BEDS code format
+D100013,Western NY,2024-25,R011,4,Consistency,Warning,Graduation status without matching exit record
+D100013,Western NY,2024-25,R012,3,Timeliness,Warning,Record submitted after collection window closed
+D100013,Western NY,2025-26,R001,6,Completeness,Error,Required field missing
+D100013,Western NY,2025-26,R002,2,Range,Error,Grade level outside valid range (PK-12)
+D100013,Western NY,2025-26,R003,10,Domain,Error,Invalid disability classification code
+D100013,Western NY,2025-26,R004,1,Consistency,Error,Exit date precedes entry date
+D100013,Western NY,2025-26,R005,5,Consistency,Warning,SWD flag set but no IEP date on file
+D100013,Western NY,2025-26,R006,1,Referential,Error,District ID not found in master file
+D100013,Western NY,2025-26,R007,6,Referential,Warning,Student ID not found in enrollment extract
+D100013,Western NY,2025-26,R008,6,Uniqueness,Warning,Duplicate student record within district
+D100013,Western NY,2025-26,R009,0,Range,Error,Date of birth implies age outside 3-21
+D100013,Western NY,2025-26,R010,2,Format,Error,Invalid BEDS code format
+D100013,Western NY,2025-26,R011,6,Consistency,Warning,Graduation status without matching exit record
+D100013,Western NY,2025-26,R012,11,Timeliness,Warning,Record submitted after collection window closed
+D100014,Western NY,2024-25,R001,10,Completeness,Error,Required field missing
+D100014,Western NY,2024-25,R002,2,Range,Error,Grade level outside valid range (PK-12)
+D100014,Western NY,2024-25,R003,5,Domain,Error,Invalid disability classification code
+D100014,Western NY,2024-25,R004,3,Consistency,Error,Exit date precedes entry date
+D100014,Western NY,2024-25,R005,2,Consistency,Warning,SWD flag set but no IEP date on file
+D100014,Western NY,2024-25,R006,0,Referential,Error,District ID not found in master file
+D100014,Western NY,2024-25,R007,2,Referential,Warning,Student ID not found in enrollment extract
+D100014,Western NY,2024-25,R008,4,Uniqueness,Warning,Duplicate student record within district
+D100014,Western NY,2024-25,R009,3,Range,Error,Date of birth implies age outside 3-21
+D100014,Western NY,2024-25,R010,0,Format,Error,Invalid BEDS code format
+D100014,Western NY,2024-25,R011,2,Consistency,Warning,Graduation status without matching exit record
+D100014,Western NY,2024-25,R012,8,Timeliness,Warning,Record submitted after collection window closed
+D100014,Western NY,2025-26,R001,13,Completeness,Error,Required field missing
+D100014,Western NY,2025-26,R002,3,Range,Error,Grade level outside valid range (PK-12)
+D100014,Western NY,2025-26,R003,4,Domain,Error,Invalid disability classification code
+D100014,Western NY,2025-26,R004,3,Consistency,Error,Exit date precedes entry date
+D100014,Western NY,2025-26,R005,7,Consistency,Warning,SWD flag set but no IEP date on file
+D100014,Western NY,2025-26,R006,2,Referential,Error,District ID not found in master file
+D100014,Western NY,2025-26,R007,2,Referential,Warning,Student ID not found in enrollment extract
+D100014,Western NY,2025-26,R008,1,Uniqueness,Warning,Duplicate student record within district
+D100014,Western NY,2025-26,R009,1,Range,Error,Date of birth implies age outside 3-21
+D100014,Western NY,2025-26,R010,2,Format,Error,Invalid BEDS code format
+D100014,Western NY,2025-26,R011,2,Consistency,Warning,Graduation status without matching exit record
+D100014,Western NY,2025-26,R012,9,Timeliness,Warning,Record submitted after collection window closed
+D100015,Western NY,2024-25,R001,5,Completeness,Error,Required field missing
+D100015,Western NY,2024-25,R002,1,Range,Error,Grade level outside valid range (PK-12)
+D100015,Western NY,2024-25,R003,2,Domain,Error,Invalid disability classification code
+D100015,Western NY,2024-25,R004,0,Consistency,Error,Exit date precedes entry date
+D100015,Western NY,2024-25,R005,5,Consistency,Warning,SWD flag set but no IEP date on file
+D100015,Western NY,2024-25,R006,0,Referential,Error,District ID not found in master file
+D100015,Western NY,2024-25,R007,1,Referential,Warning,Student ID not found in enrollment extract
+D100015,Western NY,2024-25,R008,4,Uniqueness,Warning,Duplicate student record within district
+D100015,Western NY,2024-25,R009,0,Range,Error,Date of birth implies age outside 3-21
+D100015,Western NY,2024-25,R010,1,Format,Error,Invalid BEDS code format
+D100015,Western NY,2024-25,R011,1,Consistency,Warning,Graduation status without matching exit record
+D100015,Western NY,2024-25,R012,3,Timeliness,Warning,Record submitted after collection window closed
+D100015,Western NY,2025-26,R001,5,Completeness,Error,Required field missing
+D100015,Western NY,2025-26,R002,0,Range,Error,Grade level outside valid range (PK-12)
+D100015,Western NY,2025-26,R003,6,Domain,Error,Invalid disability classification code
+D100015,Western NY,2025-26,R004,0,Consistency,Error,Exit date precedes entry date
+D100015,Western NY,2025-26,R005,4,Consistency,Warning,SWD flag set but no IEP date on file
+D100015,Western NY,2025-26,R006,0,Referential,Error,District ID not found in master file
+D100015,Western NY,2025-26,R007,0,Referential,Warning,Student ID not found in enrollment extract
+D100015,Western NY,2025-26,R008,2,Uniqueness,Warning,Duplicate student record within district
+D100015,Western NY,2025-26,R009,1,Range,Error,Date of birth implies age outside 3-21
+D100015,Western NY,2025-26,R010,0,Format,Error,Invalid BEDS code format
+D100015,Western NY,2025-26,R011,0,Consistency,Warning,Graduation status without matching exit record
+D100015,Western NY,2025-26,R012,2,Timeliness,Warning,Record submitted after collection window closed
+D100016,Western NY,2024-25,R001,45,Completeness,Error,Required field missing
+D100016,Western NY,2024-25,R002,5,Range,Error,Grade level outside valid range (PK-12)
+D100016,Western NY,2024-25,R003,7,Domain,Error,Invalid disability classification code
+D100016,Western NY,2024-25,R004,6,Consistency,Error,Exit date precedes entry date
+D100016,Western NY,2024-25,R005,15,Consistency,Warning,SWD flag set but no IEP date on file
+D100016,Western NY,2024-25,R006,2,Referential,Error,District ID not found in master file
+D100016,Western NY,2024-25,R007,6,Referential,Warning,Student ID not found in enrollment extract
+D100016,Western NY,2024-25,R008,17,Uniqueness,Warning,Duplicate student record within district
+D100016,Western NY,2024-25,R009,2,Range,Error,Date of birth implies age outside 3-21
+D100016,Western NY,2024-25,R010,4,Format,Error,Invalid BEDS code format
+D100016,Western NY,2024-25,R011,14,Consistency,Warning,Graduation status without matching exit record
+D100016,Western NY,2024-25,R012,31,Timeliness,Warning,Record submitted after collection window closed
+D100016,Western NY,2025-26,R001,45,Completeness,Error,Required field missing
+D100016,Western NY,2025-26,R002,12,Range,Error,Grade level outside valid range (PK-12)
+D100016,Western NY,2025-26,R003,9,Domain,Error,Invalid disability classification code
+D100016,Western NY,2025-26,R004,12,Consistency,Error,Exit date precedes entry date
+D100016,Western NY,2025-26,R005,10,Consistency,Warning,SWD flag set but no IEP date on file
+D100016,Western NY,2025-26,R006,2,Referential,Error,District ID not found in master file
+D100016,Western NY,2025-26,R007,14,Referential,Warning,Student ID not found in enrollment extract
+D100016,Western NY,2025-26,R008,15,Uniqueness,Warning,Duplicate student record within district
+D100016,Western NY,2025-26,R009,5,Range,Error,Date of birth implies age outside 3-21
+D100016,Western NY,2025-26,R010,10,Format,Error,Invalid BEDS code format
+D100016,Western NY,2025-26,R011,8,Consistency,Warning,Graduation status without matching exit record
+D100016,Western NY,2025-26,R012,28,Timeliness,Warning,Record submitted after collection window closed
+D100017,Western NY,2024-25,R001,2,Completeness,Error,Required field missing
+D100017,Western NY,2024-25,R002,1,Range,Error,Grade level outside valid range (PK-12)
+D100017,Western NY,2024-25,R003,2,Domain,Error,Invalid disability classification code
+D100017,Western NY,2024-25,R004,0,Consistency,Error,Exit date precedes entry date
+D100017,Western NY,2024-25,R005,0,Consistency,Warning,SWD flag set but no IEP date on file
+D100017,Western NY,2024-25,R006,0,Referential,Error,District ID not found in master file
+D100017,Western NY,2024-25,R007,0,Referential,Warning,Student ID not found in enrollment extract
+D100017,Western NY,2024-25,R008,2,Uniqueness,Warning,Duplicate student record within district
+D100017,Western NY,2024-25,R009,0,Range,Error,Date of birth implies age outside 3-21
+D100017,Western NY,2024-25,R010,0,Format,Error,Invalid BEDS code format
+D100017,Western NY,2024-25,R011,2,Consistency,Warning,Graduation status without matching exit record
+D100017,Western NY,2024-25,R012,0,Timeliness,Warning,Record submitted after collection window closed
+D100017,Western NY,2025-26,R001,7,Completeness,Error,Required field missing
+D100017,Western NY,2025-26,R002,1,Range,Error,Grade level outside valid range (PK-12)
+D100017,Western NY,2025-26,R003,0,Domain,Error,Invalid disability classification code
+D100017,Western NY,2025-26,R004,0,Consistency,Error,Exit date precedes entry date
+D100017,Western NY,2025-26,R005,2,Consistency,Warning,SWD flag set but no IEP date on file
+D100017,Western NY,2025-26,R006,0,Referential,Error,District ID not found in master file
+D100017,Western NY,2025-26,R007,0,Referential,Warning,Student ID not found in enrollment extract
+D100017,Western NY,2025-26,R008,2,Uniqueness,Warning,Duplicate student record within district
+D100017,Western NY,2025-26,R009,0,Range,Error,Date of birth implies age outside 3-21
+D100017,Western NY,2025-26,R010,2,Format,Error,Invalid BEDS code format
+D100017,Western NY,2025-26,R011,1,Consistency,Warning,Graduation status without matching exit record
+D100017,Western NY,2025-26,R012,3,Timeliness,Warning,Record submitted after collection window closed
+D100018,Western NY,2024-25,R001,4,Completeness,Error,Required field missing
+D100018,Western NY,2024-25,R002,0,Range,Error,Grade level outside valid range (PK-12)
+D100018,Western NY,2024-25,R003,5,Domain,Error,Invalid disability classification code
+D100018,Western NY,2024-25,R004,0,Consistency,Error,Exit date precedes entry date
+D100018,Western NY,2024-25,R005,6,Consistency,Warning,SWD flag set but no IEP date on file
+D100018,Western NY,2024-25,R006,0,Referential,Error,District ID not found in master file
+D100018,Western NY,2024-25,R007,1,Referential,Warning,Student ID not found in enrollment extract
+D100018,Western NY,2024-25,R008,4,Uniqueness,Warning,Duplicate student record within district
+D100018,Western NY,2024-25,R009,2,Range,Error,Date of birth implies age outside 3-21
+D100018,Western NY,2024-25,R010,0,Format,Error,Invalid BEDS code format
+D100018,Western NY,2024-25,R011,1,Consistency,Warning,Graduation status without matching exit record
+D100018,Western NY,2024-25,R012,7,Timeliness,Warning,Record submitted after collection window closed
+D100018,Western NY,2025-26,R001,4,Completeness,Error,Required field missing
+D100018,Western NY,2025-26,R002,1,Range,Error,Grade level outside valid range (PK-12)
+D100018,Western NY,2025-26,R003,3,Domain,Error,Invalid disability classification code
+D100018,Western NY,2025-26,R004,0,Consistency,Error,Exit date precedes entry date
+D100018,Western NY,2025-26,R005,2,Consistency,Warning,SWD flag set but no IEP date on file
+D100018,Western NY,2025-26,R006,1,Referential,Error,District ID not found in master file
+D100018,Western NY,2025-26,R007,6,Referential,Warning,Student ID not found in enrollment extract
+D100018,Western NY,2025-26,R008,3,Uniqueness,Warning,Duplicate student record within district
+D100018,Western NY,2025-26,R009,2,Range,Error,Date of birth implies age outside 3-21
+D100018,Western NY,2025-26,R010,0,Format,Error,Invalid BEDS code format
+D100018,Western NY,2025-26,R011,4,Consistency,Warning,Graduation status without matching exit record
+D100018,Western NY,2025-26,R012,4,Timeliness,Warning,Record submitted after collection window closed
+D100019,Western NY,2024-25,R001,49,Completeness,Error,Required field missing
+D100019,Western NY,2024-25,R002,5,Range,Error,Grade level outside valid range (PK-12)
+D100019,Western NY,2024-25,R003,4,Domain,Error,Invalid disability classification code
+D100019,Western NY,2024-25,R004,3,Consistency,Error,Exit date precedes entry date
+D100019,Western NY,2024-25,R005,20,Consistency,Warning,SWD flag set but no IEP date on file
+D100019,Western NY,2024-25,R006,2,Referential,Error,District ID not found in master file
+D100019,Western NY,2024-25,R007,6,Referential,Warning,Student ID not found in enrollment extract
+D100019,Western NY,2024-25,R008,17,Uniqueness,Warning,Duplicate student record within district
+D100019,Western NY,2024-25,R009,1,Range,Error,Date of birth implies age outside 3-21
+D100019,Western NY,2024-25,R010,2,Format,Error,Invalid BEDS code format
+D100019,Western NY,2024-25,R011,9,Consistency,Warning,Graduation status without matching exit record
+D100019,Western NY,2024-25,R012,17,Timeliness,Warning,Record submitted after collection window closed
+D100019,Western NY,2025-26,R001,51,Completeness,Error,Required field missing
+D100019,Western NY,2025-26,R002,6,Range,Error,Grade level outside valid range (PK-12)
+D100019,Western NY,2025-26,R003,9,Domain,Error,Invalid disability classification code
+D100019,Western NY,2025-26,R004,2,Consistency,Error,Exit date precedes entry date
+D100019,Western NY,2025-26,R005,19,Consistency,Warning,SWD flag set but no IEP date on file
+D100019,Western NY,2025-26,R006,1,Referential,Error,District ID not found in master file
+D100019,Western NY,2025-26,R007,1,Referential,Warning,Student ID not found in enrollment extract
+D100019,Western NY,2025-26,R008,16,Uniqueness,Warning,Duplicate student record within district
+D100019,Western NY,2025-26,R009,5,Range,Error,Date of birth implies age outside 3-21
+D100019,Western NY,2025-26,R010,3,Format,Error,Invalid BEDS code format
+D100019,Western NY,2025-26,R011,9,Consistency,Warning,Graduation status without matching exit record
+D100019,Western NY,2025-26,R012,11,Timeliness,Warning,Record submitted after collection window closed
+D100020,Western NY,2024-25,R001,7,Completeness,Error,Required field missing
+D100020,Western NY,2024-25,R002,4,Range,Error,Grade level outside valid range (PK-12)
+D100020,Western NY,2024-25,R003,6,Domain,Error,Invalid disability classification code
+D100020,Western NY,2024-25,R004,2,Consistency,Error,Exit date precedes entry date
+D100020,Western NY,2024-25,R005,9,Consistency,Warning,SWD flag set but no IEP date on file
+D100020,Western NY,2024-25,R006,0,Referential,Error,District ID not found in master file
+D100020,Western NY,2024-25,R007,5,Referential,Warning,Student ID not found in enrollment extract
+D100020,Western NY,2024-25,R008,5,Uniqueness,Warning,Duplicate student record within district
+D100020,Western NY,2024-25,R009,0,Range,Error,Date of birth implies age outside 3-21
+D100020,Western NY,2024-25,R010,2,Format,Error,Invalid BEDS code format
+D100020,Western NY,2024-25,R011,3,Consistency,Warning,Graduation status without matching exit record
+D100020,Western NY,2024-25,R012,1,Timeliness,Warning,Record submitted after collection window closed
+D100020,Western NY,2025-26,R001,12,Completeness,Error,Required field missing
+D100020,Western NY,2025-26,R002,1,Range,Error,Grade level outside valid range (PK-12)
+D100020,Western NY,2025-26,R003,2,Domain,Error,Invalid disability classification code
+D100020,Western NY,2025-26,R004,1,Consistency,Error,Exit date precedes entry date
+D100020,Western NY,2025-26,R005,11,Consistency,Warning,SWD flag set but no IEP date on file
+D100020,Western NY,2025-26,R006,1,Referential,Error,District ID not found in master file
+D100020,Western NY,2025-26,R007,8,Referential,Warning,Student ID not found in enrollment extract
+D100020,Western NY,2025-26,R008,3,Uniqueness,Warning,Duplicate student record within district
+D100020,Western NY,2025-26,R009,2,Range,Error,Date of birth implies age outside 3-21
+D100020,Western NY,2025-26,R010,2,Format,Error,Invalid BEDS code format
+D100020,Western NY,2025-26,R011,3,Consistency,Warning,Graduation status without matching exit record
+D100020,Western NY,2025-26,R012,9,Timeliness,Warning,Record submitted after collection window closed
+D100021,Western NY,2024-25,R001,5,Completeness,Error,Required field missing
+D100021,Western NY,2024-25,R002,1,Range,Error,Grade level outside valid range (PK-12)
+D100021,Western NY,2024-25,R003,3,Domain,Error,Invalid disability classification code
+D100021,Western NY,2024-25,R004,0,Consistency,Error,Exit date precedes entry date
+D100021,Western NY,2024-25,R005,2,Consistency,Warning,SWD flag set but no IEP date on file
+D100021,Western NY,2024-25,R006,0,Referential,Error,District ID not found in master file
+D100021,Western NY,2024-25,R007,3,Referential,Warning,Student ID not found in enrollment extract
+D100021,Western NY,2024-25,R008,2,Uniqueness,Warning,Duplicate student record within district
+D100021,Western NY,2024-25,R009,0,Range,Error,Date of birth implies age outside 3-21
+D100021,Western NY,2024-25,R010,1,Format,Error,Invalid BEDS code format
+D100021,Western NY,2024-25,R011,3,Consistency,Warning,Graduation status without matching exit record
+D100021,Western NY,2024-25,R012,5,Timeliness,Warning,Record submitted after collection window closed
+D100021,Western NY,2025-26,R001,11,Completeness,Error,Required field missing
+D100021,Western NY,2025-26,R002,0,Range,Error,Grade level outside valid range (PK-12)
+D100021,Western NY,2025-26,R003,6,Domain,Error,Invalid disability classification code
+D100021,Western NY,2025-26,R004,0,Consistency,Error,Exit date precedes entry date
+D100021,Western NY,2025-26,R005,4,Consistency,Warning,SWD flag set but no IEP date on file
+D100021,Western NY,2025-26,R006,0,Referential,Error,District ID not found in master file
+D100021,Western NY,2025-26,R007,1,Referential,Warning,Student ID not found in enrollment extract
+D100021,Western NY,2025-26,R008,1,Uniqueness,Warning,Duplicate student record within district
+D100021,Western NY,2025-26,R009,0,Range,Error,Date of birth implies age outside 3-21
+D100021,Western NY,2025-26,R010,2,Format,Error,Invalid BEDS code format
+D100021,Western NY,2025-26,R011,1,Consistency,Warning,Graduation status without matching exit record
+D100021,Western NY,2025-26,R012,5,Timeliness,Warning,Record submitted after collection window closed
+D100022,Western NY,2024-25,R001,19,Completeness,Error,Required field missing
+D100022,Western NY,2024-25,R002,2,Range,Error,Grade level outside valid range (PK-12)
+D100022,Western NY,2024-25,R003,3,Domain,Error,Invalid disability classification code
+D100022,Western NY,2024-25,R004,3,Consistency,Error,Exit date precedes entry date
+D100022,Western NY,2024-25,R005,11,Consistency,Warning,SWD flag set but no IEP date on file
+D100022,Western NY,2024-25,R006,2,Referential,Error,District ID not found in master file
+D100022,Western NY,2024-25,R007,2,Referential,Warning,Student ID not found in enrollment extract
+D100022,Western NY,2024-25,R008,11,Uniqueness,Warning,Duplicate student record within district
+D100022,Western NY,2024-25,R009,2,Range,Error,Date of birth implies age outside 3-21
+D100022,Western NY,2024-25,R010,2,Format,Error,Invalid BEDS code format
+D100022,Western NY,2024-25,R011,4,Consistency,Warning,Graduation status without matching exit record
+D100022,Western NY,2024-25,R012,14,Timeliness,Warning,Record submitted after collection window closed
+D100022,Western NY,2025-26,R001,26,Completeness,Error,Required field missing
+D100022,Western NY,2025-26,R002,2,Range,Error,Grade level outside valid range (PK-12)
+D100022,Western NY,2025-26,R003,3,Domain,Error,Invalid disability classification code
+D100022,Western NY,2025-26,R004,2,Consistency,Error,Exit date precedes entry date
+D100022,Western NY,2025-26,R005,10,Consistency,Warning,SWD flag set but no IEP date on file
+D100022,Western NY,2025-26,R006,0,Referential,Error,District ID not found in master file
+D100022,Western NY,2025-26,R007,1,Referential,Warning,Student ID not found in enrollment extract
+D100022,Western NY,2025-26,R008,10,Uniqueness,Warning,Duplicate student record within district
+D100022,Western NY,2025-26,R009,2,Range,Error,Date of birth implies age outside 3-21
+D100022,Western NY,2025-26,R010,1,Format,Error,Invalid BEDS code format
+D100022,Western NY,2025-26,R011,7,Consistency,Warning,Graduation status without matching exit record
+D100022,Western NY,2025-26,R012,17,Timeliness,Warning,Record submitted after collection window closed
+D100023,Western NY,2024-25,R001,1,Completeness,Error,Required field missing
+D100023,Western NY,2024-25,R002,0,Range,Error,Grade level outside valid range (PK-12)
+D100023,Western NY,2024-25,R003,1,Domain,Error,Invalid disability classification code
+D100023,Western NY,2024-25,R004,3,Consistency,Error,Exit date precedes entry date
+D100023,Western NY,2024-25,R005,1,Consistency,Warning,SWD flag set but no IEP date on file
+D100023,Western NY,2024-25,R006,1,Referential,Error,District ID not found in master file
+D100023,Western NY,2024-25,R007,0,Referential,Warning,Student ID not found in enrollment extract
+D100023,Western NY,2024-25,R008,2,Uniqueness,Warning,Duplicate student record within district
+D100023,Western NY,2024-25,R009,0,Range,Error,Date of birth implies age outside 3-21
+D100023,Western NY,2024-25,R010,2,Format,Error,Invalid BEDS code format
+D100023,Western NY,2024-25,R011,1,Consistency,Warning,Graduation status without matching exit record
+D100023,Western NY,2024-25,R012,3,Timeliness,Warning,Record submitted after collection window closed
+D100023,Western NY,2025-26,R001,9,Completeness,Error,Required field missing
+D100023,Western NY,2025-26,R002,1,Range,Error,Grade level outside valid range (PK-12)
+D100023,Western NY,2025-26,R003,2,Domain,Error,Invalid disability classification code
+D100023,Western NY,2025-26,R004,0,Consistency,Error,Exit date precedes entry date
+D100023,Western NY,2025-26,R005,4,Consistency,Warning,SWD flag set but no IEP date on file
+D100023,Western NY,2025-26,R006,1,Referential,Error,District ID not found in master file
+D100023,Western NY,2025-26,R007,3,Referential,Warning,Student ID not found in enrollment extract
+D100023,Western NY,2025-26,R008,2,Uniqueness,Warning,Duplicate student record within district
+D100023,Western NY,2025-26,R009,0,Range,Error,Date of birth implies age outside 3-21
+D100023,Western NY,2025-26,R010,0,Format,Error,Invalid BEDS code format
+D100023,Western NY,2025-26,R011,2,Consistency,Warning,Graduation status without matching exit record
+D100023,Western NY,2025-26,R012,5,Timeliness,Warning,Record submitted after collection window closed
+D100024,Western NY,2024-25,R001,1,Completeness,Error,Required field missing
+D100024,Western NY,2024-25,R002,1,Range,Error,Grade level outside valid range (PK-12)
+D100024,Western NY,2024-25,R003,0,Domain,Error,Invalid disability classification code
+D100024,Western NY,2024-25,R004,0,Consistency,Error,Exit date precedes entry date
+D100024,Western NY,2024-25,R005,0,Consistency,Warning,SWD flag set but no IEP date on file
+D100024,Western NY,2024-25,R006,0,Referential,Error,District ID not found in master file
+D100024,Western NY,2024-25,R007,1,Referential,Warning,Student ID not found in enrollment extract
+D100024,Western NY,2024-25,R008,1,Uniqueness,Warning,Duplicate student record within district
+D100024,Western NY,2024-25,R009,0,Range,Error,Date of birth implies age outside 3-21
+D100024,Western NY,2024-25,R010,0,Format,Error,Invalid BEDS code format
+D100024,Western NY,2024-25,R011,0,Consistency,Warning,Graduation status without matching exit record
+D100024,Western NY,2024-25,R012,0,Timeliness,Warning,Record submitted after collection window closed
+D100024,Western NY,2025-26,R001,3,Completeness,Error,Required field missing
+D100024,Western NY,2025-26,R002,1,Range,Error,Grade level outside valid range (PK-12)
+D100024,Western NY,2025-26,R003,0,Domain,Error,Invalid disability classification code
+D100024,Western NY,2025-26,R004,0,Consistency,Error,Exit date precedes entry date
+D100024,Western NY,2025-26,R005,1,Consistency,Warning,SWD flag set but no IEP date on file
+D100024,Western NY,2025-26,R006,0,Referential,Error,District ID not found in master file
+D100024,Western NY,2025-26,R007,1,Referential,Warning,Student ID not found in enrollment extract
+D100024,Western NY,2025-26,R008,3,Uniqueness,Warning,Duplicate student record within district
+D100024,Western NY,2025-26,R009,0,Range,Error,Date of birth implies age outside 3-21
+D100024,Western NY,2025-26,R010,1,Format,Error,Invalid BEDS code format
+D100024,Western NY,2025-26,R011,1,Consistency,Warning,Graduation status without matching exit record
+D100024,Western NY,2025-26,R012,1,Timeliness,Warning,Record submitted after collection window closed
+D100025,Central NY,2024-25,R001,6,Completeness,Error,Required field missing
+D100025,Central NY,2024-25,R002,2,Range,Error,Grade level outside valid range (PK-12)
+D100025,Central NY,2024-25,R003,3,Domain,Error,Invalid disability classification code
+D100025,Central NY,2024-25,R004,2,Consistency,Error,Exit date precedes entry date
+D100025,Central NY,2024-25,R005,4,Consistency,Warning,SWD flag set but no IEP date on file
+D100025,Central NY,2024-25,R006,0,Referential,Error,District ID not found in master file
+D100025,Central NY,2024-25,R007,0,Referential,Warning,Student ID not found in enrollment extract
+D100025,Central NY,2024-25,R008,4,Uniqueness,Warning,Duplicate student record within district
+D100025,Central NY,2024-25,R009,1,Range,Error,Date of birth implies age outside 3-21
+D100025,Central NY,2024-25,R010,0,Format,Error,Invalid BEDS code format
+D100025,Central NY,2024-25,R011,3,Consistency,Warning,Graduation status without matching exit record
+D100025,Central NY,2024-25,R012,6,Timeliness,Warning,Record submitted after collection window closed
+D100025,Central NY,2025-26,R001,6,Completeness,Error,Required field missing
+D100025,Central NY,2025-26,R002,1,Range,Error,Grade level outside valid range (PK-12)
+D100025,Central NY,2025-26,R003,4,Domain,Error,Invalid disability classification code
+D100025,Central NY,2025-26,R004,0,Consistency,Error,Exit date precedes entry date
+D100025,Central NY,2025-26,R005,2,Consistency,Warning,SWD flag set but no IEP date on file
+D100025,Central NY,2025-26,R006,0,Referential,Error,District ID not found in master file
+D100025,Central NY,2025-26,R007,3,Referential,Warning,Student ID not found in enrollment extract
+D100025,Central NY,2025-26,R008,7,Uniqueness,Warning,Duplicate student record within district
+D100025,Central NY,2025-26,R009,0,Range,Error,Date of birth implies age outside 3-21
+D100025,Central NY,2025-26,R010,3,Format,Error,Invalid BEDS code format
+D100025,Central NY,2025-26,R011,4,Consistency,Warning,Graduation status without matching exit record
+D100025,Central NY,2025-26,R012,3,Timeliness,Warning,Record submitted after collection window closed
+D100026,Central NY,2024-25,R001,18,Completeness,Error,Required field missing
+D100026,Central NY,2024-25,R002,2,Range,Error,Grade level outside valid range (PK-12)
+D100026,Central NY,2024-25,R003,4,Domain,Error,Invalid disability classification code
+D100026,Central NY,2024-25,R004,2,Consistency,Error,Exit date precedes entry date
+D100026,Central NY,2024-25,R005,11,Consistency,Warning,SWD flag set but no IEP date on file
+D100026,Central NY,2024-25,R006,2,Referential,Error,District ID not found in master file
+D100026,Central NY,2024-25,R007,4,Referential,Warning,Student ID not found in enrollment extract
+D100026,Central NY,2024-25,R008,12,Uniqueness,Warning,Duplicate student record within district
+D100026,Central NY,2024-25,R009,2,Range,Error,Date of birth implies age outside 3-21
+D100026,Central NY,2024-25,R010,5,Format,Error,Invalid BEDS code format
+D100026,Central NY,2024-25,R011,2,Consistency,Warning,Graduation status without matching exit record
+D100026,Central NY,2024-25,R012,10,Timeliness,Warning,Record submitted after collection window closed
+D100026,Central NY,2025-26,R001,24,Completeness,Error,Required field missing
+D100026,Central NY,2025-26,R002,2,Range,Error,Grade level outside valid range (PK-12)
+D100026,Central NY,2025-26,R003,8,Domain,Error,Invalid disability classification code
+D100026,Central NY,2025-26,R004,2,Consistency,Error,Exit date precedes entry date
+D100026,Central NY,2025-26,R005,14,Consistency,Warning,SWD flag set but no IEP date on file
+D100026,Central NY,2025-26,R006,2,Referential,Error,District ID not found in master file
+D100026,Central NY,2025-26,R007,2,Referential,Warning,Student ID not found in enrollment extract
+D100026,Central NY,2025-26,R008,14,Uniqueness,Warning,Duplicate student record within district
+D100026,Central NY,2025-26,R009,1,Range,Error,Date of birth implies age outside 3-21
+D100026,Central NY,2025-26,R010,1,Format,Error,Invalid BEDS code format
+D100026,Central NY,2025-26,R011,4,Consistency,Warning,Graduation status without matching exit record
+D100026,Central NY,2025-26,R012,15,Timeliness,Warning,Record submitted after collection window closed
+D100027,Central NY,2024-25,R001,7,Completeness,Error,Required field missing
+D100027,Central NY,2024-25,R002,1,Range,Error,Grade level outside valid range (PK-12)
+D100027,Central NY,2024-25,R003,5,Domain,Error,Invalid disability classification code
+D100027,Central NY,2024-25,R004,0,Consistency,Error,Exit date precedes entry date
+D100027,Central NY,2024-25,R005,4,Consistency,Warning,SWD flag set but no IEP date on file
+D100027,Central NY,2024-25,R006,1,Referential,Error,District ID not found in master file
+D100027,Central NY,2024-25,R007,0,Referential,Warning,Student ID not found in enrollment extract
+D100027,Central NY,2024-25,R008,1,Uniqueness,Warning,Duplicate student record within district
+D100027,Central NY,2024-25,R009,0,Range,Error,Date of birth implies age outside 3-21
+D100027,Central NY,2024-25,R010,0,Format,Error,Invalid BEDS code format
+D100027,Central NY,2024-25,R011,2,Consistency,Warning,Graduation status without matching exit record
+D100027,Central NY,2024-25,R012,3,Timeliness,Warning,Record submitted after collection window closed
+D100027,Central NY,2025-26,R001,4,Completeness,Error,Required field missing
+D100027,Central NY,2025-26,R002,3,Range,Error,Grade level outside valid range (PK-12)
+D100027,Central NY,2025-26,R003,4,Domain,Error,Invalid disability classification code
+D100027,Central NY,2025-26,R004,0,Consistency,Error,Exit date precedes entry date
+D100027,Central NY,2025-26,R005,4,Consistency,Warning,SWD flag set but no IEP date on file
+D100027,Central NY,2025-26,R006,1,Referential,Error,District ID not found in master file
+D100027,Central NY,2025-26,R007,1,Referential,Warning,Student ID not found in enrollment extract
+D100027,Central NY,2025-26,R008,4,Uniqueness,Warning,Duplicate student record within district
+D100027,Central NY,2025-26,R009,1,Range,Error,Date of birth implies age outside 3-21
+D100027,Central NY,2025-26,R010,1,Format,Error,Invalid BEDS code format
+D100027,Central NY,2025-26,R011,4,Consistency,Warning,Graduation status without matching exit record
+D100027,Central NY,2025-26,R012,6,Timeliness,Warning,Record submitted after collection window closed
+D100028,Central NY,2024-25,R001,8,Completeness,Error,Required field missing
+D100028,Central NY,2024-25,R002,1,Range,Error,Grade level outside valid range (PK-12)
+D100028,Central NY,2024-25,R003,4,Domain,Error,Invalid disability classification code
+D100028,Central NY,2024-25,R004,1,Consistency,Error,Exit date precedes entry date
+D100028,Central NY,2024-25,R005,4,Consistency,Warning,SWD flag set but no IEP date on file
+D100028,Central NY,2024-25,R006,0,Referential,Error,District ID not found in master file
+D100028,Central NY,2024-25,R007,1,Referential,Warning,Student ID not found in enrollment extract
+D100028,Central NY,2024-25,R008,9,Uniqueness,Warning,Duplicate student record within district
+D100028,Central NY,2024-25,R009,0,Range,Error,Date of birth implies age outside 3-21
+D100028,Central NY,2024-25,R010,2,Format,Error,Invalid BEDS code format
+D100028,Central NY,2024-25,R011,0,Consistency,Warning,Graduation status without matching exit record
+D100028,Central NY,2024-25,R012,4,Timeliness,Warning,Record submitted after collection window closed
+D100028,Central NY,2025-26,R001,7,Completeness,Error,Required field missing
+D100028,Central NY,2025-26,R002,1,Range,Error,Grade level outside valid range (PK-12)
+D100028,Central NY,2025-26,R003,2,Domain,Error,Invalid disability classification code
+D100028,Central NY,2025-26,R004,1,Consistency,Error,Exit date precedes entry date
+D100028,Central NY,2025-26,R005,7,Consistency,Warning,SWD flag set but no IEP date on file
+D100028,Central NY,2025-26,R006,1,Referential,Error,District ID not found in master file
+D100028,Central NY,2025-26,R007,3,Referential,Warning,Student ID not found in enrollment extract
+D100028,Central NY,2025-26,R008,2,Uniqueness,Warning,Duplicate student record within district
+D100028,Central NY,2025-26,R009,0,Range,Error,Date of birth implies age outside 3-21
+D100028,Central NY,2025-26,R010,2,Format,Error,Invalid BEDS code format
+D100028,Central NY,2025-26,R011,3,Consistency,Warning,Graduation status without matching exit record
+D100028,Central NY,2025-26,R012,6,Timeliness,Warning,Record submitted after collection window closed
+D100029,Central NY,2024-25,R001,4,Completeness,Error,Required field missing
+D100029,Central NY,2024-25,R002,1,Range,Error,Grade level outside valid range (PK-12)
+D100029,Central NY,2024-25,R003,2,Domain,Error,Invalid disability classification code
+D100029,Central NY,2024-25,R004,3,Consistency,Error,Exit date precedes entry date
+D100029,Central NY,2024-25,R005,5,Consistency,Warning,SWD flag set but no IEP date on file
+D100029,Central NY,2024-25,R006,0,Referential,Error,District ID not found in master file
+D100029,Central NY,2024-25,R007,1,Referential,Warning,Student ID not found in enrollment extract
+D100029,Central NY,2024-25,R008,1,Uniqueness,Warning,Duplicate student record within district
+D100029,Central NY,2024-25,R009,0,Range,Error,Date of birth implies age outside 3-21
+D100029,Central NY,2024-25,R010,1,Format,Error,Invalid BEDS code format
+D100029,Central NY,2024-25,R011,3,Consistency,Warning,Graduation status without matching exit record
+D100029,Central NY,2024-25,R012,4,Timeliness,Warning,Record submitted after collection window closed
+D100029,Central NY,2025-26,R001,5,Completeness,Error,Required field missing
+D100029,Central NY,2025-26,R002,2,Range,Error,Grade level outside valid range (PK-12)
+D100029,Central NY,2025-26,R003,5,Domain,Error,Invalid disability classification code
+D100029,Central NY,2025-26,R004,1,Consistency,Error,Exit date precedes entry date
+D100029,Central NY,2025-26,R005,2,Consistency,Warning,SWD flag set but no IEP date on file
+D100029,Central NY,2025-26,R006,0,Referential,Error,District ID not found in master file
+D100029,Central NY,2025-26,R007,1,Referential,Warning,Student ID not found in enrollment extract
+D100029,Central NY,2025-26,R008,3,Uniqueness,Warning,Duplicate student record within district
+D100029,Central NY,2025-26,R009,0,Range,Error,Date of birth implies age outside 3-21
+D100029,Central NY,2025-26,R010,1,Format,Error,Invalid BEDS code format
+D100029,Central NY,2025-26,R011,0,Consistency,Warning,Graduation status without matching exit record
+D100029,Central NY,2025-26,R012,2,Timeliness,Warning,Record submitted after collection window closed
+D100030,Central NY,2024-25,R001,9,Completeness,Error,Required field missing
+D100030,Central NY,2024-25,R002,3,Range,Error,Grade level outside valid range (PK-12)
+D100030,Central NY,2024-25,R003,3,Domain,Error,Invalid disability classification code
+D100030,Central NY,2024-25,R004,2,Consistency,Error,Exit date precedes entry date
+D100030,Central NY,2024-25,R005,2,Consistency,Warning,SWD flag set but no IEP date on file
+D100030,Central NY,2024-25,R006,0,Referential,Error,District ID not found in master file
+D100030,Central NY,2024-25,R007,3,Referential,Warning,Student ID not found in enrollment extract
+D100030,Central NY,2024-25,R008,3,Uniqueness,Warning,Duplicate student record within district
+D100030,Central NY,2024-25,R009,0,Range,Error,Date of birth implies age outside 3-21
+D100030,Central NY,2024-25,R010,0,Format,Error,Invalid BEDS code format
+D100030,Central NY,2024-25,R011,1,Consistency,Warning,Graduation status without matching exit record
+D100030,Central NY,2024-25,R012,3,Timeliness,Warning,Record submitted after collection window closed
+D100030,Central NY,2025-26,R001,6,Completeness,Error,Required field missing
+D100030,Central NY,2025-26,R002,2,Range,Error,Grade level outside valid range (PK-12)
+D100030,Central NY,2025-26,R003,0,Domain,Error,Invalid disability classification code
+D100030,Central NY,2025-26,R004,0,Consistency,Error,Exit date precedes entry date
+D100030,Central NY,2025-26,R005,3,Consistency,Warning,SWD flag set but no IEP date on file
+D100030,Central NY,2025-26,R006,2,Referential,Error,District ID not found in master file
+D100030,Central NY,2025-26,R007,2,Referential,Warning,Student ID not found in enrollment extract
+D100030,Central NY,2025-26,R008,4,Uniqueness,Warning,Duplicate student record within district
+D100030,Central NY,2025-26,R009,1,Range,Error,Date of birth implies age outside 3-21
+D100030,Central NY,2025-26,R010,0,Format,Error,Invalid BEDS code format
+D100030,Central NY,2025-26,R011,4,Consistency,Warning,Graduation status without matching exit record
+D100030,Central NY,2025-26,R012,7,Timeliness,Warning,Record submitted after collection window closed
+D100031,Central NY,2024-25,R001,8,Completeness,Error,Required field missing
+D100031,Central NY,2024-25,R002,2,Range,Error,Grade level outside valid range (PK-12)
+D100031,Central NY,2024-25,R003,4,Domain,Error,Invalid disability classification code
+D100031,Central NY,2024-25,R004,1,Consistency,Error,Exit date precedes entry date
+D100031,Central NY,2024-25,R005,5,Consistency,Warning,SWD flag set but no IEP date on file
+D100031,Central NY,2024-25,R006,0,Referential,Error,District ID not found in master file
+D100031,Central NY,2024-25,R007,2,Referential,Warning,Student ID not found in enrollment extract
+D100031,Central NY,2024-25,R008,7,Uniqueness,Warning,Duplicate student record within district
+D100031,Central NY,2024-25,R009,2,Range,Error,Date of birth implies age outside 3-21
+D100031,Central NY,2024-25,R010,1,Format,Error,Invalid BEDS code format
+D100031,Central NY,2024-25,R011,5,Consistency,Warning,Graduation status without matching exit record
+D100031,Central NY,2024-25,R012,5,Timeliness,Warning,Record submitted after collection window closed
+D100031,Central NY,2025-26,R001,8,Completeness,Error,Required field missing
+D100031,Central NY,2025-26,R002,0,Range,Error,Grade level outside valid range (PK-12)
+D100031,Central NY,2025-26,R003,3,Domain,Error,Invalid disability classification code
+D100031,Central NY,2025-26,R004,1,Consistency,Error,Exit date precedes entry date
+D100031,Central NY,2025-26,R005,6,Consistency,Warning,SWD flag set but no IEP date on file
+D100031,Central NY,2025-26,R006,3,Referential,Error,District ID not found in master file
+D100031,Central NY,2025-26,R007,2,Referential,Warning,Student ID not found in enrollment extract
+D100031,Central NY,2025-26,R008,1,Uniqueness,Warning,Duplicate student record within district
+D100031,Central NY,2025-26,R009,1,Range,Error,Date of birth implies age outside 3-21
+D100031,Central NY,2025-26,R010,0,Format,Error,Invalid BEDS code format
+D100031,Central NY,2025-26,R011,3,Consistency,Warning,Graduation status without matching exit record
+D100031,Central NY,2025-26,R012,5,Timeliness,Warning,Record submitted after collection window closed
+D100032,Central NY,2024-25,R001,5,Completeness,Error,Required field missing
+D100032,Central NY,2024-25,R002,1,Range,Error,Grade level outside valid range (PK-12)
+D100032,Central NY,2024-25,R003,3,Domain,Error,Invalid disability classification code
+D100032,Central NY,2024-25,R004,0,Consistency,Error,Exit date precedes entry date
+D100032,Central NY,2024-25,R005,5,Consistency,Warning,SWD flag set but no IEP date on file
+D100032,Central NY,2024-25,R006,0,Referential,Error,District ID not found in master file
+D100032,Central NY,2024-25,R007,1,Referential,Warning,Student ID not found in enrollment extract
+D100032,Central NY,2024-25,R008,4,Uniqueness,Warning,Duplicate student record within district
+D100032,Central NY,2024-25,R009,1,Range,Error,Date of birth implies age outside 3-21
+D100032,Central NY,2024-25,R010,0,Format,Error,Invalid BEDS code format
+D100032,Central NY,2024-25,R011,2,Consistency,Warning,Graduation status without matching exit record
+D100032,Central NY,2024-25,R012,8,Timeliness,Warning,Record submitted after collection window closed
+D100032,Central NY,2025-26,R001,11,Completeness,Error,Required field missing
+D100032,Central NY,2025-26,R002,1,Range,Error,Grade level outside valid range (PK-12)
+D100032,Central NY,2025-26,R003,4,Domain,Error,Invalid disability classification code
+D100032,Central NY,2025-26,R004,0,Consistency,Error,Exit date precedes entry date
+D100032,Central NY,2025-26,R005,8,Consistency,Warning,SWD flag set but no IEP date on file
+D100032,Central NY,2025-26,R006,0,Referential,Error,District ID not found in master file
+D100032,Central NY,2025-26,R007,5,Referential,Warning,Student ID not found in enrollment extract
+D100032,Central NY,2025-26,R008,1,Uniqueness,Warning,Duplicate student record within district
+D100032,Central NY,2025-26,R009,0,Range,Error,Date of birth implies age outside 3-21
+D100032,Central NY,2025-26,R010,1,Format,Error,Invalid BEDS code format
+D100032,Central NY,2025-26,R011,2,Consistency,Warning,Graduation status without matching exit record
+D100032,Central NY,2025-26,R012,3,Timeliness,Warning,Record submitted after collection window closed
+D100033,Central NY,2024-25,R001,18,Completeness,Error,Required field missing
+D100033,Central NY,2024-25,R002,9,Range,Error,Grade level outside valid range (PK-12)
+D100033,Central NY,2024-25,R003,11,Domain,Error,Invalid disability classification code
+D100033,Central NY,2024-25,R004,3,Consistency,Error,Exit date precedes entry date
+D100033,Central NY,2024-25,R005,17,Consistency,Warning,SWD flag set but no IEP date on file
+D100033,Central NY,2024-25,R006,1,Referential,Error,District ID not found in master file
+D100033,Central NY,2024-25,R007,6,Referential,Warning,Student ID not found in enrollment extract
+D100033,Central NY,2024-25,R008,12,Uniqueness,Warning,Duplicate student record within district
+D100033,Central NY,2024-25,R009,6,Range,Error,Date of birth implies age outside 3-21
+D100033,Central NY,2024-25,R010,6,Format,Error,Invalid BEDS code format
+D100033,Central NY,2024-25,R011,11,Consistency,Warning,Graduation status without matching exit record
+D100033,Central NY,2024-25,R012,28,Timeliness,Warning,Record submitted after collection window closed
+D100033,Central NY,2025-26,R001,49,Completeness,Error,Required field missing
+D100033,Central NY,2025-26,R002,5,Range,Error,Grade level outside valid range (PK-12)
+D100033,Central NY,2025-26,R003,7,Domain,Error,Invalid disability classification code
+D100033,Central NY,2025-26,R004,5,Consistency,Error,Exit date precedes entry date
+D100033,Central NY,2025-26,R005,15,Consistency,Warning,SWD flag set but no IEP date on file
+D100033,Central NY,2025-26,R006,1,Referential,Error,District ID not found in master file
+D100033,Central NY,2025-26,R007,9,Referential,Warning,Student ID not found in enrollment extract
+D100033,Central NY,2025-26,R008,11,Uniqueness,Warning,Duplicate student record within district
+D100033,Central NY,2025-26,R009,4,Range,Error,Date of birth implies age outside 3-21
+D100033,Central NY,2025-26,R010,8,Format,Error,Invalid BEDS code format
+D100033,Central NY,2025-26,R011,8,Consistency,Warning,Graduation status without matching exit record
+D100033,Central NY,2025-26,R012,20,Timeliness,Warning,Record submitted after collection window closed
+D100034,Central NY,2024-25,R001,18,Completeness,Error,Required field missing
+D100034,Central NY,2024-25,R002,1,Range,Error,Grade level outside valid range (PK-12)
+D100034,Central NY,2024-25,R003,2,Domain,Error,Invalid disability classification code
+D100034,Central NY,2024-25,R004,4,Consistency,Error,Exit date precedes entry date
+D100034,Central NY,2024-25,R005,9,Consistency,Warning,SWD flag set but no IEP date on file
+D100034,Central NY,2024-25,R006,0,Referential,Error,District ID not found in master file
+D100034,Central NY,2024-25,R007,4,Referential,Warning,Student ID not found in enrollment extract
+D100034,Central NY,2024-25,R008,5,Uniqueness,Warning,Duplicate student record within district
+D100034,Central NY,2024-25,R009,0,Range,Error,Date of birth implies age outside 3-21
+D100034,Central NY,2024-25,R010,1,Format,Error,Invalid BEDS code format
+D100034,Central NY,2024-25,R011,4,Consistency,Warning,Graduation status without matching exit record
+D100034,Central NY,2024-25,R012,9,Timeliness,Warning,Record submitted after collection window closed
+D100034,Central NY,2025-26,R001,24,Completeness,Error,Required field missing
+D100034,Central NY,2025-26,R002,2,Range,Error,Grade level outside valid range (PK-12)
+D100034,Central NY,2025-26,R003,6,Domain,Error,Invalid disability classification code
+D100034,Central NY,2025-26,R004,2,Consistency,Error,Exit date precedes entry date
+D100034,Central NY,2025-26,R005,8,Consistency,Warning,SWD flag set but no IEP date on file
+D100034,Central NY,2025-26,R006,1,Referential,Error,District ID not found in master file
+D100034,Central NY,2025-26,R007,2,Referential,Warning,Student ID not found in enrollment extract
+D100034,Central NY,2025-26,R008,2,Uniqueness,Warning,Duplicate student record within district
+D100034,Central NY,2025-26,R009,0,Range,Error,Date of birth implies age outside 3-21
+D100034,Central NY,2025-26,R010,3,Format,Error,Invalid BEDS code format
+D100034,Central NY,2025-26,R011,0,Consistency,Warning,Graduation status without matching exit record
+D100034,Central NY,2025-26,R012,8,Timeliness,Warning,Record submitted after collection window closed
+D100035,Central NY,2024-25,R001,39,Completeness,Error,Required field missing
+D100035,Central NY,2024-25,R002,8,Range,Error,Grade level outside valid range (PK-12)
+D100035,Central NY,2024-25,R003,23,Domain,Error,Invalid disability classification code
+D100035,Central NY,2024-25,R004,6,Consistency,Error,Exit date precedes entry date
+D100035,Central NY,2024-25,R005,45,Consistency,Warning,SWD flag set but no IEP date on file
+D100035,Central NY,2024-25,R006,4,Referential,Error,District ID not found in master file
+D100035,Central NY,2024-25,R007,18,Referential,Warning,Student ID not found in enrollment extract
+D100035,Central NY,2024-25,R008,26,Uniqueness,Warning,Duplicate student record within district
+D100035,Central NY,2024-25,R009,4,Range,Error,Date of birth implies age outside 3-21
+D100035,Central NY,2024-25,R010,10,Format,Error,Invalid BEDS code format
+D100035,Central NY,2024-25,R011,13,Consistency,Warning,Graduation status without matching exit record
+D100035,Central NY,2024-25,R012,23,Timeliness,Warning,Record submitted after collection window closed
+D100035,Central NY,2025-26,R001,65,Completeness,Error,Required field missing
+D100035,Central NY,2025-26,R002,10,Range,Error,Grade level outside valid range (PK-12)
+D100035,Central NY,2025-26,R003,23,Domain,Error,Invalid disability classification code
+D100035,Central NY,2025-26,R004,7,Consistency,Error,Exit date precedes entry date
+D100035,Central NY,2025-26,R005,27,Consistency,Warning,SWD flag set but no IEP date on file
+D100035,Central NY,2025-26,R006,1,Referential,Error,District ID not found in master file
+D100035,Central NY,2025-26,R007,8,Referential,Warning,Student ID not found in enrollment extract
+D100035,Central NY,2025-26,R008,8,Uniqueness,Warning,Duplicate student record within district
+D100035,Central NY,2025-26,R009,5,Range,Error,Date of birth implies age outside 3-21
+D100035,Central NY,2025-26,R010,9,Format,Error,Invalid BEDS code format
+D100035,Central NY,2025-26,R011,18,Consistency,Warning,Graduation status without matching exit record
+D100035,Central NY,2025-26,R012,24,Timeliness,Warning,Record submitted after collection window closed
+D100036,Central NY,2024-25,R001,1,Completeness,Error,Required field missing
+D100036,Central NY,2024-25,R002,0,Range,Error,Grade level outside valid range (PK-12)
+D100036,Central NY,2024-25,R003,1,Domain,Error,Invalid disability classification code
+D100036,Central NY,2024-25,R004,0,Consistency,Error,Exit date precedes entry date
+D100036,Central NY,2024-25,R005,2,Consistency,Warning,SWD flag set but no IEP date on file
+D100036,Central NY,2024-25,R006,0,Referential,Error,District ID not found in master file
+D100036,Central NY,2024-25,R007,0,Referential,Warning,Student ID not found in enrollment extract
+D100036,Central NY,2024-25,R008,1,Uniqueness,Warning,Duplicate student record within district
+D100036,Central NY,2024-25,R009,0,Range,Error,Date of birth implies age outside 3-21
+D100036,Central NY,2024-25,R010,0,Format,Error,Invalid BEDS code format
+D100036,Central NY,2024-25,R011,2,Consistency,Warning,Graduation status without matching exit record
+D100036,Central NY,2024-25,R012,1,Timeliness,Warning,Record submitted after collection window closed
+D100036,Central NY,2025-26,R001,3,Completeness,Error,Required field missing
+D100036,Central NY,2025-26,R002,1,Range,Error,Grade level outside valid range (PK-12)
+D100036,Central NY,2025-26,R003,1,Domain,Error,Invalid disability classification code
+D100036,Central NY,2025-26,R004,0,Consistency,Error,Exit date precedes entry date
+D100036,Central NY,2025-26,R005,0,Consistency,Warning,SWD flag set but no IEP date on file
+D100036,Central NY,2025-26,R006,1,Referential,Error,District ID not found in master file
+D100036,Central NY,2025-26,R007,0,Referential,Warning,Student ID not found in enrollment extract
+D100036,Central NY,2025-26,R008,0,Uniqueness,Warning,Duplicate student record within district
+D100036,Central NY,2025-26,R009,0,Range,Error,Date of birth implies age outside 3-21
+D100036,Central NY,2025-26,R010,2,Format,Error,Invalid BEDS code format
+D100036,Central NY,2025-26,R011,1,Consistency,Warning,Graduation status without matching exit record
+D100036,Central NY,2025-26,R012,2,Timeliness,Warning,Record submitted after collection window closed
+D100037,Capital Region,2024-25,R001,8,Completeness,Error,Required field missing
+D100037,Capital Region,2024-25,R002,2,Range,Error,Grade level outside valid range (PK-12)
+D100037,Capital Region,2024-25,R003,0,Domain,Error,Invalid disability classification code
+D100037,Capital Region,2024-25,R004,3,Consistency,Error,Exit date precedes entry date
+D100037,Capital Region,2024-25,R005,3,Consistency,Warning,SWD flag set but no IEP date on file
+D100037,Capital Region,2024-25,R006,0,Referential,Error,District ID not found in master file
+D100037,Capital Region,2024-25,R007,3,Referential,Warning,Student ID not found in enrollment extract
+D100037,Capital Region,2024-25,R008,1,Uniqueness,Warning,Duplicate student record within district
+D100037,Capital Region,2024-25,R009,2,Range,Error,Date of birth implies age outside 3-21
+D100037,Capital Region,2024-25,R010,0,Format,Error,Invalid BEDS code format
+D100037,Capital Region,2024-25,R011,1,Consistency,Warning,Graduation status without matching exit record
+D100037,Capital Region,2024-25,R012,6,Timeliness,Warning,Record submitted after collection window closed
+D100037,Capital Region,2025-26,R001,3,Completeness,Error,Required field missing
+D100037,Capital Region,2025-26,R002,0,Range,Error,Grade level outside valid range (PK-12)
+D100037,Capital Region,2025-26,R003,2,Domain,Error,Invalid disability classification code
+D100037,Capital Region,2025-26,R004,0,Consistency,Error,Exit date precedes entry date
+D100037,Capital Region,2025-26,R005,1,Consistency,Warning,SWD flag set but no IEP date on file
+D100037,Capital Region,2025-26,R006,0,Referential,Error,District ID not found in master file
+D100037,Capital Region,2025-26,R007,4,Referential,Warning,Student ID not found in enrollment extract
+D100037,Capital Region,2025-26,R008,2,Uniqueness,Warning,Duplicate student record within district
+D100037,Capital Region,2025-26,R009,2,Range,Error,Date of birth implies age outside 3-21
+D100037,Capital Region,2025-26,R010,0,Format,Error,Invalid BEDS code format
+D100037,Capital Region,2025-26,R011,0,Consistency,Warning,Graduation status without matching exit record
+D100037,Capital Region,2025-26,R012,3,Timeliness,Warning,Record submitted after collection window closed
+D100038,Capital Region,2024-25,R001,5,Completeness,Error,Required field missing
+D100038,Capital Region,2024-25,R002,2,Range,Error,Grade level outside valid range (PK-12)
+D100038,Capital Region,2024-25,R003,1,Domain,Error,Invalid disability classification code
+D100038,Capital Region,2024-25,R004,1,Consistency,Error,Exit date precedes entry date
+D100038,Capital Region,2024-25,R005,2,Consistency,Warning,SWD flag set but no IEP date on file
+D100038,Capital Region,2024-25,R006,0,Referential,Error,District ID not found in master file
+D100038,Capital Region,2024-25,R007,4,Referential,Warning,Student ID not found in enrollment extract
+D100038,Capital Region,2024-25,R008,1,Uniqueness,Warning,Duplicate student record within district
+D100038,Capital Region,2024-25,R009,0,Range,Error,Date of birth implies age outside 3-21
+D100038,Capital Region,2024-25,R010,0,Format,Error,Invalid BEDS code format
+D100038,Capital Region,2024-25,R011,0,Consistency,Warning,Graduation status without matching exit record
+D100038,Capital Region,2024-25,R012,0,Timeliness,Warning,Record submitted after collection window closed
+D100038,Capital Region,2025-26,R001,6,Completeness,Error,Required field missing
+D100038,Capital Region,2025-26,R002,3,Range,Error,Grade level outside valid range (PK-12)
+D100038,Capital Region,2025-26,R003,1,Domain,Error,Invalid disability classification code
+D100038,Capital Region,2025-26,R004,0,Consistency,Error,Exit date precedes entry date
+D100038,Capital Region,2025-26,R005,3,Consistency,Warning,SWD flag set but no IEP date on file
+D100038,Capital Region,2025-26,R006,0,Referential,Error,District ID not found in master file
+D100038,Capital Region,2025-26,R007,1,Referential,Warning,Student ID not found in enrollment extract
+D100038,Capital Region,2025-26,R008,0,Uniqueness,Warning,Duplicate student record within district
+D100038,Capital Region,2025-26,R009,0,Range,Error,Date of birth implies age outside 3-21
+D100038,Capital Region,2025-26,R010,2,Format,Error,Invalid BEDS code format
+D100038,Capital Region,2025-26,R011,0,Consistency,Warning,Graduation status without matching exit record
+D100038,Capital Region,2025-26,R012,5,Timeliness,Warning,Record submitted after collection window closed
+D100039,Capital Region,2024-25,R001,1,Completeness,Error,Required field missing
+D100039,Capital Region,2024-25,R002,0,Range,Error,Grade level outside valid range (PK-12)
+D100039,Capital Region,2024-25,R003,1,Domain,Error,Invalid disability classification code
+D100039,Capital Region,2024-25,R004,0,Consistency,Error,Exit date precedes entry date
+D100039,Capital Region,2024-25,R005,0,Consistency,Warning,SWD flag set but no IEP date on file
+D100039,Capital Region,2024-25,R006,0,Referential,Error,District ID not found in master file
+D100039,Capital Region,2024-25,R007,0,Referential,Warning,Student ID not found in enrollment extract
+D100039,Capital Region,2024-25,R008,0,Uniqueness,Warning,Duplicate student record within district
+D100039,Capital Region,2024-25,R009,1,Range,Error,Date of birth implies age outside 3-21
+D100039,Capital Region,2024-25,R010,1,Format,Error,Invalid BEDS code format
+D100039,Capital Region,2024-25,R011,1,Consistency,Warning,Graduation status without matching exit record
+D100039,Capital Region,2024-25,R012,0,Timeliness,Warning,Record submitted after collection window closed
+D100039,Capital Region,2025-26,R001,0,Completeness,Error,Required field missing
+D100039,Capital Region,2025-26,R002,0,Range,Error,Grade level outside valid range (PK-12)
+D100039,Capital Region,2025-26,R003,0,Domain,Error,Invalid disability classification code
+D100039,Capital Region,2025-26,R004,1,Consistency,Error,Exit date precedes entry date
+D100039,Capital Region,2025-26,R005,1,Consistency,Warning,SWD flag set but no IEP date on file
+D100039,Capital Region,2025-26,R006,0,Referential,Error,District ID not found in master file
+D100039,Capital Region,2025-26,R007,1,Referential,Warning,Student ID not found in enrollment extract
+D100039,Capital Region,2025-26,R008,1,Uniqueness,Warning,Duplicate student record within district
+D100039,Capital Region,2025-26,R009,0,Range,Error,Date of birth implies age outside 3-21
+D100039,Capital Region,2025-26,R010,0,Format,Error,Invalid BEDS code format
+D100039,Capital Region,2025-26,R011,0,Consistency,Warning,Graduation status without matching exit record
+D100039,Capital Region,2025-26,R012,0,Timeliness,Warning,Record submitted after collection window closed
+D100040,Capital Region,2024-25,R001,6,Completeness,Error,Required field missing
+D100040,Capital Region,2024-25,R002,1,Range,Error,Grade level outside valid range (PK-12)
+D100040,Capital Region,2024-25,R003,5,Domain,Error,Invalid disability classification code
+D100040,Capital Region,2024-25,R004,0,Consistency,Error,Exit date precedes entry date
+D100040,Capital Region,2024-25,R005,4,Consistency,Warning,SWD flag set but no IEP date on file
+D100040,Capital Region,2024-25,R006,0,Referential,Error,District ID not found in master file
+D100040,Capital Region,2024-25,R007,6,Referential,Warning,Student ID not found in enrollment extract
+D100040,Capital Region,2024-25,R008,3,Uniqueness,Warning,Duplicate student record within district
+D100040,Capital Region,2024-25,R009,1,Range,Error,Date of birth implies age outside 3-21
+D100040,Capital Region,2024-25,R010,0,Format,Error,Invalid BEDS code format
+D100040,Capital Region,2024-25,R011,1,Consistency,Warning,Graduation status without matching exit record
+D100040,Capital Region,2024-25,R012,7,Timeliness,Warning,Record submitted after collection window closed
+D100040,Capital Region,2025-26,R001,11,Completeness,Error,Required field missing
+D100040,Capital Region,2025-26,R002,0,Range,Error,Grade level outside valid range (PK-12)
+D100040,Capital Region,2025-26,R003,2,Domain,Error,Invalid disability classification code
+D100040,Capital Region,2025-26,R004,0,Consistency,Error,Exit date precedes entry date
+D100040,Capital Region,2025-26,R005,6,Consistency,Warning,SWD flag set but no IEP date on file
+D100040,Capital Region,2025-26,R006,0,Referential,Error,District ID not found in master file
+D100040,Capital Region,2025-26,R007,4,Referential,Warning,Student ID not found in enrollment extract
+D100040,Capital Region,2025-26,R008,0,Uniqueness,Warning,Duplicate student record within district
+D100040,Capital Region,2025-26,R009,2,Range,Error,Date of birth implies age outside 3-21
+D100040,Capital Region,2025-26,R010,1,Format,Error,Invalid BEDS code format
+D100040,Capital Region,2025-26,R011,3,Consistency,Warning,Graduation status without matching exit record
+D100040,Capital Region,2025-26,R012,2,Timeliness,Warning,Record submitted after collection window closed
+D100041,Capital Region,2024-25,R001,20,Completeness,Error,Required field missing
+D100041,Capital Region,2024-25,R002,1,Range,Error,Grade level outside valid range (PK-12)
+D100041,Capital Region,2024-25,R003,5,Domain,Error,Invalid disability classification code
+D100041,Capital Region,2024-25,R004,1,Consistency,Error,Exit date precedes entry date
+D100041,Capital Region,2024-25,R005,16,Consistency,Warning,SWD flag set but no IEP date on file
+D100041,Capital Region,2024-25,R006,1,Referential,Error,District ID not found in master file
+D100041,Capital Region,2024-25,R007,2,Referential,Warning,Student ID not found in enrollment extract
+D100041,Capital Region,2024-25,R008,2,Uniqueness,Warning,Duplicate student record within district
+D100041,Capital Region,2024-25,R009,3,Range,Error,Date of birth implies age outside 3-21
+D100041,Capital Region,2024-25,R010,0,Format,Error,Invalid BEDS code format
+D100041,Capital Region,2024-25,R011,6,Consistency,Warning,Graduation status without matching exit record
+D100041,Capital Region,2024-25,R012,6,Timeliness,Warning,Record submitted after collection window closed
+D100041,Capital Region,2025-26,R001,5,Completeness,Error,Required field missing
+D100041,Capital Region,2025-26,R002,1,Range,Error,Grade level outside valid range (PK-12)
+D100041,Capital Region,2025-26,R003,6,Domain,Error,Invalid disability classification code
+D100041,Capital Region,2025-26,R004,3,Consistency,Error,Exit date precedes entry date
+D100041,Capital Region,2025-26,R005,8,Consistency,Warning,SWD flag set but no IEP date on file
+D100041,Capital Region,2025-26,R006,1,Referential,Error,District ID not found in master file
+D100041,Capital Region,2025-26,R007,2,Referential,Warning,Student ID not found in enrollment extract
+D100041,Capital Region,2025-26,R008,4,Uniqueness,Warning,Duplicate student record within district
+D100041,Capital Region,2025-26,R009,1,Range,Error,Date of birth implies age outside 3-21
+D100041,Capital Region,2025-26,R010,1,Format,Error,Invalid BEDS code format
+D100041,Capital Region,2025-26,R011,1,Consistency,Warning,Graduation status without matching exit record
+D100041,Capital Region,2025-26,R012,7,Timeliness,Warning,Record submitted after collection window closed
+D100042,Capital Region,2024-25,R001,3,Completeness,Error,Required field missing
+D100042,Capital Region,2024-25,R002,1,Range,Error,Grade level outside valid range (PK-12)
+D100042,Capital Region,2024-25,R003,1,Domain,Error,Invalid disability classification code
+D100042,Capital Region,2024-25,R004,0,Consistency,Error,Exit date precedes entry date
+D100042,Capital Region,2024-25,R005,1,Consistency,Warning,SWD flag set but no IEP date on file
+D100042,Capital Region,2024-25,R006,0,Referential,Error,District ID not found in master file
+D100042,Capital Region,2024-25,R007,0,Referential,Warning,Student ID not found in enrollment extract
+D100042,Capital Region,2024-25,R008,1,Uniqueness,Warning,Duplicate student record within district
+D100042,Capital Region,2024-25,R009,0,Range,Error,Date of birth implies age outside 3-21
+D100042,Capital Region,2024-25,R010,1,Format,Error,Invalid BEDS code format
+D100042,Capital Region,2024-25,R011,0,Consistency,Warning,Graduation status without matching exit record
+D100042,Capital Region,2024-25,R012,3,Timeliness,Warning,Record submitted after collection window closed
+D100042,Capital Region,2025-26,R001,1,Completeness,Error,Required field missing
+D100042,Capital Region,2025-26,R002,1,Range,Error,Grade level outside valid range (PK-12)
+D100042,Capital Region,2025-26,R003,1,Domain,Error,Invalid disability classification code
+D100042,Capital Region,2025-26,R004,0,Consistency,Error,Exit date precedes entry date
+D100042,Capital Region,2025-26,R005,0,Consistency,Warning,SWD flag set but no IEP date on file
+D100042,Capital Region,2025-26,R006,0,Referential,Error,District ID not found in master file
+D100042,Capital Region,2025-26,R007,0,Referential,Warning,Student ID not found in enrollment extract
+D100042,Capital Region,2025-26,R008,0,Uniqueness,Warning,Duplicate student record within district
+D100042,Capital Region,2025-26,R009,0,Range,Error,Date of birth implies age outside 3-21
+D100042,Capital Region,2025-26,R010,0,Format,Error,Invalid BEDS code format
+D100042,Capital Region,2025-26,R011,0,Consistency,Warning,Graduation status without matching exit record
+D100042,Capital Region,2025-26,R012,1,Timeliness,Warning,Record submitted after collection window closed
+D100043,Capital Region,2024-25,R001,5,Completeness,Error,Required field missing
+D100043,Capital Region,2024-25,R002,2,Range,Error,Grade level outside valid range (PK-12)
+D100043,Capital Region,2024-25,R003,5,Domain,Error,Invalid disability classification code
+D100043,Capital Region,2024-25,R004,0,Consistency,Error,Exit date precedes entry date
+D100043,Capital Region,2024-25,R005,1,Consistency,Warning,SWD flag set but no IEP date on file
+D100043,Capital Region,2024-25,R006,0,Referential,Error,District ID not found in master file
+D100043,Capital Region,2024-25,R007,4,Referential,Warning,Student ID not found in enrollment extract
+D100043,Capital Region,2024-25,R008,2,Uniqueness,Warning,Duplicate student record within district
+D100043,Capital Region,2024-25,R009,3,Range,Error,Date of birth implies age outside 3-21
+D100043,Capital Region,2024-25,R010,0,Format,Error,Invalid BEDS code format
+D100043,Capital Region,2024-25,R011,4,Consistency,Warning,Graduation status without matching exit record
+D100043,Capital Region,2024-25,R012,1,Timeliness,Warning,Record submitted after collection window closed
+D100043,Capital Region,2025-26,R001,5,Completeness,Error,Required field missing
+D100043,Capital Region,2025-26,R002,1,Range,Error,Grade level outside valid range (PK-12)
+D100043,Capital Region,2025-26,R003,1,Domain,Error,Invalid disability classification code
+D100043,Capital Region,2025-26,R004,2,Consistency,Error,Exit date precedes entry date
+D100043,Capital Region,2025-26,R005,5,Consistency,Warning,SWD flag set but no IEP date on file
+D100043,Capital Region,2025-26,R006,0,Referential,Error,District ID not found in master file
+D100043,Capital Region,2025-26,R007,1,Referential,Warning,Student ID not found in enrollment extract
+D100043,Capital Region,2025-26,R008,3,Uniqueness,Warning,Duplicate student record within district
+D100043,Capital Region,2025-26,R009,0,Range,Error,Date of birth implies age outside 3-21
+D100043,Capital Region,2025-26,R010,0,Format,Error,Invalid BEDS code format
+D100043,Capital Region,2025-26,R011,1,Consistency,Warning,Graduation status without matching exit record
+D100043,Capital Region,2025-26,R012,6,Timeliness,Warning,Record submitted after collection window closed
+D100044,Capital Region,2024-25,R001,16,Completeness,Error,Required field missing
+D100044,Capital Region,2024-25,R002,2,Range,Error,Grade level outside valid range (PK-12)
+D100044,Capital Region,2024-25,R003,7,Domain,Error,Invalid disability classification code
+D100044,Capital Region,2024-25,R004,0,Consistency,Error,Exit date precedes entry date
+D100044,Capital Region,2024-25,R005,4,Consistency,Warning,SWD flag set but no IEP date on file
+D100044,Capital Region,2024-25,R006,1,Referential,Error,District ID not found in master file
+D100044,Capital Region,2024-25,R007,4,Referential,Warning,Student ID not found in enrollment extract
+D100044,Capital Region,2024-25,R008,3,Uniqueness,Warning,Duplicate student record within district
+D100044,Capital Region,2024-25,R009,4,Range,Error,Date of birth implies age outside 3-21
+D100044,Capital Region,2024-25,R010,1,Format,Error,Invalid BEDS code format
+D100044,Capital Region,2024-25,R011,2,Consistency,Warning,Graduation status without matching exit record
+D100044,Capital Region,2024-25,R012,8,Timeliness,Warning,Record submitted after collection window closed
+D100044,Capital Region,2025-26,R001,11,Completeness,Error,Required field missing
+D100044,Capital Region,2025-26,R002,3,Range,Error,Grade level outside valid range (PK-12)
+D100044,Capital Region,2025-26,R003,1,Domain,Error,Invalid disability classification code
+D100044,Capital Region,2025-26,R004,2,Consistency,Error,Exit date precedes entry date
+D100044,Capital Region,2025-26,R005,4,Consistency,Warning,SWD flag set but no IEP date on file
+D100044,Capital Region,2025-26,R006,1,Referential,Error,District ID not found in master file
+D100044,Capital Region,2025-26,R007,2,Referential,Warning,Student ID not found in enrollment extract
+D100044,Capital Region,2025-26,R008,2,Uniqueness,Warning,Duplicate student record within district
+D100044,Capital Region,2025-26,R009,0,Range,Error,Date of birth implies age outside 3-21
+D100044,Capital Region,2025-26,R010,3,Format,Error,Invalid BEDS code format
+D100044,Capital Region,2025-26,R011,5,Consistency,Warning,Graduation status without matching exit record
+D100044,Capital Region,2025-26,R012,9,Timeliness,Warning,Record submitted after collection window closed
+D100045,Capital Region,2024-25,R001,1,Completeness,Error,Required field missing
+D100045,Capital Region,2024-25,R002,0,Range,Error,Grade level outside valid range (PK-12)
+D100045,Capital Region,2024-25,R003,3,Domain,Error,Invalid disability classification code
+D100045,Capital Region,2024-25,R004,1,Consistency,Error,Exit date precedes entry date
+D100045,Capital Region,2024-25,R005,0,Consistency,Warning,SWD flag set but no IEP date on file
+D100045,Capital Region,2024-25,R006,0,Referential,Error,District ID not found in master file
+D100045,Capital Region,2024-25,R007,1,Referential,Warning,Student ID not found in enrollment extract
+D100045,Capital Region,2024-25,R008,4,Uniqueness,Warning,Duplicate student record within district
+D100045,Capital Region,2024-25,R009,0,Range,Error,Date of birth implies age outside 3-21
+D100045,Capital Region,2024-25,R010,0,Format,Error,Invalid BEDS code format
+D100045,Capital Region,2024-25,R011,1,Consistency,Warning,Graduation status without matching exit record
+D100045,Capital Region,2024-25,R012,3,Timeliness,Warning,Record submitted after collection window closed
+D100045,Capital Region,2025-26,R001,11,Completeness,Error,Required field missing
+D100045,Capital Region,2025-26,R002,0,Range,Error,Grade level outside valid range (PK-12)
+D100045,Capital Region,2025-26,R003,1,Domain,Error,Invalid disability classification code
+D100045,Capital Region,2025-26,R004,0,Consistency,Error,Exit date precedes entry date
+D100045,Capital Region,2025-26,R005,1,Consistency,Warning,SWD flag set but no IEP date on file
+D100045,Capital Region,2025-26,R006,0,Referential,Error,District ID not found in master file
+D100045,Capital Region,2025-26,R007,3,Referential,Warning,Student ID not found in enrollment extract
+D100045,Capital Region,2025-26,R008,2,Uniqueness,Warning,Duplicate student record within district
+D100045,Capital Region,2025-26,R009,0,Range,Error,Date of birth implies age outside 3-21
+D100045,Capital Region,2025-26,R010,0,Format,Error,Invalid BEDS code format
+D100045,Capital Region,2025-26,R011,1,Consistency,Warning,Graduation status without matching exit record
+D100045,Capital Region,2025-26,R012,7,Timeliness,Warning,Record submitted after collection window closed
+D100046,Capital Region,2024-25,R001,11,Completeness,Error,Required field missing
+D100046,Capital Region,2024-25,R002,4,Range,Error,Grade level outside valid range (PK-12)
+D100046,Capital Region,2024-25,R003,2,Domain,Error,Invalid disability classification code
+D100046,Capital Region,2024-25,R004,1,Consistency,Error,Exit date precedes entry date
+D100046,Capital Region,2024-25,R005,3,Consistency,Warning,SWD flag set but no IEP date on file
+D100046,Capital Region,2024-25,R006,0,Referential,Error,District ID not found in master file
+D100046,Capital Region,2024-25,R007,1,Referential,Warning,Student ID not found in enrollment extract
+D100046,Capital Region,2024-25,R008,2,Uniqueness,Warning,Duplicate student record within district
+D100046,Capital Region,2024-25,R009,1,Range,Error,Date of birth implies age outside 3-21
+D100046,Capital Region,2024-25,R010,3,Format,Error,Invalid BEDS code format
+D100046,Capital Region,2024-25,R011,0,Consistency,Warning,Graduation status without matching exit record
+D100046,Capital Region,2024-25,R012,5,Timeliness,Warning,Record submitted after collection window closed
+D100046,Capital Region,2025-26,R001,6,Completeness,Error,Required field missing
+D100046,Capital Region,2025-26,R002,1,Range,Error,Grade level outside valid range (PK-12)
+D100046,Capital Region,2025-26,R003,3,Domain,Error,Invalid disability classification code
+D100046,Capital Region,2025-26,R004,1,Consistency,Error,Exit date precedes entry date
+D100046,Capital Region,2025-26,R005,8,Consistency,Warning,SWD flag set but no IEP date on file
+D100046,Capital Region,2025-26,R006,0,Referential,Error,District ID not found in master file
+D100046,Capital Region,2025-26,R007,3,Referential,Warning,Student ID not found in enrollment extract
+D100046,Capital Region,2025-26,R008,5,Uniqueness,Warning,Duplicate student record within district
+D100046,Capital Region,2025-26,R009,0,Range,Error,Date of birth implies age outside 3-21
+D100046,Capital Region,2025-26,R010,2,Format,Error,Invalid BEDS code format
+D100046,Capital Region,2025-26,R011,1,Consistency,Warning,Graduation status without matching exit record
+D100046,Capital Region,2025-26,R012,4,Timeliness,Warning,Record submitted after collection window closed
+D100047,Capital Region,2024-25,R001,4,Completeness,Error,Required field missing
+D100047,Capital Region,2024-25,R002,0,Range,Error,Grade level outside valid range (PK-12)
+D100047,Capital Region,2024-25,R003,1,Domain,Error,Invalid disability classification code
+D100047,Capital Region,2024-25,R004,0,Consistency,Error,Exit date precedes entry date
+D100047,Capital Region,2024-25,R005,3,Consistency,Warning,SWD flag set but no IEP date on file
+D100047,Capital Region,2024-25,R006,0,Referential,Error,District ID not found in master file
+D100047,Capital Region,2024-25,R007,4,Referential,Warning,Student ID not found in enrollment extract
+D100047,Capital Region,2024-25,R008,2,Uniqueness,Warning,Duplicate student record within district
+D100047,Capital Region,2024-25,R009,0,Range,Error,Date of birth implies age outside 3-21
+D100047,Capital Region,2024-25,R010,1,Format,Error,Invalid BEDS code format
+D100047,Capital Region,2024-25,R011,0,Consistency,Warning,Graduation status without matching exit record
+D100047,Capital Region,2024-25,R012,1,Timeliness,Warning,Record submitted after collection window closed
+D100047,Capital Region,2025-26,R001,4,Completeness,Error,Required field missing
+D100047,Capital Region,2025-26,R002,4,Range,Error,Grade level outside valid range (PK-12)
+D100047,Capital Region,2025-26,R003,1,Domain,Error,Invalid disability classification code
+D100047,Capital Region,2025-26,R004,0,Consistency,Error,Exit date precedes entry date
+D100047,Capital Region,2025-26,R005,5,Consistency,Warning,SWD flag set but no IEP date on file
+D100047,Capital Region,2025-26,R006,2,Referential,Error,District ID not found in master file
+D100047,Capital Region,2025-26,R007,0,Referential,Warning,Student ID not found in enrollment extract
+D100047,Capital Region,2025-26,R008,1,Uniqueness,Warning,Duplicate student record within district
+D100047,Capital Region,2025-26,R009,0,Range,Error,Date of birth implies age outside 3-21
+D100047,Capital Region,2025-26,R010,0,Format,Error,Invalid BEDS code format
+D100047,Capital Region,2025-26,R011,0,Consistency,Warning,Graduation status without matching exit record
+D100047,Capital Region,2025-26,R012,6,Timeliness,Warning,Record submitted after collection window closed
+D100048,Capital Region,2024-25,R001,2,Completeness,Error,Required field missing
+D100048,Capital Region,2024-25,R002,0,Range,Error,Grade level outside valid range (PK-12)
+D100048,Capital Region,2024-25,R003,1,Domain,Error,Invalid disability classification code
+D100048,Capital Region,2024-25,R004,0,Consistency,Error,Exit date precedes entry date
+D100048,Capital Region,2024-25,R005,0,Consistency,Warning,SWD flag set but no IEP date on file
+D100048,Capital Region,2024-25,R006,0,Referential,Error,District ID not found in master file
+D100048,Capital Region,2024-25,R007,1,Referential,Warning,Student ID not found in enrollment extract
+D100048,Capital Region,2024-25,R008,2,Uniqueness,Warning,Duplicate student record within district
+D100048,Capital Region,2024-25,R009,0,Range,Error,Date of birth implies age outside 3-21
+D100048,Capital Region,2024-25,R010,1,Format,Error,Invalid BEDS code format
+D100048,Capital Region,2024-25,R011,0,Consistency,Warning,Graduation status without matching exit record
+D100048,Capital Region,2024-25,R012,1,Timeliness,Warning,Record submitted after collection window closed
+D100048,Capital Region,2025-26,R001,3,Completeness,Error,Required field missing
+D100048,Capital Region,2025-26,R002,0,Range,Error,Grade level outside valid range (PK-12)
+D100048,Capital Region,2025-26,R003,0,Domain,Error,Invalid disability classification code
+D100048,Capital Region,2025-26,R004,0,Consistency,Error,Exit date precedes entry date
+D100048,Capital Region,2025-26,R005,1,Consistency,Warning,SWD flag set but no IEP date on file
+D100048,Capital Region,2025-26,R006,0,Referential,Error,District ID not found in master file
+D100048,Capital Region,2025-26,R007,1,Referential,Warning,Student ID not found in enrollment extract
+D100048,Capital Region,2025-26,R008,0,Uniqueness,Warning,Duplicate student record within district
+D100048,Capital Region,2025-26,R009,0,Range,Error,Date of birth implies age outside 3-21
+D100048,Capital Region,2025-26,R010,0,Format,Error,Invalid BEDS code format
+D100048,Capital Region,2025-26,R011,0,Consistency,Warning,Graduation status without matching exit record
+D100048,Capital Region,2025-26,R012,2,Timeliness,Warning,Record submitted after collection window closed
+D100049,North Country,2024-25,R001,9,Completeness,Error,Required field missing
+D100049,North Country,2024-25,R002,2,Range,Error,Grade level outside valid range (PK-12)
+D100049,North Country,2024-25,R003,0,Domain,Error,Invalid disability classification code
+D100049,North Country,2024-25,R004,1,Consistency,Error,Exit date precedes entry date
+D100049,North Country,2024-25,R005,6,Consistency,Warning,SWD flag set but no IEP date on file
+D100049,North Country,2024-25,R006,1,Referential,Error,District ID not found in master file
+D100049,North Country,2024-25,R007,3,Referential,Warning,Student ID not found in enrollment extract
+D100049,North Country,2024-25,R008,3,Uniqueness,Warning,Duplicate student record within district
+D100049,North Country,2024-25,R009,1,Range,Error,Date of birth implies age outside 3-21
+D100049,North Country,2024-25,R010,1,Format,Error,Invalid BEDS code format
+D100049,North Country,2024-25,R011,1,Consistency,Warning,Graduation status without matching exit record
+D100049,North Country,2024-25,R012,3,Timeliness,Warning,Record submitted after collection window closed
+D100049,North Country,2025-26,R001,4,Completeness,Error,Required field missing
+D100049,North Country,2025-26,R002,2,Range,Error,Grade level outside valid range (PK-12)
+D100049,North Country,2025-26,R003,2,Domain,Error,Invalid disability classification code
+D100049,North Country,2025-26,R004,2,Consistency,Error,Exit date precedes entry date
+D100049,North Country,2025-26,R005,3,Consistency,Warning,SWD flag set but no IEP date on file
+D100049,North Country,2025-26,R006,0,Referential,Error,District ID not found in master file
+D100049,North Country,2025-26,R007,1,Referential,Warning,Student ID not found in enrollment extract
+D100049,North Country,2025-26,R008,3,Uniqueness,Warning,Duplicate student record within district
+D100049,North Country,2025-26,R009,0,Range,Error,Date of birth implies age outside 3-21
+D100049,North Country,2025-26,R010,1,Format,Error,Invalid BEDS code format
+D100049,North Country,2025-26,R011,2,Consistency,Warning,Graduation status without matching exit record
+D100049,North Country,2025-26,R012,4,Timeliness,Warning,Record submitted after collection window closed
+D100050,North Country,2024-25,R001,0,Completeness,Error,Required field missing
+D100050,North Country,2024-25,R002,0,Range,Error,Grade level outside valid range (PK-12)
+D100050,North Country,2024-25,R003,1,Domain,Error,Invalid disability classification code
+D100050,North Country,2024-25,R004,2,Consistency,Error,Exit date precedes entry date
+D100050,North Country,2024-25,R005,0,Consistency,Warning,SWD flag set but no IEP date on file
+D100050,North Country,2024-25,R006,0,Referential,Error,District ID not found in master file
+D100050,North Country,2024-25,R007,0,Referential,Warning,Student ID not found in enrollment extract
+D100050,North Country,2024-25,R008,1,Uniqueness,Warning,Duplicate student record within district
+D100050,North Country,2024-25,R009,0,Range,Error,Date of birth implies age outside 3-21
+D100050,North Country,2024-25,R010,0,Format,Error,Invalid BEDS code format
+D100050,North Country,2024-25,R011,1,Consistency,Warning,Graduation status without matching exit record
+D100050,North Country,2024-25,R012,0,Timeliness,Warning,Record submitted after collection window closed
+D100050,North Country,2025-26,R001,2,Completeness,Error,Required field missing
+D100050,North Country,2025-26,R002,0,Range,Error,Grade level outside valid range (PK-12)
+D100050,North Country,2025-26,R003,0,Domain,Error,Invalid disability classification code
+D100050,North Country,2025-26,R004,0,Consistency,Error,Exit date precedes entry date
+D100050,North Country,2025-26,R005,1,Consistency,Warning,SWD flag set but no IEP date on file
+D100050,North Country,2025-26,R006,0,Referential,Error,District ID not found in master file
+D100050,North Country,2025-26,R007,0,Referential,Warning,Student ID not found in enrollment extract
+D100050,North Country,2025-26,R008,0,Uniqueness,Warning,Duplicate student record within district
+D100050,North Country,2025-26,R009,0,Range,Error,Date of birth implies age outside 3-21
+D100050,North Country,2025-26,R010,0,Format,Error,Invalid BEDS code format
+D100050,North Country,2025-26,R011,0,Consistency,Warning,Graduation status without matching exit record
+D100050,North Country,2025-26,R012,0,Timeliness,Warning,Record submitted after collection window closed
+D100051,North Country,2024-25,R001,11,Completeness,Error,Required field missing
+D100051,North Country,2024-25,R002,5,Range,Error,Grade level outside valid range (PK-12)
+D100051,North Country,2024-25,R003,1,Domain,Error,Invalid disability classification code
+D100051,North Country,2024-25,R004,0,Consistency,Error,Exit date precedes entry date
+D100051,North Country,2024-25,R005,10,Consistency,Warning,SWD flag set but no IEP date on file
+D100051,North Country,2024-25,R006,2,Referential,Error,District ID not found in master file
+D100051,North Country,2024-25,R007,1,Referential,Warning,Student ID not found in enrollment extract
+D100051,North Country,2024-25,R008,3,Uniqueness,Warning,Duplicate student record within district
+D100051,North Country,2024-25,R009,3,Range,Error,Date of birth implies age outside 3-21
+D100051,North Country,2024-25,R010,1,Format,Error,Invalid BEDS code format
+D100051,North Country,2024-25,R011,1,Consistency,Warning,Graduation status without matching exit record
+D100051,North Country,2024-25,R012,9,Timeliness,Warning,Record submitted after collection window closed
+D100051,North Country,2025-26,R001,14,Completeness,Error,Required field missing
+D100051,North Country,2025-26,R002,3,Range,Error,Grade level outside valid range (PK-12)
+D100051,North Country,2025-26,R003,4,Domain,Error,Invalid disability classification code
+D100051,North Country,2025-26,R004,1,Consistency,Error,Exit date precedes entry date
+D100051,North Country,2025-26,R005,9,Consistency,Warning,SWD flag set but no IEP date on file
+D100051,North Country,2025-26,R006,0,Referential,Error,District ID not found in master file
+D100051,North Country,2025-26,R007,0,Referential,Warning,Student ID not found in enrollment extract
+D100051,North Country,2025-26,R008,2,Uniqueness,Warning,Duplicate student record within district
+D100051,North Country,2025-26,R009,1,Range,Error,Date of birth implies age outside 3-21
+D100051,North Country,2025-26,R010,0,Format,Error,Invalid BEDS code format
+D100051,North Country,2025-26,R011,1,Consistency,Warning,Graduation status without matching exit record
+D100051,North Country,2025-26,R012,8,Timeliness,Warning,Record submitted after collection window closed
+D100052,North Country,2024-25,R001,11,Completeness,Error,Required field missing
+D100052,North Country,2024-25,R002,3,Range,Error,Grade level outside valid range (PK-12)
+D100052,North Country,2024-25,R003,4,Domain,Error,Invalid disability classification code
+D100052,North Country,2024-25,R004,0,Consistency,Error,Exit date precedes entry date
+D100052,North Country,2024-25,R005,10,Consistency,Warning,SWD flag set but no IEP date on file
+D100052,North Country,2024-25,R006,0,Referential,Error,District ID not found in master file
+D100052,North Country,2024-25,R007,2,Referential,Warning,Student ID not found in enrollment extract
+D100052,North Country,2024-25,R008,7,Uniqueness,Warning,Duplicate student record within district
+D100052,North Country,2024-25,R009,1,Range,Error,Date of birth implies age outside 3-21
+D100052,North Country,2024-25,R010,2,Format,Error,Invalid BEDS code format
+D100052,North Country,2024-25,R011,1,Consistency,Warning,Graduation status without matching exit record
+D100052,North Country,2024-25,R012,14,Timeliness,Warning,Record submitted after collection window closed
+D100052,North Country,2025-26,R001,5,Completeness,Error,Required field missing
+D100052,North Country,2025-26,R002,1,Range,Error,Grade level outside valid range (PK-12)
+D100052,North Country,2025-26,R003,1,Domain,Error,Invalid disability classification code
+D100052,North Country,2025-26,R004,0,Consistency,Error,Exit date precedes entry date
+D100052,North Country,2025-26,R005,5,Consistency,Warning,SWD flag set but no IEP date on file
+D100052,North Country,2025-26,R006,0,Referential,Error,District ID not found in master file
+D100052,North Country,2025-26,R007,1,Referential,Warning,Student ID not found in enrollment extract
+D100052,North Country,2025-26,R008,6,Uniqueness,Warning,Duplicate student record within district
+D100052,North Country,2025-26,R009,1,Range,Error,Date of birth implies age outside 3-21
+D100052,North Country,2025-26,R010,3,Format,Error,Invalid BEDS code format
+D100052,North Country,2025-26,R011,2,Consistency,Warning,Graduation status without matching exit record
+D100052,North Country,2025-26,R012,6,Timeliness,Warning,Record submitted after collection window closed
+D100053,North Country,2024-25,R001,17,Completeness,Error,Required field missing
+D100053,North Country,2024-25,R002,6,Range,Error,Grade level outside valid range (PK-12)
+D100053,North Country,2024-25,R003,5,Domain,Error,Invalid disability classification code
+D100053,North Country,2024-25,R004,5,Consistency,Error,Exit date precedes entry date
+D100053,North Country,2024-25,R005,19,Consistency,Warning,SWD flag set but no IEP date on file
+D100053,North Country,2024-25,R006,2,Referential,Error,District ID not found in master file
+D100053,North Country,2024-25,R007,8,Referential,Warning,Student ID not found in enrollment extract
+D100053,North Country,2024-25,R008,18,Uniqueness,Warning,Duplicate student record within district
+D100053,North Country,2024-25,R009,2,Range,Error,Date of birth implies age outside 3-21
+D100053,North Country,2024-25,R010,8,Format,Error,Invalid BEDS code format
+D100053,North Country,2024-25,R011,8,Consistency,Warning,Graduation status without matching exit record
+D100053,North Country,2024-25,R012,18,Timeliness,Warning,Record submitted after collection window closed
+D100053,North Country,2025-26,R001,19,Completeness,Error,Required field missing
+D100053,North Country,2025-26,R002,4,Range,Error,Grade level outside valid range (PK-12)
+D100053,North Country,2025-26,R003,16,Domain,Error,Invalid disability classification code
+D100053,North Country,2025-26,R004,6,Consistency,Error,Exit date precedes entry date
+D100053,North Country,2025-26,R005,5,Consistency,Warning,SWD flag set but no IEP date on file
+D100053,North Country,2025-26,R006,3,Referential,Error,District ID not found in master file
+D100053,North Country,2025-26,R007,7,Referential,Warning,Student ID not found in enrollment extract
+D100053,North Country,2025-26,R008,11,Uniqueness,Warning,Duplicate student record within district
+D100053,North Country,2025-26,R009,0,Range,Error,Date of birth implies age outside 3-21
+D100053,North Country,2025-26,R010,3,Format,Error,Invalid BEDS code format
+D100053,North Country,2025-26,R011,17,Consistency,Warning,Graduation status without matching exit record
+D100053,North Country,2025-26,R012,22,Timeliness,Warning,Record submitted after collection window closed
+D100054,North Country,2024-25,R001,46,Completeness,Error,Required field missing
+D100054,North Country,2024-25,R002,6,Range,Error,Grade level outside valid range (PK-12)
+D100054,North Country,2024-25,R003,7,Domain,Error,Invalid disability classification code
+D100054,North Country,2024-25,R004,2,Consistency,Error,Exit date precedes entry date
+D100054,North Country,2024-25,R005,17,Consistency,Warning,SWD flag set but no IEP date on file
+D100054,North Country,2024-25,R006,1,Referential,Error,District ID not found in master file
+D100054,North Country,2024-25,R007,13,Referential,Warning,Student ID not found in enrollment extract
+D100054,North Country,2024-25,R008,18,Uniqueness,Warning,Duplicate student record within district
+D100054,North Country,2024-25,R009,4,Range,Error,Date of birth implies age outside 3-21
+D100054,North Country,2024-25,R010,4,Format,Error,Invalid BEDS code format
+D100054,North Country,2024-25,R011,7,Consistency,Warning,Graduation status without matching exit record
+D100054,North Country,2024-25,R012,18,Timeliness,Warning,Record submitted after collection window closed
+D100054,North Country,2025-26,R001,38,Completeness,Error,Required field missing
+D100054,North Country,2025-26,R002,8,Range,Error,Grade level outside valid range (PK-12)
+D100054,North Country,2025-26,R003,13,Domain,Error,Invalid disability classification code
+D100054,North Country,2025-26,R004,6,Consistency,Error,Exit date precedes entry date
+D100054,North Country,2025-26,R005,18,Consistency,Warning,SWD flag set but no IEP date on file
+D100054,North Country,2025-26,R006,2,Referential,Error,District ID not found in master file
+D100054,North Country,2025-26,R007,14,Referential,Warning,Student ID not found in enrollment extract
+D100054,North Country,2025-26,R008,18,Uniqueness,Warning,Duplicate student record within district
+D100054,North Country,2025-26,R009,4,Range,Error,Date of birth implies age outside 3-21
+D100054,North Country,2025-26,R010,8,Format,Error,Invalid BEDS code format
+D100054,North Country,2025-26,R011,18,Consistency,Warning,Graduation status without matching exit record
+D100054,North Country,2025-26,R012,32,Timeliness,Warning,Record submitted after collection window closed
+D100055,North Country,2024-25,R001,9,Completeness,Error,Required field missing
+D100055,North Country,2024-25,R002,3,Range,Error,Grade level outside valid range (PK-12)
+D100055,North Country,2024-25,R003,4,Domain,Error,Invalid disability classification code
+D100055,North Country,2024-25,R004,2,Consistency,Error,Exit date precedes entry date
+D100055,North Country,2024-25,R005,6,Consistency,Warning,SWD flag set but no IEP date on file
+D100055,North Country,2024-25,R006,0,Referential,Error,District ID not found in master file
+D100055,North Country,2024-25,R007,1,Referential,Warning,Student ID not found in enrollment extract
+D100055,North Country,2024-25,R008,1,Uniqueness,Warning,Duplicate student record within district
+D100055,North Country,2024-25,R009,1,Range,Error,Date of birth implies age outside 3-21
+D100055,North Country,2024-25,R010,3,Format,Error,Invalid BEDS code format
+D100055,North Country,2024-25,R011,3,Consistency,Warning,Graduation status without matching exit record
+D100055,North Country,2024-25,R012,5,Timeliness,Warning,Record submitted after collection window closed
+D100055,North Country,2025-26,R001,6,Completeness,Error,Required field missing
+D100055,North Country,2025-26,R002,4,Range,Error,Grade level outside valid range (PK-12)
+D100055,North Country,2025-26,R003,3,Domain,Error,Invalid disability classification code
+D100055,North Country,2025-26,R004,2,Consistency,Error,Exit date precedes entry date
+D100055,North Country,2025-26,R005,3,Consistency,Warning,SWD flag set but no IEP date on file
+D100055,North Country,2025-26,R006,1,Referential,Error,District ID not found in master file
+D100055,North Country,2025-26,R007,3,Referential,Warning,Student ID not found in enrollment extract
+D100055,North Country,2025-26,R008,7,Uniqueness,Warning,Duplicate student record within district
+D100055,North Country,2025-26,R009,0,Range,Error,Date of birth implies age outside 3-21
+D100055,North Country,2025-26,R010,0,Format,Error,Invalid BEDS code format
+D100055,North Country,2025-26,R011,6,Consistency,Warning,Graduation status without matching exit record
+D100055,North Country,2025-26,R012,6,Timeliness,Warning,Record submitted after collection window closed
+D100056,North Country,2024-25,R001,5,Completeness,Error,Required field missing
+D100056,North Country,2024-25,R002,0,Range,Error,Grade level outside valid range (PK-12)
+D100056,North Country,2024-25,R003,1,Domain,Error,Invalid disability classification code
+D100056,North Country,2024-25,R004,0,Consistency,Error,Exit date precedes entry date
+D100056,North Country,2024-25,R005,1,Consistency,Warning,SWD flag set but no IEP date on file
+D100056,North Country,2024-25,R006,0,Referential,Error,District ID not found in master file
+D100056,North Country,2024-25,R007,1,Referential,Warning,Student ID not found in enrollment extract
+D100056,North Country,2024-25,R008,2,Uniqueness,Warning,Duplicate student record within district
+D100056,North Country,2024-25,R009,0,Range,Error,Date of birth implies age outside 3-21
+D100056,North Country,2024-25,R010,2,Format,Error,Invalid BEDS code format
+D100056,North Country,2024-25,R011,0,Consistency,Warning,Graduation status without matching exit record
+D100056,North Country,2024-25,R012,1,Timeliness,Warning,Record submitted after collection window closed
+D100056,North Country,2025-26,R001,5,Completeness,Error,Required field missing
+D100056,North Country,2025-26,R002,0,Range,Error,Grade level outside valid range (PK-12)
+D100056,North Country,2025-26,R003,1,Domain,Error,Invalid disability classification code
+D100056,North Country,2025-26,R004,1,Consistency,Error,Exit date precedes entry date
+D100056,North Country,2025-26,R005,2,Consistency,Warning,SWD flag set but no IEP date on file
+D100056,North Country,2025-26,R006,0,Referential,Error,District ID not found in master file
+D100056,North Country,2025-26,R007,2,Referential,Warning,Student ID not found in enrollment extract
+D100056,North Country,2025-26,R008,0,Uniqueness,Warning,Duplicate student record within district
+D100056,North Country,2025-26,R009,0,Range,Error,Date of birth implies age outside 3-21
+D100056,North Country,2025-26,R010,1,Format,Error,Invalid BEDS code format
+D100056,North Country,2025-26,R011,0,Consistency,Warning,Graduation status without matching exit record
+D100056,North Country,2025-26,R012,2,Timeliness,Warning,Record submitted after collection window closed
+D100057,North Country,2024-25,R001,4,Completeness,Error,Required field missing
+D100057,North Country,2024-25,R002,2,Range,Error,Grade level outside valid range (PK-12)
+D100057,North Country,2024-25,R003,4,Domain,Error,Invalid disability classification code
+D100057,North Country,2024-25,R004,1,Consistency,Error,Exit date precedes entry date
+D100057,North Country,2024-25,R005,3,Consistency,Warning,SWD flag set but no IEP date on file
+D100057,North Country,2024-25,R006,1,Referential,Error,District ID not found in master file
+D100057,North Country,2024-25,R007,1,Referential,Warning,Student ID not found in enrollment extract
+D100057,North Country,2024-25,R008,5,Uniqueness,Warning,Duplicate student record within district
+D100057,North Country,2024-25,R009,1,Range,Error,Date of birth implies age outside 3-21
+D100057,North Country,2024-25,R010,2,Format,Error,Invalid BEDS code format
+D100057,North Country,2024-25,R011,1,Consistency,Warning,Graduation status without matching exit record
+D100057,North Country,2024-25,R012,8,Timeliness,Warning,Record submitted after collection window closed
+D100057,North Country,2025-26,R001,9,Completeness,Error,Required field missing
+D100057,North Country,2025-26,R002,3,Range,Error,Grade level outside valid range (PK-12)
+D100057,North Country,2025-26,R003,2,Domain,Error,Invalid disability classification code
+D100057,North Country,2025-26,R004,1,Consistency,Error,Exit date precedes entry date
+D100057,North Country,2025-26,R005,1,Consistency,Warning,SWD flag set but no IEP date on file
+D100057,North Country,2025-26,R006,0,Referential,Error,District ID not found in master file
+D100057,North Country,2025-26,R007,0,Referential,Warning,Student ID not found in enrollment extract
+D100057,North Country,2025-26,R008,5,Uniqueness,Warning,Duplicate student record within district
+D100057,North Country,2025-26,R009,0,Range,Error,Date of birth implies age outside 3-21
+D100057,North Country,2025-26,R010,1,Format,Error,Invalid BEDS code format
+D100057,North Country,2025-26,R011,2,Consistency,Warning,Graduation status without matching exit record
+D100057,North Country,2025-26,R012,4,Timeliness,Warning,Record submitted after collection window closed
+D100058,North Country,2024-25,R001,1,Completeness,Error,Required field missing
+D100058,North Country,2024-25,R002,0,Range,Error,Grade level outside valid range (PK-12)
+D100058,North Country,2024-25,R003,1,Domain,Error,Invalid disability classification code
+D100058,North Country,2024-25,R004,0,Consistency,Error,Exit date precedes entry date
+D100058,North Country,2024-25,R005,3,Consistency,Warning,SWD flag set but no IEP date on file
+D100058,North Country,2024-25,R006,0,Referential,Error,District ID not found in master file
+D100058,North Country,2024-25,R007,1,Referential,Warning,Student ID not found in enrollment extract
+D100058,North Country,2024-25,R008,4,Uniqueness,Warning,Duplicate student record within district
+D100058,North Country,2024-25,R009,1,Range,Error,Date of birth implies age outside 3-21
+D100058,North Country,2024-25,R010,2,Format,Error,Invalid BEDS code format
+D100058,North Country,2024-25,R011,1,Consistency,Warning,Graduation status without matching exit record
+D100058,North Country,2024-25,R012,10,Timeliness,Warning,Record submitted after collection window closed
+D100058,North Country,2025-26,R001,6,Completeness,Error,Required field missing
+D100058,North Country,2025-26,R002,2,Range,Error,Grade level outside valid range (PK-12)
+D100058,North Country,2025-26,R003,1,Domain,Error,Invalid disability classification code
+D100058,North Country,2025-26,R004,0,Consistency,Error,Exit date precedes entry date
+D100058,North Country,2025-26,R005,4,Consistency,Warning,SWD flag set but no IEP date on file
+D100058,North Country,2025-26,R006,0,Referential,Error,District ID not found in master file
+D100058,North Country,2025-26,R007,0,Referential,Warning,Student ID not found in enrollment extract
+D100058,North Country,2025-26,R008,3,Uniqueness,Warning,Duplicate student record within district
+D100058,North Country,2025-26,R009,0,Range,Error,Date of birth implies age outside 3-21
+D100058,North Country,2025-26,R010,1,Format,Error,Invalid BEDS code format
+D100058,North Country,2025-26,R011,1,Consistency,Warning,Graduation status without matching exit record
+D100058,North Country,2025-26,R012,3,Timeliness,Warning,Record submitted after collection window closed
+D100059,North Country,2024-25,R001,26,Completeness,Error,Required field missing
+D100059,North Country,2024-25,R002,5,Range,Error,Grade level outside valid range (PK-12)
+D100059,North Country,2024-25,R003,13,Domain,Error,Invalid disability classification code
+D100059,North Country,2024-25,R004,1,Consistency,Error,Exit date precedes entry date
+D100059,North Country,2024-25,R005,14,Consistency,Warning,SWD flag set but no IEP date on file
+D100059,North Country,2024-25,R006,1,Referential,Error,District ID not found in master file
+D100059,North Country,2024-25,R007,10,Referential,Warning,Student ID not found in enrollment extract
+D100059,North Country,2024-25,R008,21,Uniqueness,Warning,Duplicate student record within district
+D100059,North Country,2024-25,R009,3,Range,Error,Date of birth implies age outside 3-21
+D100059,North Country,2024-25,R010,1,Format,Error,Invalid BEDS code format
+D100059,North Country,2024-25,R011,12,Consistency,Warning,Graduation status without matching exit record
+D100059,North Country,2024-25,R012,8,Timeliness,Warning,Record submitted after collection window closed
+D100059,North Country,2025-26,R001,22,Completeness,Error,Required field missing
+D100059,North Country,2025-26,R002,4,Range,Error,Grade level outside valid range (PK-12)
+D100059,North Country,2025-26,R003,8,Domain,Error,Invalid disability classification code
+D100059,North Country,2025-26,R004,2,Consistency,Error,Exit date precedes entry date
+D100059,North Country,2025-26,R005,21,Consistency,Warning,SWD flag set but no IEP date on file
+D100059,North Country,2025-26,R006,6,Referential,Error,District ID not found in master file
+D100059,North Country,2025-26,R007,6,Referential,Warning,Student ID not found in enrollment extract
+D100059,North Country,2025-26,R008,22,Uniqueness,Warning,Duplicate student record within district
+D100059,North Country,2025-26,R009,0,Range,Error,Date of birth implies age outside 3-21
+D100059,North Country,2025-26,R010,1,Format,Error,Invalid BEDS code format
+D100059,North Country,2025-26,R011,9,Consistency,Warning,Graduation status without matching exit record
+D100059,North Country,2025-26,R012,25,Timeliness,Warning,Record submitted after collection window closed
+D100060,North Country,2024-25,R001,3,Completeness,Error,Required field missing
+D100060,North Country,2024-25,R002,0,Range,Error,Grade level outside valid range (PK-12)
+D100060,North Country,2024-25,R003,0,Domain,Error,Invalid disability classification code
+D100060,North Country,2024-25,R004,2,Consistency,Error,Exit date precedes entry date
+D100060,North Country,2024-25,R005,1,Consistency,Warning,SWD flag set but no IEP date on file
+D100060,North Country,2024-25,R006,0,Referential,Error,District ID not found in master file
+D100060,North Country,2024-25,R007,1,Referential,Warning,Student ID not found in enrollment extract
+D100060,North Country,2024-25,R008,1,Uniqueness,Warning,Duplicate student record within district
+D100060,North Country,2024-25,R009,0,Range,Error,Date of birth implies age outside 3-21
+D100060,North Country,2024-25,R010,1,Format,Error,Invalid BEDS code format
+D100060,North Country,2024-25,R011,2,Consistency,Warning,Graduation status without matching exit record
+D100060,North Country,2024-25,R012,8,Timeliness,Warning,Record submitted after collection window closed
+D100060,North Country,2025-26,R001,5,Completeness,Error,Required field missing
+D100060,North Country,2025-26,R002,0,Range,Error,Grade level outside valid range (PK-12)
+D100060,North Country,2025-26,R003,0,Domain,Error,Invalid disability classification code
+D100060,North Country,2025-26,R004,0,Consistency,Error,Exit date precedes entry date
+D100060,North Country,2025-26,R005,3,Consistency,Warning,SWD flag set but no IEP date on file
+D100060,North Country,2025-26,R006,0,Referential,Error,District ID not found in master file
+D100060,North Country,2025-26,R007,0,Referential,Warning,Student ID not found in enrollment extract
+D100060,North Country,2025-26,R008,2,Uniqueness,Warning,Duplicate student record within district
+D100060,North Country,2025-26,R009,0,Range,Error,Date of birth implies age outside 3-21
+D100060,North Country,2025-26,R010,2,Format,Error,Invalid BEDS code format
+D100060,North Country,2025-26,R011,1,Consistency,Warning,Graduation status without matching exit record
+D100060,North Country,2025-26,R012,4,Timeliness,Warning,Record submitted after collection window closed

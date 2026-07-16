@@ -1,0 +1,42 @@
+[
+  [
+    "index.html",
+    "Home",
+    "../index.html"
+  ],
+  [
+    "executive-summary.html",
+    "Executive Summary",
+    "executive-summary.html"
+  ],
+  [
+    "data-quality.html",
+    "Data Quality",
+    "data-quality.html"
+  ],
+  [
+    "validation.html",
+    "Validation & Duplicates",
+    "validation.html"
+  ],
+  [
+    "risk-assessment.html",
+    "Risk Assessment",
+    "risk-assessment.html"
+  ],
+  [
+    "district-map.html",
+    "District Map",
+    "district-map.html"
+  ],
+  [
+    "alerts.html",
+    "Alerts",
+    "alerts.html"
+  ],
+  [
+    "methodology.html",
+    "Methodology",
+    "methodology.html"
+  ]
+]
